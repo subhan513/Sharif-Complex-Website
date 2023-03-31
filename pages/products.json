@@ -1,0 +1,66 @@
+{
+  "products": [
+    {
+      
+      "title": "Solar Panel Plate-Mono Crystalline 12v/165 Watt",
+      "slug": "solar-panel-plate-mono-crystalline",
+      "category": "panels",       
+      "shortdescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+      "article": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>",
+      "date": "Feb 14, 2023", 
+      "lastmod": "2023-02-14",       
+      "status": "active", 
+      "featured_img": "/images/products/panel-1.jpg",     
+      "videorelated": "",
+      "price":"333"
+       
+    },
+    {
+      
+      "title": "NS Prime Plus 1202 UPS 1.0 KVA Pure Inverter 12V DC (1000) Watt. Optional LED/LCD Panel",
+      "slug": "ns-prime-plus-1202-ups-10-kva-pure-inverter-12v-dc-1000-watt-optional-ledlcd-panel",
+      "category": "inverters",       
+      "shortdescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+      "article": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>",
+      "date": "Feb 14, 2023", 
+      "lastmod": "2023-02-14",       
+      "status": "active", 
+      "featured_img": "/images/products/inverter-1.jpg",     
+      "videorelated": "",
+      "price":"444"
+       
+    },
+    {
+      
+      "title": "Solar Battery",
+      "slug": "solar-battery",
+      "category": "batteries",       
+      "shortdescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+      "article": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>",
+      "date": "Feb 14, 2023", 
+      "lastmod": "2023-02-14",       
+      "status": "active", 
+      "featured_img": "/images/products/battery-1.jpg",     
+      "videorelated": "",
+      "price":"444"
+       
+    },
+    {
+      
+      "title": "Solar Panel Plugs",
+      "slug": "solar-panel-plugs",
+      "category": "mis",       
+      "shortdescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+      "article": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>",
+      "date": "Feb 14, 2023", 
+      "lastmod": "2023-02-14",       
+      "status": "active", 
+      "featured_img": "/images/products/mis-1.jpg",     
+      "videorelated": "",
+      "price":"444"
+       
+    }
+    
+    
+  ]
+}
