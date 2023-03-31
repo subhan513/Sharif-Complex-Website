@@ -127,9 +127,9 @@ export default function Home() {
           <div>
             
             <h1>
-                Let the sun pay your bills - <span className="relative bg-clip-text text-transparent bg-gradient-to-br from-[#dc9612] via-[#f5e9b8] to-[#fbbf03] ">SOLNYNE</span>
+                Excellence In Education
             </h1>
-            <h2>Powering the Future with Sustainable Energy Solutions</h2>
+            <h2>Our mission is to inspire students not only intellectually but also Spiritually</h2>
 
             <div className=" flex justify-center items-center mt-10">
               <Link
@@ -150,13 +150,15 @@ export default function Home() {
            
         >
           <SwiperSlide>
-            <Image
-              src="/images/slides/solnyne_slide_7.jpg"
-              alt="Solnyne Solutions"
-              title="Solnyne Solutions"
-              fill="true"
-              className="bg-cover"
-            ></Image>
+            <video
+              autoPlay
+              className="absolute inset-0 h-full w-full object-cover"
+              controlsList="nodownload"
+              loop={true}
+              muted=""
+              playsInline=""               
+              src="/images/slides/spica-video.mp4"
+            ></video>
           </SwiperSlide>
           <SwiperSlide>
             <Image
