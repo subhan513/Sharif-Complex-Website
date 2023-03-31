@@ -134,9 +134,9 @@ export default function Home() {
             <div className=" flex justify-center items-center mt-10">
               <Link
                 href="/solutions"
-                className="border-2 hover:bg-amber-300   rounded-full px-5 py-2 bg-[#b31507] border-[#f00707]   hover:text-black text-lg transition duration-	300 font-medium"
+                className="text-white border-2 hover:bg-black-500   rounded-full px-5 py-2 bg-[#b31507] border-[#f00707]   hover:text-white text-lg transition duration-	300 font-medium"
               >
-                Get Admission
+                APPLY FOR ADMISSION
               </Link>
             </div>
           </div>
