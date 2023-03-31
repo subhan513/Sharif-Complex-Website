@@ -38,7 +38,7 @@ export default function Nav() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-8 h-8 text-amber-400"
+              className="w-8 h-8 text-red-600"
             >
               <path
                 strokeLinecap="round"
@@ -53,7 +53,7 @@ export default function Nav() {
             <Image
               src="/images/spica-logo.png"
               alt="Spica International School"
-              className="backHome sm:w-48 w-40 cursor-pointer"
+              className="backHome sm:w-48 w-40 cursor-pointer pt-3"
               width={220}
               height={100}
               title="Spica International School"
@@ -164,7 +164,7 @@ export default function Nav() {
                     : "hover:text-[#f0de97] px-3"
                 }
               >
-                Solutions
+                Gallery
               </Link>
             </li>
 
@@ -249,7 +249,7 @@ export default function Nav() {
                     : "hover:text-[#f0de97] productslink px-3"
                 }
               >
-                Products
+                Career
               </Link>
             </li>
             <li>
@@ -261,7 +261,7 @@ export default function Nav() {
                     : "hover:text-[#f0de97] productslink px-3"
                 }
               >
-                Projects
+                Online Admission
               </Link>
             </li>
             <li>
@@ -299,7 +299,7 @@ export default function Nav() {
                     : "hover:text-[#f0de97] px-3"
                 }
               >
-                CONTACT
+                CONTACT US
               </Link>
             </li>
           </ul>
@@ -309,8 +309,8 @@ export default function Nav() {
           <ul className="items-center   uppercase group-hover:text-white   text-white   text-lg font-normal hidden xl:flex">
             <li className="mr-2">
               <a
-                href="https://wa.me/+923000601194"
-                title="WhatsApp Solnyne Solutions"
+                href="https://wa.me/+9231234567"
+                title="WhatsApp Spica International"
                 className="tooltip font-bold flex text-xl hover:-translate-y-1 duration-300 transition   text-black py-1 px-1    rounded-full "
               >
                 <span className="w-9 h-9 bg-green-500 rounded-full flex justify-center items-center ">
@@ -334,8 +334,8 @@ export default function Nav() {
 
             <li>
               <a
-                href="tel:+92553828617 "
-                title="Call Solnyne Solutions"
+                href="tel:+9212345678 "
+                title="Call Spica International"
                 className="tooltip font-bold flex text-xl 
                 bg-gradient-to-br from-[#dc9612] via-[#f5e9b8] to-[#fbbf03] hover:to-[#dc9612] hover:via-[#ede6cd] hover:from-[#fbbf03] text-black py-1 px-1 2xl:pr-4  rounded-full  "
               >
@@ -344,7 +344,7 @@ export default function Nav() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    className="w-4 h-auto text-amber-500"
+                    className="w-4 h-auto text-red-700"
                   >
                     <path
                       fillRule="evenodd"
@@ -355,7 +355,7 @@ export default function Nav() {
                 </span>
 
                 <span className="2xl:ml-3 justify-center items-center hidden 2xl:flex ">
-                    (055) 3828617 
+                    (055) 1234567 
                 </span>
               </a>
             </li>
@@ -646,9 +646,9 @@ export default function Nav() {
                           <div>
                             {" "}
                             <a
-                              href="tel:+92553828617"
+                              href="tel:+921234567"
                               title="Call"
-                              className="tooltip font-bold text-xl mt-5 block hover:text-amber-400"
+                              className="tooltip font-bold text-xl mt-5 block hover:text-red-600"
                             >
                               {" "}
                               <svg
@@ -672,8 +672,8 @@ export default function Nav() {
                           <div className="gap-x-2  panel-social relative top-0 items-center justify-center">
 
                           <a
-                              href="https://wa.me/+923000601194"
-                              title="WhatsApp Solnyne Solutions"
+                              href="https://wa.me/+9212345678"
+                              title="WhatsApp Spica International"
                               className="tooltip group fill-white bg-green-500 border-black"
                             >
                               <svg
@@ -694,7 +694,7 @@ export default function Nav() {
 
 
                             <a
-                              href="mailto:info@solnyne.com"
+                              href="#"
                               title="Email"
                               className="emailit tooltip group fill-white bg-black border-black"
                             >
@@ -710,8 +710,8 @@ export default function Nav() {
                             </a>
 
                             <a
-                              href="https://www.facebook.com/solnynepk"
-                              title="Solnyne Solutions"
+                              href="#"
+                              title="Spica International"
                               className="facebook tooltip group fill-white bg-[#4267B2] border-[#4267B2]"
                             >
                               <svg
@@ -725,12 +725,12 @@ export default function Nav() {
                             </a>
 
                             <a
-                              href="https://www.instagram.com/solnyne_energy/"
-                              title="Solnyne Solutions"
+                              href="#"
+                              title="Spica International"
                               className="instagram tooltip group bg-[#405DE6] border-[#405DE6]"
                             >
                               <svg
-                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns="#"
                                 className="w-6 h-auto fill-white"
                                 viewBox="0 0 30 30"
                               >
@@ -740,8 +740,8 @@ export default function Nav() {
                             </a>
 
                             <a
-                              href="https://www.youtube.com"
-                              title="Solnyne Solutions"
+                              href="#"
+                              title="Spica International"
                               className="youtube group tooltip bg-[#FF0000] border-[#FF0000]"
                             >
                               <svg
