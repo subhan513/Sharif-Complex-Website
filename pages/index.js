@@ -143,7 +143,7 @@ export default function Home() {
         </div>
 
         
-          <SwiperSlide>
+          
             <video
               autoPlay
               className="mySwiper absolute inset-0 h-full w-full object-cover"
@@ -153,7 +153,7 @@ export default function Home() {
               playsInline=""               
               src="/images/slides/spica-video.mp4"
             ></video>
-          </SwiperSlide>
+         
           
         
         <div className="w-full h-full bg-gradient-to-b from-slate-800 via-transparent z-20  absolute"></div>
