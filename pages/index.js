@@ -134,9 +134,9 @@ export default function Home() {
             <div className=" flex justify-center items-center mt-10">
               <Link
                 href="/solutions"
-                className="border-2 hover:bg-amber-300   rounded-full px-5 py-2 bg-[#fbbf03] border-[#fbbf03]   hover:text-black text-lg transition duration-300 font-medium"
+                className="border-2 hover:bg-amber-300   rounded-full px-5 py-2 bg-[#b31507] border-[#f00707]   hover:text-black text-lg transition duration-	300 font-medium"
               >
-                Explore Our Solutions
+                Get Admission
               </Link>
             </div>
           </div>
@@ -162,7 +162,7 @@ export default function Home() {
 
       <section className="py-0 pt-16 ">
         <div className="sec-heading">
-          <h2>WHY SOLAR ENERGY</h2>
+          <h2>WHY SPICA INTERNATIONAL</h2>
           <p>
           Powering a sustainable future with limitless solar energy
           </p>
