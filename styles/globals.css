@@ -398,7 +398,7 @@
 
  
 .logo-badge {@apply h-auto w-auto rounded-full   
-     p-1 flex items-center justify-center container mt-1 mx-auto;}
+     p-1 flex items-center justify-center container mt-6 mx-auto;}
 
 .sec-cta h2 {@apply mt-5 mx-auto max-w-5xl text-2xl font-semibold tracking-tight text-slate-900 text-center md:text-4xl xl:text-5xl;}
 .sec-cta h2 span.marksvg {@apply relative  block md:inline  whitespace-nowrap text-blue-600;}
