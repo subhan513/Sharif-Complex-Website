@@ -142,17 +142,11 @@ export default function Home() {
           </div>
         </div>
 
-        <Swiper
-          className="mySwiper h-full w-full"
-          modules={[Autoplay]}
-          autoplay={{ delay: 3000 }}
-          loop={true}
-           
-        >
+        
           <SwiperSlide>
             <video
               autoPlay
-              className="absolute inset-0 h-full w-full object-cover"
+              className="mySwiper absolute inset-0 h-full w-full object-cover"
               controlsList="nodownload"
               loop={true}
               muted=""
@@ -160,70 +154,7 @@ export default function Home() {
               src="/images/slides/spica-video.mp4"
             ></video>
           </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              src="/images/slides/solnyne_slide_1.webp"
-              alt="Solnyne Solutions"
-              title="Solnyne Solutions"
-              fill="true"
-              className="bg-cover"
-            ></Image>
-          </SwiperSlide>    
-          <SwiperSlide>
-            <Image
-              src="/images/slides/solnyne_slide_2.jpg"
-              alt="Solnyne Solutions"
-              title="Solnyne Solutions"
-              fill="true"
-              className="bg-cover"
-            ></Image>
-          </SwiperSlide>   
-          {/* <SwiperSlide>
-            <Image
-              src="/images/slides/solnyne_slide_3.webp"
-              alt="Solnyne Solutions"
-              title="Solnyne Solutions"
-              fill="true"
-              className="bg-cover"
-            ></Image>
-          </SwiperSlide>      */}
-          <SwiperSlide>
-            <Image
-              src="/images/slides/solnyne_slide_4.jpg"
-              alt="Solnyne Solutions"
-              title="Solnyne Solutions"
-              fill="true"
-              className="bg-cover"
-            ></Image>
-          </SwiperSlide>     
-          <SwiperSlide>
-            <Image
-              src="/images/slides/solnyne_slide_5.jpg"
-              alt="Solnyne Solutions"
-              title="Solnyne Solutions"
-              fill="true"
-              className="bg-cover"
-            ></Image>
-          </SwiperSlide>    
-          <SwiperSlide>
-            <Image
-              src="/images/slides/solnyne_slide_6.jpg"
-              alt="Solnyne Solutions"
-              title="Solnyne Solutions"
-              fill="true"
-              className="bg-cover"
-            ></Image>
-          </SwiperSlide>   
-          {/* <SwiperSlide>
-            <Image
-              src="/images/slides/solnyne_slide_0.webp"
-              alt="Solnyne Solutions"
-              title="Solnyne Solutions"
-              fill="true"
-              className="bg-cover"
-            ></Image>
-          </SwiperSlide>     */}
-        </Swiper>
+          
         
         <div className="w-full h-full bg-gradient-to-b from-slate-800 via-transparent z-20  absolute"></div>
       </header>
