@@ -53,7 +53,7 @@ export default function Nav() {
             <Image
               src="/images/spica-logo.png"
               alt="Spica International School"
-              className="backHome sm:w-48 w-40 cursor-pointer pt-28"
+              className="backHome sm:w-48 w-40 cursor-pointer"
               width={220}
               height={100}
               title="Spica International School"
