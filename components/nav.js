@@ -51,12 +51,12 @@ export default function Nav() {
           <Link
             href="/">
             <Image
-              src="/images/solnyne-logo.png"
-              alt="Solnyne Solutions"
+              src="/images/spica-logo.png"
+              alt="Spica International School"
               className="backHome sm:w-48 w-40 cursor-pointer pt-28"
-              width={192}
-              height={162}
-              title="Solnyne Solutions"
+              width={220}
+              height={100}
+              title="Spica International School"
             />
           </Link>
 
@@ -426,12 +426,12 @@ export default function Nav() {
                     <div className="px-4 sm:px-6 mx-auto">
                       <Dialog.Title className="text-2xl font-bold text-gray-900">
                       <Image
-              src="/images/solnyne-logo.png"
-              alt="Solnyne Solutions"
+              src="/images/spica-logo.png"
+              alt="Spica International School"
               className="backHome sm:w-40 w-32 cursor-pointer"
-              width={160}
-              height={135}
-              title="Solnyne Solutions"
+              width={220}
+              height={100}
+              title="Spica International School"
             /> 
                       </Dialog.Title>
                      

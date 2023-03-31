@@ -6,7 +6,7 @@ export default function Footer({ children, home }) {
       <section
         id="sec-footer"
         className="sec-footer border-t group bg-center bg-no-repeat bg-cover relative"
-        style={{ backgroundImage: "url('../images/footer.jpg')" }}
+        style={{ backgroundImage: "url('../images/footer-spica.jpg')" }}
       >
         <div className="w-full- h-full group-hover:opacity-80  absolute inset-0 z-10   "></div>
         <div className="container mx-auto px-5 z-20 relative">
