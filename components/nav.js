@@ -307,16 +307,6 @@ export default function Nav() {
 
         <div className="flex items-center ">
           <ul className="items-center   uppercase group-hover:text-white   text-white   text-lg font-normal hidden xl:flex">
-          <li>
-              <Link
-                href="/solar-calculator"
-                title="SOLAR Calculator"
-                 
-                className="px-4 py-2 text-white bg-gradient-to-br from-blue-100 to-blue-600 rounded-full shadow mr-2 tooltip hover:text-black"
-              >
-                SOLAR Calculator
-              </Link>
-            </li>
             <li className="mr-2">
               <a
                 href="https://wa.me/+923000601194"
