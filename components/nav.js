@@ -53,7 +53,7 @@ export default function Nav() {
             <Image
               src="/images/spica-logo.png"
               alt="Spica International School"
-              className="backHome sm:w-48 w-40 cursor-pointer pt-3"
+              className="backHome sm:w-48 w-40 cursor-pointer pt-1"
               width={220}
               height={100}
               title="Spica International School"
@@ -401,7 +401,7 @@ export default function Nav() {
                     leaveFrom="opacity-100"
                     leaveTo="opacity-0"
                   >
-                    <div className="absolute top-0 left-0 -ml-8 pt-4 pr-2 flex sm:-ml-10 sm:pr-4">
+                    <div className="absolute top-0 left-0 -ml-8 pr-2 flex sm:-ml-10 sm:pr-4">
                       <button
                         type="button"
                         className="rounded-md text-gray-300 hover:text-white focus:outline-none"
