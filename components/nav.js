@@ -74,7 +74,7 @@ export default function Nav() {
                   currentRoute.includes("services") || currentRoute.includes("consultation")  || currentRoute.includes("design")
                     ? "text-[#e88081]"
                     : "hover:text-[#e88081]"
-                }  >About Us<svg
+                }  >ABOUT US<svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
@@ -435,24 +435,10 @@ export default function Nav() {
                             Home
                           </Link>{" "}
                         </li>
+                       
                         <li className="py-3">
-                          <Link
-                            href="/about"
-                            onClick={handleToggle}
-                            className={
-                              currentRoute === "/about"
-                                ? "text-[#01b8ee]"
-                                : "hover:text-[#01b8ee]"
-                            }
-                          >
-                            About US
-                          </Link>
-                        </li>
-                        <li className="py-3">
-                          Our Services
-
-
-                          <Link  onClick={handleToggle} href="../installation-services" title="Installation Services" className="block mt-2 ml-4 text-blue-500">
+                          ABOUT US
+                          <Link  onClick={handleToggle} href="../installation-services" title="Director's Message" className="block mt-2 ml-4 text-blue-500">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
@@ -464,9 +450,9 @@ export default function Nav() {
                               d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
                               clipRule="evenodd"
                             />
-                          </svg>Installation Services
+                          </svg>Director's Message
                         </Link>
-                        <Link  onClick={handleToggle} href="../maintenance-services" title="Maintenance Services" className="block mt-2 ml-4 text-blue-500">
+                        <Link  onClick={handleToggle} href="../maintenance-services" title="Our Team" className="block mt-2 ml-4 text-blue-500">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
@@ -478,9 +464,9 @@ export default function Nav() {
                               d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
                               clipRule="evenodd"
                             />
-                          </svg>Maintenance Services
+                          </svg>Our Team
                         </Link>
-                         <Link  onClick={handleToggle} href="../project-consultation" title="Project Consultation" className="block mt-2 ml-4 text-blue-500">
+                         <Link  onClick={handleToggle} href="../project-consultation" title="Our Philosphy" className="block mt-2 ml-4 text-blue-500">
                          <svg
                              xmlns="http://www.w3.org/2000/svg"
                              viewBox="0 0 20 20"
@@ -492,9 +478,9 @@ export default function Nav() {
                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
                                clipRule="evenodd"
                              />
-                           </svg>Project Consultation
+                           </svg>Our Philosphy
                          </Link>
-                         <Link  onClick={handleToggle} href="../advisory-services" title="Advisory Services" className="block mt-2 ml-4 text-blue-500">
+                         <Link  onClick={handleToggle} href="../advisory-services" title="Our Mission and Vision" className="block mt-2 ml-4 text-blue-500">
                          <svg
                            xmlns="http://www.w3.org/2000/svg"
                            viewBox="0 0 20 20"
@@ -507,9 +493,9 @@ export default function Nav() {
                              clipRule="evenodd"
                            />
                          </svg>
-                         Advisory Services
+                         Our Mission and Vision
                        </Link>
-                       <Link  onClick={handleToggle} href="../system-design" title="System Design" className="block mt-2 ml-4 text-blue-500">
+                       <Link  onClick={handleToggle} href="../system-design" title="Our Goals" className="block mt-2 ml-4 text-blue-500">
                        <svg
                            xmlns="http://www.w3.org/2000/svg"
                            viewBox="0 0 20 20"
@@ -521,9 +507,9 @@ export default function Nav() {
                              d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
                              clipRule="evenodd"
                            />
-                         </svg>System Design
+                         </svg>Our Goals
                        </Link>
-                       <Link  onClick={handleToggle} href="../net-metering" title="NET Metering Services" className="block mt-2 ml-4 text-blue-500">
+                       <Link  onClick={handleToggle} href="../net-metering" title="Our Campus" className="block mt-2 ml-4 text-blue-500">
                        <svg
                            xmlns="http://www.w3.org/2000/svg"
                            viewBox="0 0 20 20"
@@ -535,27 +521,14 @@ export default function Nav() {
                              d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
                              clipRule="evenodd"
                            />
-                         </svg>NET Metering Services
+                         </svg>Our Campus
                        </Link>
-                       <Link  onClick={handleToggle} href="../sale-services" title="After Sale Services" className="block mt-2 ml-4 text-blue-500">
-                       <svg
-                           xmlns="http://www.w3.org/2000/svg"
-                           viewBox="0 0 20 20"
-                           fill="currentColor"
-                           className="w-5 h-5 inline -mt-1 mr-1"
-                         >
-                           <path
-                             fillRule="evenodd"
-                             d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
-                             clipRule="evenodd"
-                           />
-                         </svg>After Sale Services
-                       </Link>
+                       
                         
                         </li>
                         <li className="py-3 productslink">
                           <Link
-                            href="/solutions"
+                            href="#"
                             onClick={handleToggle}
                             className={
                               currentRoute === "/solutions"
@@ -563,12 +536,12 @@ export default function Nav() {
                                 : "hover:text-[#01b8ee]"
                             }
                           >
-                            Solutions
+                            GALLERY
                           </Link>
                         </li>
                         <li className="py-3 productslink">
                           <Link
-                            href="/products"
+                            href="#"
                             onClick={handleToggle}
                             className={
                               currentRoute === "/products"
@@ -576,22 +549,10 @@ export default function Nav() {
                                 : "hover:text-[#01b8ee]"
                             }
                           >
-                            Products
+                            CAREER
                           </Link>
                         </li>
-                        <li className="py-3 productslink">
-                          <Link
-                            href="/projects"
-                            onClick={handleToggle}
-                            className={
-                              currentRoute === "/projects"
-                                ? "text-[#01b8ee] "
-                                : "hover:text-[#01b8ee]"
-                            }
-                          >
-                            Projects
-                          </Link>
-                        </li>
+                      
                         <li className="py-3 productslink">
                           <Link
                             href="/blog"
@@ -616,7 +577,7 @@ export default function Nav() {
                                 : "hover:text-[#01b8ee]"
                             }
                           >
-                           Solar Calculator
+                           FEE VOUCHER
                           </Link>
                         </li>
                         
@@ -661,7 +622,7 @@ export default function Nav() {
                                   d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
                                 />
                               </svg>
-                              (055) 3828617
+                              (055) 1234567
                             </a>
                           </div>
 
