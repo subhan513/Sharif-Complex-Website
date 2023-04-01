@@ -30,7 +30,7 @@ export default function Nav() {
             aria-label="Mobile Menu"
             title="Mobile Menu"
             onClick={handleToggle}
-            className=" mt-[18px] sm:mt-8 left-6 flex h-10 w-10 items-center justify-center xl:hidden absolute"
+            className=" sm:mt-8 left-6 flex h-10 w-10 items-center justify-center xl:hidden absolute"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +62,7 @@ export default function Nav() {
 
           <ul className="top-links items-center ml-12 divide-x uppercase divide-slate-400 text-white divide-opacity-70 text-lg  hidden font-medium xl:flex whitespace-nowrap">
             <li>
-              <Link href="/" className="hover:text-[#f0de97] px-3">
+              <Link href="/" className="hover:text-[#eb0e0e] px-3">
                 Home
               </Link>{" "}
             </li>
@@ -71,15 +71,15 @@ export default function Nav() {
                 href="/about"
                 className={
                   currentRoute === "/about"
-                    ? "text-[#f0de97] px-3"
-                    : "hover:text-[#f0de97] px-3"
+                    ? "text-[#e88081] px-3"
+                    : "hover:text-[] px-3"
                 }
               >
                 About
               </Link>
             </li>
  
-
+            
             <li>
               <Menu as="div" className="relative inline-block text-left px-3">
                 <div>
@@ -87,7 +87,7 @@ export default function Nav() {
                   currentRoute.includes("services") || currentRoute.includes("consultation")  || currentRoute.includes("design")
                     ? "text-[#f04d4d]"
                     : "hover:text-[#f04d4d]"
-                }  >SERVICES<svg
+                }  >About Us<svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
@@ -101,6 +101,18 @@ export default function Nav() {
                     </svg>
                   </Menu.Button>
                 </div>
+                
+                
+                
+
+                {/*
+                  SunIcon change to this
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                </svg>
+                */}
+
+
                 <Transition
                   as={Fragment}
                   enter="transition ease-out duration-100"
@@ -113,65 +125,50 @@ export default function Nav() {
                   <Menu.Items className="menuItems origin-center absolute   mt-2 w-[300px] rounded-md shadow-lg bg-white     focus:outline-none">
                     <div className="p-5">
                     <Menu.Item>
-                        <Link href="../installation-services" title="Installation Services">
-                        <SunIcon className="w-5 h-5 inline -mt-1 mr-1"/> Installation Services
+                        <Link href="../installation-services" title="Director's Message">
+                        <SunIcon className="w-5 h-5 inline -mt-1 mr-1"/> Director's Message
                         </Link>
                       </Menu.Item>
                       <Menu.Item>
-                        <Link href="../maintenance-services" title="Maintenance Services">
-                        <SunIcon className="w-5 h-5 inline -mt-1 mr-1"/> Maintenance Services
+                        <Link href="../maintenance-services" title="Our Team">
+                        <SunIcon className="w-5 h-5 inline -mt-1 mr-1"/> Our Team
                         </Link>
                       </Menu.Item>
                       <Menu.Item>
-                        <Link href="../project-consultation" title="Project Consultation">
-                        <SunIcon className="w-5 h-5 inline -mt-1 mr-1"/> Project Consultation
+                        <Link href="../project-consultation" title="Our Philosphy">
+                        <SunIcon className="w-5 h-5 inline -mt-1 mr-1"/> Our Philosphy
                         </Link>
                       </Menu.Item>
                       <Menu.Item>
-                        <Link href="../advisory-services" title="Advisory Services">
-                        <SunIcon className="w-5 h-5 inline -mt-1 mr-1"/> Advisory Services
+                        <Link href="../advisory-services" title="Our Mission and Vision">
+                        <SunIcon className="w-5 h-5 inline -mt-1 mr-1"/> Our Mission and Vision
                         </Link>
                       </Menu.Item>
                       <Menu.Item>
-                        <Link href="../system-design" title="System Design">
-                        <SunIcon className="w-5 h-5 inline -mt-1 mr-1"/> System Design
+                        <Link href="../system-design" title="Our Goals">
+                        <SunIcon className="w-5 h-5 inline -mt-1 mr-1"/> Our Goals
                         </Link>
                       </Menu.Item>
 
                       <Menu.Item>
-                        <Link href="../net-metering" title="NET Metering Services">
-                        <SunIcon className="w-5 h-5 inline -mt-1 mr-1"/> NET Metering Services
+                        <Link href="../net-metering" title="Our Campus">
+                        <SunIcon className="w-5 h-5 inline -mt-1 mr-1"/> Our Campus
                         </Link>
                       </Menu.Item>
 
-                      <Menu.Item>
-                        <Link href="../sale-services" title="After Sale Services">
-                        <SunIcon className="w-5 h-5 inline -mt-1 mr-1"/> After Sale Services
-                        </Link>
-                      </Menu.Item>
+                     
                        
                     </div>
                   </Menu.Items>
                 </Transition>
               </Menu>
             </li>
-            <li>
-              <Link
-                href="/solutions"
-                className={
-                  currentRoute.includes("solutions")
-                    ? "text-[#f0de97] px-3"
-                    : "hover:text-[#f0de97] px-3"
-                }
-              >
-                Gallery
-              </Link>
-            </li>
 
-            {/* <li>
+            
+           {/* <li>
               <Menu as="div" className="relative inline-block text-left px-3">
                 <div>
-                  <Menu.Button className="hover:text-[#f0de97]">
+                  <Menu.Button className="hover:text-[#e88081]">
                     SOLUTIONS 
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -240,13 +237,30 @@ export default function Nav() {
                 </Transition>
               </Menu>
             </li> */}
+
             <li>
               <Link
-                href="/products"
+                href="#"
+                //href="/solutions"
+                className={
+                  currentRoute.includes("solutions")
+                    ? "text-[#e88081] px-3"
+                    : "hover:text-[#e88081] px-3"
+                }
+              >
+                Gallery
+              </Link>
+            </li>
+
+
+            <li>
+              <Link
+                href="#"
+                // href="/products"
                 className={
                   currentRoute.includes("products")
-                    ? "text-[#f0de97] px-3"
-                    : "hover:text-[#f0de97] productslink px-3"
+                    ? "text-[#e88081] px-3"
+                    : "hover:text-[#e88081] productslink px-3"
                 }
               >
                 Career
@@ -254,11 +268,11 @@ export default function Nav() {
             </li>
             <li>
               <Link
-                href="/projects"
+                href="#"
                 className={
                   currentRoute.includes("projects")
-                    ? "text-[#f0de97] px-3"
-                    : "hover:text-[#f0de97] productslink px-3"
+                    ? "text-[#e88081] px-3"
+                    : "hover:text-[#e88081] productslink px-3"
                 }
               >
                 Online Admission
@@ -269,39 +283,79 @@ export default function Nav() {
                 href="/blog"
                 className={
                   currentRoute.includes("blog")
-                    ? "text-[#f0de97] px-3"
-                    : "hover:text-[#f0de97] productslink px-3"
+                    ? "text-[#e88081] px-3"
+                    : "hover:text-[#e88081] productslink px-3"
                 }
               >
                 Blog
               </Link>
             </li>
             
-            {/* <li>
+            <li>
               <Link
-                href="/contact-us"
+                href="#"
                 className={
                   currentRoute === "/contact-us"
-                    ? "text-[#f0de97] px-3"
-                    : "hover:text-[#f0de97] px-3"
+                    ? "text-[#e88081] px-3"
+                    : "hover:text-[#e88081] px-3"
                 }
               >
-                Solar Referral
+                Applicant Performa
               </Link>
-            </li> */}
+            </li>
+
+            <li>
+              <Link
+                href="#"
+                className={
+                  currentRoute === "/contact-us"
+                    ? "text-[#e88081] px-3"
+                    : "hover:text-[#e88081] px-3"
+                }
+              >
+                Fee Voucher
+              </Link>
+            </li>
             
             <li>
               <Link
                 href="/contact-us"
                 className={
                   currentRoute === "/contact-us"
-                    ? "text-[#f0de97] px-3"
-                    : "hover:text-[#f0de97] px-3"
+                    ? "text-[#e88081] px-3"
+                    : "hover:text-[#e88081] px-3"
                 }
               >
                 CONTACT US
               </Link>
             </li>
+
+            <li>
+              <Link
+                href="#"
+                className={
+                  currentRoute === "/contact-us"
+                    ? "text-[#e88081] px-3"
+                    : "hover:text-[#e88081] px-3"
+                }
+              >
+                Login Staff
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                href="#"
+                className={
+                  currentRoute === "/contact-us"
+                    ? "text-[#e88081] px-3"
+                    : "hover:text-[#e88081] px-3"
+                }
+              >
+                Login Student
+              </Link>
+            </li>
+
           </ul>
         </div>
 
