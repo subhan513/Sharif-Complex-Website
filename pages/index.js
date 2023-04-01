@@ -70,11 +70,11 @@ export default function Home() {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="generator" content="Getsol Inc." />
         <title>
-          Solar Energy Solutions Gujranwala - Solnyne
+          Spica International School Gujranwala - Spica
         </title>
         <meta
           name="title"
-          content="Solar Energy Solutions Gujranwala - Solnyne"
+          content="Spica International School Gujranwala - Spica"
         />
         <meta
           name="description"
@@ -88,7 +88,7 @@ export default function Home() {
 
         <meta
           name="twitter:title"
-          content="Solar Energy Solutions Gujranwala - Solnyne"
+          content="Spica International School Gujranwala - Spica"
         />
         <meta
           name="twitter:description"
@@ -100,7 +100,7 @@ export default function Home() {
         />
         <meta
           property="og:title"
-          content="Solar Energy Solutions Gujranwala - Solnyne"
+          content="Spica International School Gujranwala - Spica"
         />
         <meta property="og:type" content="article" />
         <meta
@@ -448,7 +448,7 @@ export default function Home() {
             <h2 style={{ color: "white" }}>Our Solutions</h2>
             <p style={{ color: "white" }}>
               We offer a
-              complete range of solar energy solutions for
+              complete range of Spica International School for
               your home or business needs.
             </p>
           </div>

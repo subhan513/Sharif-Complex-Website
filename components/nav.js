@@ -30,7 +30,7 @@ export default function Nav() {
             aria-label="Mobile Menu"
             title="Mobile Menu"
             onClick={handleToggle}
-            className=" mt-[98px] sm:mt-28 left-6 flex h-10 w-10 items-center justify-center xl:hidden absolute"
+            className=" mt-[18px] sm:mt-8 left-6 flex h-10 w-10 items-center justify-center xl:hidden absolute"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -85,8 +85,8 @@ export default function Nav() {
                 <div>
                   <Menu.Button  className={
                   currentRoute.includes("services") || currentRoute.includes("consultation")  || currentRoute.includes("design")
-                    ? "text-[#f0de97]"
-                    : "hover:text-[#f0de97]"
+                    ? "text-[#f04d4d]"
+                    : "hover:text-[#f04d4d]"
                 }  >SERVICES<svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
