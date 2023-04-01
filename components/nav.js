@@ -66,27 +66,14 @@ export default function Nav() {
                 Home
               </Link>{" "}
             </li>
-            <li>
-              <Link
-                href="/about"
-                className={
-                  currentRoute === "/about"
-                    ? "text-[#e88081] px-3"
-                    : "hover:text-[] px-3"
-                }
-              >
-                About
-              </Link>
-            </li>
- 
-            
+
             <li>
               <Menu as="div" className="relative inline-block text-left px-3">
                 <div>
                   <Menu.Button  className={
                   currentRoute.includes("services") || currentRoute.includes("consultation")  || currentRoute.includes("design")
-                    ? "text-[#f04d4d]"
-                    : "hover:text-[#f04d4d]"
+                    ? "text-[#e88081]"
+                    : "hover:text-[#e88081]"
                 }  >About Us<svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
@@ -266,18 +253,7 @@ export default function Nav() {
                 Career
               </Link>
             </li>
-            <li>
-              <Link
-                href="#"
-                className={
-                  currentRoute.includes("projects")
-                    ? "text-[#e88081] px-3"
-                    : "hover:text-[#e88081] productslink px-3"
-                }
-              >
-                Online Admission
-              </Link>
-            </li>
+           
             <li>
               <Link
                 href="/blog"
@@ -290,19 +266,7 @@ export default function Nav() {
                 Blog
               </Link>
             </li>
-            
-            <li>
-              <Link
-                href="#"
-                className={
-                  currentRoute === "/contact-us"
-                    ? "text-[#e88081] px-3"
-                    : "hover:text-[#e88081] px-3"
-                }
-              >
-                Applicant Performa
-              </Link>
-            </li>
+           
 
             <li>
               <Link
@@ -330,31 +294,9 @@ export default function Nav() {
               </Link>
             </li>
 
-            <li>
-              <Link
-                href="#"
-                className={
-                  currentRoute === "/contact-us"
-                    ? "text-[#e88081] px-3"
-                    : "hover:text-[#e88081] px-3"
-                }
-              >
-                Login Staff
-              </Link>
-            </li>
+           
 
-            <li>
-              <Link
-                href="#"
-                className={
-                  currentRoute === "/contact-us"
-                    ? "text-[#e88081] px-3"
-                    : "hover:text-[#e88081] px-3"
-                }
-              >
-                Login Student
-              </Link>
-            </li>
+           
 
           </ul>
         </div>
