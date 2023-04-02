@@ -251,12 +251,13 @@ export default function Home() {
         <div className="container mx-auto px-4 ">
           <div className="grid lg:grid-cols-4 grid-cols-1 gap-4  text-center">
             <Link
-              href="/products"
+              href="#"
+              //href="/products"
               className="bx-item-pro h-auto border-t-[3px] border-t-[#fc0d21] "
             >
               <div className="flex flex-col w-full">
                 <Image
-                  src="/images/solnyne-icon.png"
+                  src="/images/pre-nursery.png"
                   alt="Solnyne Solution"
                   className="w-16 mx-auto"
                   width={64}
@@ -265,11 +266,12 @@ export default function Home() {
 
                 <h2>Pre Nursery</h2>
                 <p>
-                  For Age 1.5 Years to 2.5 Years
+                  For Age 1.5 Years to 2.5 Years - From Toddling to Thriving: 
+                  Nurturing Young Minds at Every Step
                 </p>
 
                 <Image
-                  src="/images/solnyne-products-solar-panels.png"
+                  src="/images/pre-nursery-child.jpg"
                   alt="Solar Panels"
                   className="rounded-lg mt-3"
                   width={400}
@@ -279,21 +281,21 @@ export default function Home() {
             </Link>
 
             <Link
-              href="/products"
+              href="#"
               className="bx-item-pro h-auto border-t-[3px] border-t-[#fc0d21] "
             >
               <div className="flex flex-col w-full">
                 <Image
-                  src="/images/solnyne-icon.png"
+                  src="/images/nursery.png"
                   alt="Solnyne Solution"
                   className="w-16 mx-auto"
                   width={64}
                   height={75}
                 />
-                <h2>Solar Inverters</h2>
+                <h2>Nursery</h2>
                 <p>
-                  Maximize your solar energy output with our advanced solar
-                  inverters
+                For Age 2.5 Years to 3 Years - Exploring the World with Curious Minds: 
+                Where Learning Comes to Life
                 </p>
                 <Image
                   src="/images/solnyne-products-solar-inverters.png"
@@ -306,21 +308,21 @@ export default function Home() {
             </Link>
 
             <Link
-              href="/products"
+              href="#"
               className="bx-item-pro h-auto border-t-[3px] border-t-[#fc0d21] "
             >
               <div className="flex flex-col w-full">
                 <Image
-                  src="/images/solnyne-icon.png"
+                  src="/images/kindergarten-1.png"
                   alt="Solnyne Solution"
                   className="w-16 mx-auto"
                   width={64}
                   height={75}
                 />
-                <h2>Solar Batteries</h2>
+                <h2>Kindergarten I</h2>
                 <p>
-                  Experience uninterrupted power supply with our high-capacity
-                  solar batteries
+                For Age 3 Years to 4 Years - Growing Bright Minds: 
+                Where Imagination and Learning Take Flight
                 </p>
                 <Image
                   src="/images/solnyne-products-solar-batteries.png"
@@ -333,21 +335,21 @@ export default function Home() {
             </Link>
 
             <Link
-              href="/products"
+              href="#"
               className="bx-item-pro h-auto border-t-[3px] border-t-[#fc0d21] "
             >
               <div className="flex flex-col w-full">
                 <Image
-                  src="/images/solnyne-icon.png"
+                  src="/images/kindergarten-2.png"
                   alt="Solnyne Solution"
                   className="w-16 mx-auto"
                   width={64}
                   height={75}
                 />
-                <h2>Solar Accessories</h2>
+                <h2>Kindergarten II</h2>
                 <p>
-                  Complete your solar setup with our range of premium solar
-                  accessories
+                For Age 4 Years to 5 Years - Empowering Young Learners for a 
+                Lifetime of Success: Where Education Meets Inspiration
                 </p>
                 <Image
                   src="/images/solnyne-products-solar-accessories.png"
