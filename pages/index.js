@@ -28,7 +28,7 @@ const faqs = [
 
   {
     question: "What is the school admission criterion?",
-    answer: "<ul><li>Visit the school at your appointed time to understand the school culture and philosophy.</li><li>An entrance test and interview to assess the child’s learning capacity and development needs.</li><li>Submission of duly filled Nordic International School Lahore admission form, along with the correct documents and information.</li><li>Submission of school admission fee, security fee and an advance tuition fee.</li></ul>",
+    answer: "Visit the school at your appointed time to understand the school culture and philosophy. An entrance test and interview to assess the child’s learning capacity and development needs. Submission of duly filled Nordic International School Lahore admission form, along with the correct documents and information. Submission of school admission fee, security fee and an advance tuition fee.",
   },
    
 ];
@@ -42,14 +42,13 @@ const faqsb = [
     question: "What is the fee structure?",
     answer: "Please visit the school office or call us on 0321-1234567 to enquire about the fee for your child’s year group.",
   },
+    {
+	question: "How many teachers are there in one class of the Preschool Programme?",
+    answer: "There is usually one lead teacher and one or more assistant teachers in a preschool classroom. The exact ratio of teachers to children can also vary based on state or local regulations and the age range of the children in the classroom.",
+  },
   {
     question: "How will I know what’s happening in my child’s classroom and in the school?",
     answer: "We value timely communication with parents and how this effective partnership benefits our students. Nordic International School uses 21st Century communication tool called ClassDojo (interactive mobile & computer application) to keep parents updated. The application gives parents access to learning activities, photographs, their children’s performance and school based information. Teachers post weekly newsletter to parents via email and ClassDojo. The application also has a messaging portal that parents can use to keep regular contact with the school. Apart from this, formal written reports are provided to parents twice each academic year. Open days and other opportunities for parents to see the working school are arranged routinely.",
-  },
-
-  {
-	question: "How many teachers are there in one class of the Preschool Programme?",
-    answer: "There is usually one lead teacher and one or more assistant teachers in a preschool classroom. The exact ratio of teachers to children can also vary based on state or local regulations and the age range of the children in the classroom.",
   },
    
 ];
@@ -487,7 +486,7 @@ export default function Home() {
             <div className=" flex justify-center items-center mt-10">
               <Link
                 href="/solutions"
-                className="border rounded-full px-5 text-lg text-white py-2 hover:bg-amber-400 hover:border-amber-400   hover:text-black transition duration-300 font-medium"
+                className="border rounded-full px-5 text-lg text-white py-2 hover:bg-red-400 hover:border-red-400   hover:text-black transition duration-300 font-medium"
               >
                 View all Solutions
               </Link>
@@ -525,7 +524,7 @@ export default function Home() {
                       </div>
                       <div className="flex-1 bg-white border-b p-6 flex flex-col justify-between">
                         <div className="flex-1">
-                          <p className="text-sm font-medium text-amber-500 capitalize">
+                          <p className="text-sm font-medium text-red-500 capitalize">
                             {post.category}
                           </p>
                           <a href={"blog/" + post.slug} className="block mt-2">
@@ -561,7 +560,7 @@ export default function Home() {
             <div className=" flex justify-center items-center mt-10">
               <Link
                 href="/blog"
-                className="border border-red-500 text-slate-700 text-lg  rounded-full px-5 py-2 hover:bg-red-400 hover:border-red-400  hover:text-black transition duration-300 font-medium"
+                className="border border-red-700 text-slate-700 text-lg  rounded-full px-5 py-2 hover:bg-red-700 hover:border-red-700  hover:text-black transition duration-300 font-medium"
               >
                 View all News & Updates
               </Link>
@@ -572,7 +571,7 @@ export default function Home() {
         <section className="pt-5 pb-10 ">
           <div className="sec-heading">
             <h2>Frequently Asked Questions</h2>
-            <p>Answers to commonly asked inquiries regarding solar solutions</p>
+            <p>Answers to commonly asked inquiries</p>
           </div>
           <div className="container mx-auto px-4 ">
             <div className="grid sm:grid-cols-2 grid-cols-1 gap-x-8">
@@ -592,7 +591,7 @@ export default function Home() {
                               <span className="font-medium text-gray-900">
                                 {faq.question}
                               </span>
-                              <span className="ml-6 h-7 flex items-center text-amber-500">
+                              <span className="ml-6 h-7 flex items-center text-red-500">
                                 <ChevronDownIcon
                                   className={classNames(
                                     open ? "-rotate-180" : "rotate-0",
@@ -632,7 +631,7 @@ export default function Home() {
                               <span className="font-medium text-gray-900">
                                 {faq.question}
                               </span>
-                              <span className="ml-6 h-7 flex items-center text-amber-500">
+                              <span className="ml-6 h-7 flex items-center text-red-500">
                                 <ChevronDownIcon
                                   className={classNames(
                                     open ? "-rotate-180" : "rotate-0",
@@ -662,7 +661,7 @@ export default function Home() {
             <div className=" flex justify-center items-center mt-10">
               <Link
                 href="/faqs"
-                className="border border-amber-500 text-slate-700 text-lg  rounded-full px-5 py-2 hover:bg-amber-400 hover:border-amber-400  hover:text-black transition duration-300 font-medium"
+                className="border border-red-500 text-slate-700 text-lg  rounded-full px-5 py-2 hover:bg-red-400 hover:border-red-400  hover:text-black transition duration-300 font-medium"
               >
                 View all FAQs
               </Link>
@@ -731,7 +730,7 @@ export default function Home() {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="w-6 h-6 text-amber-500"
+                  className="w-6 h-6 text-red-500"
                 >
                   <path
                     fillRule="evenodd"
