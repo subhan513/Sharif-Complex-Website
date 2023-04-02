@@ -267,7 +267,7 @@ export default function Home() {
                 <h2>Pre Nursery</h2>
                 <p>
                   For Age 1.5 Years to 2.5 Years - From Toddling to Thriving: 
-                  Nurturing Young Minds at Every Step
+                  Nurturing Young Minds at Every Step in Life
                 </p>
 
                 <Image
@@ -366,9 +366,9 @@ export default function Home() {
 
       <section className="py-10 pt-16 ">
         <div className="sec-heading">
-          <h2>Our Services</h2>
+          <h2>Where Children and Parents Feel Confident</h2>
           <p>
-          We handle everything from site assessment and system design to installation and ongoing maintenance.
+          Our one line mission is Active minds, Healthy Bodies & Happy Hearts.
           </p>
         </div>
         <div className="container mx-auto px-4 ">
@@ -377,65 +377,61 @@ export default function Home() {
             className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4 "
           >
             <li className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"  style={{
-          backgroundImage: "url('./images/solnyne-installation.png')",
+          backgroundImage: "url('./images/admission.jpg')",
         }}>
-              <div className=" rounded-md h-full relative bg-gradient-to-t from-amber-500 via-transparent
+              <div className=" rounded-md h-full relative bg-gradient-to-t from-red-500 via-transparent
               "><div className="flex-1 flex flex-col p-8 bottom-0 absolute">
                 
                 <h2 className="mt-5 text-gray-100 text-lg sm:text-xl font-bold">
-                  Installation
+                ADMISSIONS
                 </h2>
                 <p className="text-gray-100 text-sm">
-                  Trust us to install your solar panels efficiently and
-                  effectively, ensuring maximum energy output for your home or
-                  business.
+                Learn about admission requirements, how to apply, and the next steps once you’ve applied at SPICA.
                 </p>
               </div></div>
             </li>
 
             <li className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition  flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"  style={{
-          backgroundImage: "url('./images/solnyne-maintenance.jpg')",
+          backgroundImage: "url('./images/virtual.jpg')",
         }}>
-              <div className=" rounded-md h-full relative bg-gradient-to-t from-amber-500 via-transparent
+              <div className=" rounded-md h-full relative bg-gradient-to-t from-red-500 via-transparent
               "><div className="flex-1 flex flex-col p-8 bottom-0 absolute">
                
                 <h2 className="mt-5 text-gray-100 text-lg sm:text-xl font-bold">
-                Maintenance
+                VIRTUAL 360° TOUR
                 </h2>
                 <p className="text-gray-100 text-sm">
-                Keep your solar panels performing at their best with our comprehensive maintenance service, designed to prolong their lifespan and optimize energy efficiency.
+                Step into our school without leaving your seat! Join our virtual tour and discover our campus from the comfort of your own device.
                 </p>
               </div></div>
             </li>
 
             <li className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition  flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"  style={{
-          backgroundImage: "url('./images/solnyne-consultation.png')",
+          backgroundImage: "url('./images/scholorships.jpg')",
         }}>
-              <div className=" rounded-md h-full relative bg-gradient-to-t from-amber-500 via-transparent
+              <div className=" rounded-md h-full relative bg-gradient-to-t from-red-500 via-transparent
               "><div className="flex-1 flex flex-col p-8 bottom-0 absolute">
                 
                 <h2 className="mt-5 text-gray-100 text-lg sm:text-xl font-bold">
-                Project Consultation
+                Scholarships
                 </h2>
                 <p className="text-gray-100 text-sm">
-                Get expert guidance on your solar project from start to finish with our personalized consultation service, tailored to your unique energy goals and budget.
+                SPICA offers a range of different scholarship programmes for national & international students to help cover tuition fees.
                 </p>
               </div></div>
             </li>
             
             <li className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition  flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"  style={{
-          backgroundImage: "url('./images/solnyne-advisory.png')",
+          backgroundImage: "url('./images/innovative-learning.jpg')",
         }}>
-              <div className=" rounded-md h-full relative bg-gradient-to-t from-amber-500 via-transparent
+              <div className=" rounded-md h-full relative bg-gradient-to-t from-red-500 via-transparent
               "><div className="flex-1 flex flex-col p-8 bottom-0 absolute">
                 
                 <h2 className="mt-5 text-gray-100 text-lg sm:text-xl font-bold">
-                Advisory
+                Innovative Learning
                 </h2>
                 <p className="text-gray-100 text-sm">
-                Make informed decisions about your solar project with our
-                  reliable project advisory service, providing you with the
-                  latest industry insights and expertise.
+                In association with ROBOTMEA, SPICA offers a dynamic robotics programme to its primary level students.
                 </p>
               </div></div>
             </li>
@@ -444,7 +440,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section
+      {/*<section
         className="bg-no-repeat bg-center bg-cover bg-fixed "
         style={{
           backgroundImage: "url('./images/solnyne_bg-0.jpeg')",
@@ -497,7 +493,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+              </section>*/}
       <div
         style={{
           backgroundImage: "url('./images/beams-templates.png')",
