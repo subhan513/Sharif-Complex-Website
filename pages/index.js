@@ -78,7 +78,7 @@ export default function Home() {
         />
         <meta
           name="description"
-          content="We Provide On-Grid, Off-Grid, Hybrid &amp; Agricultural Solar Installation Solutions on a very reasonable budget. Get a Quote now: (055) 3828617."
+          content="Discover Spica International School Gujranwala - a leading institution committed to providing quality education, global exposure, and holistic development."
         />
         <link rel="icon" type="image/x-icon" href="/favicon.ico"></link>
         <meta name="robots" content="index, follow" />
@@ -92,7 +92,7 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="We Provide On-Grid, Off-Grid, Hybrid &amp; Agricultural Solar Installation Solutions on a very reasonable budget. Get a Quote now: (055) 3828617."
+          content="Discover Spica International School Gujranwala - a leading institution committed to providing quality education, global exposure, and holistic development."
         />
         <meta
           name="twitter:image:src"
@@ -109,7 +109,7 @@ export default function Home() {
         />
         <meta
           property="og:description"
-          content="We Provide On-Grid, Off-Grid, Hybrid &amp; Agricultural Solar Installation Solutions on a very reasonable budget. Get a Quote now: (055) 3828617."
+          content="Discover Spica International School Gujranwala - a leading institution committed to providing quality education, global exposure, and holistic development."
         />
         <meta property="og:locale" content="en-us" />
         <meta
@@ -117,7 +117,7 @@ export default function Home() {
           content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75"
         />
 
-        <link rel="canonical" href="https://solnyne.com" />
+        <link rel="canonical" href="https://spica.com.pk" />
         <link rel="preconnect" href="//www.google-analytics.com" as="script" />
         <meta name="google" content="notranslate" />
       </Head>
@@ -133,7 +133,8 @@ export default function Home() {
 
             <div className=" flex justify-center items-center mt-10">
               <Link
-                href="/solutions"
+                href="#"
+                //href="/solutions"
                 className="text-white border-2 hover:bg-black-500   rounded-full px-5 py-2 bg-[#b31507] border-[#f00707]   hover:text-white text-lg transition duration-	300 font-medium"
               >
                 APPLY FOR ADMISSION
@@ -501,8 +502,8 @@ export default function Home() {
       >
         <section className="py-10 ">
           <div className="sec-heading">
-            <h2>Blog & Activities</h2>
-            <p>Shining light on solar panels - Read our blog and stay up-to-date</p>
+            <h2>News & Updates</h2>
+            <p>Stay up-to-date with our School community and all the exciting news and updates!</p>
           </div>
           <div className="container mx-auto px-4 ">
             <div className="mt-4 max-w-lg mx-auto grid gap-5 lg:grid-cols-4 lg:max-w-none">
@@ -562,7 +563,7 @@ export default function Home() {
                 href="/blog"
                 className="border border-amber-500 text-slate-700 text-lg  rounded-full px-5 py-2 hover:bg-amber-400 hover:border-amber-400  hover:text-black transition duration-300 font-medium"
               >
-                View all Blog & Activities
+                View all News & Updates
               </Link>
             </div>
           </div>
