@@ -45,8 +45,8 @@ export default function Blog() {
       </Head>
 
       <MainHeader
-        pageHeading="Solnyne Blog"
-        pageImg="hdr-4.jpg"
+        pageHeading="Spica Blog"
+        pageImg="header-1.jpg"
       />
 
       <section className="main-sec  relative md:pb-24 pb-16">

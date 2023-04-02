@@ -40,12 +40,12 @@ export default function BlogPage({ post }) {
         <meta itemProp="image" content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75" />
         <link
           rel="canonical"
-          href={"https://solnyne.com/blog/" + post.slug}
+          href={"https://spica.com.pk/blog/" + post.slug}
         />
         <link rel="preconnect" href="//www.google-analytics.com" as="script" />
         <meta name="google" content="notranslate" />
       </Head>
-      <MainHeader pageImg={"hdr-1.jpg"} pageHeading={post.title} />
+      <MainHeader pageImg={"header-2.jpg"} pageHeading={post.title} />
 
       <section className="  pb-10 relative px-5">
        

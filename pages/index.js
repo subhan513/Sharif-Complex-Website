@@ -28,7 +28,7 @@ const faqs = [
 
   {
     question: "What is the school admission criterion?",
-    answer: "Visit the school at your appointed time to understand the school culture and philosophy. An entrance test and interview to assess the child’s learning capacity and development needs. Submission of duly filled Nordic International School Lahore admission form, along with the correct documents and information. Submission of school admission fee, security fee and an advance tuition fee.",
+    answer: "Visit the school at your appointed time to understand the school culture and philosophy. An entrance test and interview to assess the child’s learning capacity and development needs. Submission of duly filled Spica International School Lahore admission form, along with the correct documents and information. Submission of school admission fee, security fee and an advance tuition fee.",
   },
    
 ];
@@ -47,8 +47,8 @@ const faqsb = [
     answer: "There is usually one lead teacher and one or more assistant teachers in a preschool classroom. The exact ratio of teachers to children can also vary based on state or local regulations and the age range of the children in the classroom.",
   },
   {
-    question: "How will I know what’s happening in my child’s classroom and in the school?",
-    answer: "We value timely communication with parents and how this effective partnership benefits our students. Nordic International School uses 21st Century communication tool called ClassDojo (interactive mobile & computer application) to keep parents updated. The application gives parents access to learning activities, photographs, their children’s performance and school based information. Teachers post weekly newsletter to parents via email and ClassDojo. The application also has a messaging portal that parents can use to keep regular contact with the school. Apart from this, formal written reports are provided to parents twice each academic year. Open days and other opportunities for parents to see the working school are arranged routinely.",
+    question: "How will I know what’s happening in my child’s classroom?",
+    answer: "We value timely communication with parents and how this effective partnership benefits our students. Spica International School uses 21st Century communication tool called ClassDojo (interactive mobile & computer application) to keep parents updated. The application gives parents access to learning activities, photographs, their children’s performance and school based information. Teachers post weekly newsletter to parents via email and ClassDojo. The application also has a messaging portal that parents can use to keep regular contact with the school. Apart from this, formal written reports are provided to parents twice each academic year. Open days and other opportunities for parents to see the working school are arranged routinely.",
   },
    
 ];
@@ -560,7 +560,7 @@ export default function Home() {
             <div className=" flex justify-center items-center mt-10">
               <Link
                 href="/blog"
-                className="border border-red-700 text-slate-700 text-lg  rounded-full px-5 py-2 hover:bg-red-700 hover:border-red-700  hover:text-black transition duration-300 font-medium"
+                className="border border-red-700 text-slate-700 text-lg  rounded-full px-5 py-2 hover:bg-red-700 hover:border-red-700  hover:text-white transition duration-300 font-medium"
               >
                 View all News & Updates
               </Link>

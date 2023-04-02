@@ -112,33 +112,33 @@ export default function Nav() {
                   <Menu.Items className="menuItems origin-center absolute   mt-2 w-[300px] rounded-md shadow-lg bg-white     focus:outline-none">
                     <div className="p-5">
                     <Menu.Item>
-                        <Link href="../installation-services" title="Director's Message">
+                        <Link href="#" title="Director's Message">
                         <SunIcon className="w-5 h-5 inline -mt-1 mr-1"/> Director's Message
                         </Link>
                       </Menu.Item>
                       <Menu.Item>
-                        <Link href="../maintenance-services" title="Our Team">
+                        <Link href="#" title="Our Team">
                         <SunIcon className="w-5 h-5 inline -mt-1 mr-1"/> Our Team
                         </Link>
                       </Menu.Item>
                       <Menu.Item>
-                        <Link href="../project-consultation" title="Our Philosphy">
+                        <Link href="#" title="Our Philosphy">
                         <SunIcon className="w-5 h-5 inline -mt-1 mr-1"/> Our Philosphy
                         </Link>
                       </Menu.Item>
                       <Menu.Item>
-                        <Link href="../advisory-services" title="Our Mission and Vision">
+                        <Link href="#" title="Our Mission and Vision">
                         <SunIcon className="w-5 h-5 inline -mt-1 mr-1"/> Our Mission and Vision
                         </Link>
                       </Menu.Item>
                       <Menu.Item>
-                        <Link href="../system-design" title="Our Goals">
+                        <Link href="#" title="Our Goals">
                         <SunIcon className="w-5 h-5 inline -mt-1 mr-1"/> Our Goals
                         </Link>
                       </Menu.Item>
 
                       <Menu.Item>
-                        <Link href="../net-metering" title="Our Campus">
+                        <Link href="#" title="Our Campus">
                         <SunIcon className="w-5 h-5 inline -mt-1 mr-1"/> Our Campus
                         </Link>
                       </Menu.Item>
@@ -283,7 +283,7 @@ export default function Nav() {
             
             <li>
               <Link
-                href="/contact-us"
+                href="#"
                 className={
                   currentRoute === "/contact-us"
                     ? "text-[#e88081] px-3"
@@ -438,7 +438,7 @@ export default function Nav() {
                        
                         <li className="py-3">
                           ABOUT US
-                          <Link  onClick={handleToggle} href="../installation-services" title="Director's Message" className="block mt-2 ml-4 text-blue-500">
+                          <Link  onClick={handleToggle} href="#" title="Director's Message" className="block mt-2 ml-4 text-blue-500">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
@@ -452,7 +452,7 @@ export default function Nav() {
                             />
                           </svg>Director's Message
                         </Link>
-                        <Link  onClick={handleToggle} href="../maintenance-services" title="Our Team" className="block mt-2 ml-4 text-blue-500">
+                        <Link  onClick={handleToggle} href="#" title="Our Team" className="block mt-2 ml-4 text-blue-500">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
@@ -466,7 +466,7 @@ export default function Nav() {
                             />
                           </svg>Our Team
                         </Link>
-                         <Link  onClick={handleToggle} href="../project-consultation" title="Our Philosphy" className="block mt-2 ml-4 text-blue-500">
+                         <Link  onClick={handleToggle} href="#" title="Our Philosphy" className="block mt-2 ml-4 text-blue-500">
                          <svg
                              xmlns="http://www.w3.org/2000/svg"
                              viewBox="0 0 20 20"
@@ -480,7 +480,7 @@ export default function Nav() {
                              />
                            </svg>Our Philosphy
                          </Link>
-                         <Link  onClick={handleToggle} href="../advisory-services" title="Our Mission and Vision" className="block mt-2 ml-4 text-blue-500">
+                         <Link  onClick={handleToggle} href="#" title="Our Mission and Vision" className="block mt-2 ml-4 text-blue-500">
                          <svg
                            xmlns="http://www.w3.org/2000/svg"
                            viewBox="0 0 20 20"
@@ -495,7 +495,7 @@ export default function Nav() {
                          </svg>
                          Our Mission and Vision
                        </Link>
-                       <Link  onClick={handleToggle} href="../system-design" title="Our Goals" className="block mt-2 ml-4 text-blue-500">
+                       <Link  onClick={handleToggle} href="#" title="Our Goals" className="block mt-2 ml-4 text-blue-500">
                        <svg
                            xmlns="http://www.w3.org/2000/svg"
                            viewBox="0 0 20 20"
@@ -509,7 +509,7 @@ export default function Nav() {
                            />
                          </svg>Our Goals
                        </Link>
-                       <Link  onClick={handleToggle} href="../net-metering" title="Our Campus" className="block mt-2 ml-4 text-blue-500">
+                       <Link  onClick={handleToggle} href="#" title="Our Campus" className="block mt-2 ml-4 text-blue-500">
                        <svg
                            xmlns="http://www.w3.org/2000/svg"
                            viewBox="0 0 20 20"
@@ -569,7 +569,7 @@ export default function Nav() {
 
                         <li className="py-3">
                           <Link
-                            href="/solar-calculator"
+                            href="#"
                             onClick={handleToggle}
                             className={
                               currentRoute === "/solar-calculator"
@@ -583,7 +583,7 @@ export default function Nav() {
                         
                         <li className="py-3">
                           <Link
-                            href="/contact-us"
+                            href="#"
                             onClick={handleToggle}
                             className={
                               currentRoute === "/contact-us"

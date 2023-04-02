@@ -24,7 +24,7 @@ const faqs = [
 
   {
     question: "What is the school admission criterion?",
-    answer: "<ul><li>Visit the school at your appointed time to understand the school culture and philosophy.</li><li>An entrance test and interview to assess the child’s learning capacity and development needs.</li><li>Submission of duly filled Nordic International School Lahore admission form, along with the correct documents and information.</li><li>Submission of school admission fee, security fee and an advance tuition fee.</li></ul>",
+    answer: "Visit the school at your appointed time to understand the school culture and philosophy. An entrance test and interview to assess the child’s learning capacity and development needs. Submission of duly filled Spica International School Lahore admission form, along with the correct documents and information. Submission of school admission fee, security fee and an advance tuition fee.",
   },
   {
     question: "When does an academic session start? ",
@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     question: "How will I know what’s happening in my child’s classroom and in the school?",
-    answer: "We value timely communication with parents and how this effective partnership benefits our students. Nordic International School uses 21st Century communication tool called ClassDojo (interactive mobile & computer application) to keep parents updated. The application gives parents access to learning activities, photographs, their children’s performance and school based information. Teachers post weekly newsletter to parents via email and ClassDojo. The application also has a messaging portal that parents can use to keep regular contact with the school. Apart from this, formal written reports are provided to parents twice each academic year. Open days and other opportunities for parents to see the working school are arranged routinely.",
+    answer: "We value timely communication with parents and how this effective partnership benefits our students. Spica International School uses 21st Century communication tool called ClassDojo (interactive mobile & computer application) to keep parents updated. The application gives parents access to learning activities, photographs, their children’s performance and school based information. Teachers post weekly newsletter to parents via email and ClassDojo. The application also has a messaging portal that parents can use to keep regular contact with the school. Apart from this, formal written reports are provided to parents twice each academic year. Open days and other opportunities for parents to see the working school are arranged routinely.",
   },
 
   {
