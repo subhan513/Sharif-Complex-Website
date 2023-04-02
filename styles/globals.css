@@ -86,7 +86,7 @@
 .bx-item-bbb p {@apply sm:text-base text-sm text-slate-600;}
 
 .menuItems a {@apply text-black block w-full text-xl items-center capitalize py-1 hover:translate-x-2 duration-300 
-    border-b border-b-slate-400 border-dotted hover:text-amber-600}
+    border-b border-b-slate-400 border-dotted hover:text-red-600}
 
 
 .bx-item-pro {@apply flex items-center justify-center h-auto w-full relative bg-white hover:shadow-2xl transition-all duration-500    mx-auto border shadow-sm rounded-xl pb-0 pt-5  py-0 cursor-pointer; }
@@ -107,7 +107,7 @@
 .main-sec{ @apply pt-8 pb-4 h-auto px-4; }
 
 .btn-action {@apply px-8 font-bold py-2 text-white 
-    bg-gradient-to-br from-amber-400 to-[#e2bc71]  hover:to-[#edd198] duration-300 hover:from-amber-500     rounded-full   shadow    }
+    bg-gradient-to-br from-red-400 to-[#e2bc71]  hover:to-[#edd198] duration-300 hover:from-red-500     rounded-full   shadow    }
 
 .bx-item-e {@apply w-auto flex items-center justify-center h-auto relative bg-white p-2 shadow hover:shadow-2xl; }
 .bx-item-e img {@apply p-3;}
@@ -134,7 +134,7 @@
     border-gray-300
     rounded-md outline-none
     shadow-sm
-    focus:border-amber-600
+    focus:border-red-600
     px-2 py-2;}
 
 .bx-item-d {@apply w-full flex items-center justify-center h-24 relative border rounded-lg bg-[#bf1d18]; }
@@ -227,7 +227,7 @@
     .brand-list-drop p {@apply capitalize mt-1;}
     
     .sec-footer {@apply  pt-10; }
-    .sec-footer a { @apply hover:text-amber-400 hover:underline transition-transform duration-300 hover:translate-x-1; }
+    .sec-footer a { @apply hover:text-red-400 hover:underline transition-transform duration-300 hover:translate-x-1; }
     
     .pg-footer {@apply px-5 z-10 py-2 mt-10 flex relative items-center justify-center border-t border-slate-400/50; }
     .ftr-links {@apply flex text-white  divide-x divide-slate-300 text-[12px] sm:text-sm text-opacity-80 items-center justify-center; }
@@ -347,7 +347,7 @@
 
      .price-tag-a {@apply h-auto w-24 text-center rounded-full px-2 bg-opacity-50 bg-red-400 py-1 text-sm shadow cursor-pointer; }
      .price-tag-b {@apply h-auto w-24 text-center rounded-full px-2 bg-opacity-50 bg-green-400 py-1 text-sm shadow  cursor-pointer; }
-     .price-tag-c {@apply h-auto w-24 text-center rounded-full px-2 bg-opacity-50 bg-amber-400 py-1 text-sm shadow  cursor-pointer; }
+     .price-tag-c {@apply h-auto w-24 text-center rounded-full px-2 bg-opacity-50 bg-red-400 py-1 text-sm shadow  cursor-pointer; }
 
      .badge-a {@apply rounded bg-gray-400 text-sm mx-auto px-2 pb-1  flex items-center justify-center   font-semibold text-slate-100 transition-all duration-300 shadow-md w-full cursor-pointer }
      .badge-a img {@apply absolute  }
@@ -359,7 +359,7 @@
      .b-emerald {@apply  bg-gradient-to-tr from-emerald-600   to-emerald-300  }
      .b-gray {@apply  bg-gradient-to-tr from-gray-600   to-gray-300  }
      .b-cyan {@apply   bg-gradient-to-tr from-cyan-600   to-cyan-300  }
-     .b-amber {@apply  bg-gradient-to-tr from-amber-600   to-amber-300  }
+     .b-red {@apply  bg-gradient-to-tr from-red-600   to-red-300  }
  
         
     .dealer-item {@apply h-full border border-gray-200 shadow rounded-xl overflow-hidden   bg-white transition-all duration-300 hover:shadow-xl;}
