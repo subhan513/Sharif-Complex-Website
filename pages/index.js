@@ -240,6 +240,128 @@ export default function Home() {
 
  
 
+     <section className="py-10 ">
+        <div className="sec-heading">
+          <h2>OUR PROGRAMS</h2>
+          <p>
+          Discovering the Wonders of Learning with Spica International's Four-Star Programs
+          </p>
+        </div>
+
+        <div className="container mx-auto px-4 ">
+          <div className="grid lg:grid-cols-4 grid-cols-1 gap-4  text-center">
+            <Link
+              href="/products"
+              className="bx-item-pro h-auto border-t-[3px] border-t-[#fc0d21] "
+            >
+              <div className="flex flex-col w-full">
+                <Image
+                  src="/images/solnyne-icon.png"
+                  alt="Solnyne Solution"
+                  className="w-16 mx-auto"
+                  width={64}
+                  height={75}
+                />
+
+                <h2>Pre Nursery</h2>
+                <p>
+                  For Age 1.5 Years to 2.5 Years
+                </p>
+
+                <Image
+                  src="/images/solnyne-products-solar-panels.png"
+                  alt="Solar Panels"
+                  className="rounded-lg mt-3"
+                  width={400}
+                  height={200}
+                />
+              </div>
+            </Link>
+
+            <Link
+              href="/products"
+              className="bx-item-pro h-auto border-t-[3px] border-t-[#fc0d21] "
+            >
+              <div className="flex flex-col w-full">
+                <Image
+                  src="/images/solnyne-icon.png"
+                  alt="Solnyne Solution"
+                  className="w-16 mx-auto"
+                  width={64}
+                  height={75}
+                />
+                <h2>Solar Inverters</h2>
+                <p>
+                  Maximize your solar energy output with our advanced solar
+                  inverters
+                </p>
+                <Image
+                  src="/images/solnyne-products-solar-inverters.png"
+                  alt="Solar Inverters"
+                  className="rounded-lg mt-3"
+                  width={400}
+                  height={200}
+                />
+              </div>
+            </Link>
+
+            <Link
+              href="/products"
+              className="bx-item-pro h-auto border-t-[3px] border-t-[#fc0d21] "
+            >
+              <div className="flex flex-col w-full">
+                <Image
+                  src="/images/solnyne-icon.png"
+                  alt="Solnyne Solution"
+                  className="w-16 mx-auto"
+                  width={64}
+                  height={75}
+                />
+                <h2>Solar Batteries</h2>
+                <p>
+                  Experience uninterrupted power supply with our high-capacity
+                  solar batteries
+                </p>
+                <Image
+                  src="/images/solnyne-products-solar-batteries.png"
+                  alt="Solar Batteries"
+                  className="rounded-lg mt-3"
+                  width={400}
+                  height={200}
+                />
+              </div>
+            </Link>
+
+            <Link
+              href="/products"
+              className="bx-item-pro h-auto border-t-[3px] border-t-[#fc0d21] "
+            >
+              <div className="flex flex-col w-full">
+                <Image
+                  src="/images/solnyne-icon.png"
+                  alt="Solnyne Solution"
+                  className="w-16 mx-auto"
+                  width={64}
+                  height={75}
+                />
+                <h2>Solar Accessories</h2>
+                <p>
+                  Complete your solar setup with our range of premium solar
+                  accessories
+                </p>
+                <Image
+                  src="/images/solnyne-products-solar-accessories.png"
+                  alt="Solar Accessories"
+                  className="rounded-lg mt-3"
+                  width={400}
+                  height={200}
+                />
+              </div>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <section className="py-10 pt-16 ">
         <div className="sec-heading">
           <h2>Our Services</h2>
@@ -317,130 +439,6 @@ export default function Home() {
             </li>
              
           </ul>
-        </div>
-      </section>
-
-      <section className="py-10 ">
-        <div className="sec-heading">
-          <h2>OUR PRODUCTS</h2>
-          <p>
-            Discover our wide range of high-quality solar products, designed to
-            meet all your energy needs and deliver long-lasting performance.
-          </p>
-        </div>
-
-        <div className="container mx-auto px-4 ">
-          <div className="grid lg:grid-cols-4 grid-cols-1 gap-4  text-center">
-            <Link
-              href="/products"
-              className="bx-item-pro h-auto border-t-[3px] border-t-[#fcbc0d] "
-            >
-              <div className="flex flex-col w-full">
-                <Image
-                  src="/images/solnyne-icon.png"
-                  alt="Solnyne Solution"
-                  className="w-16 mx-auto"
-                  width={64}
-                  height={75}
-                />
-
-                <h2>Solar Panels</h2>
-                <p>
-                  Power your home or business with ease using our reliable and
-                  high-performance solar panels
-                </p>
-
-                <Image
-                  src="/images/solnyne-products-solar-panels.png"
-                  alt="Solar Panels"
-                  className="rounded-lg mt-3"
-                  width={400}
-                  height={200}
-                />
-              </div>
-            </Link>
-
-            <Link
-              href="/products"
-              className="bx-item-pro h-auto border-t-[3px] border-t-[#fcbc0d] "
-            >
-              <div className="flex flex-col w-full">
-                <Image
-                  src="/images/solnyne-icon.png"
-                  alt="Solnyne Solution"
-                  className="w-16 mx-auto"
-                  width={64}
-                  height={75}
-                />
-                <h2>Solar Inverters</h2>
-                <p>
-                  Maximize your solar energy output with our advanced solar
-                  inverters
-                </p>
-                <Image
-                  src="/images/solnyne-products-solar-inverters.png"
-                  alt="Solar Inverters"
-                  className="rounded-lg mt-3"
-                  width={400}
-                  height={200}
-                />
-              </div>
-            </Link>
-
-            <Link
-              href="/products"
-              className="bx-item-pro h-auto border-t-[3px] border-t-[#fcbc0d] "
-            >
-              <div className="flex flex-col w-full">
-                <Image
-                  src="/images/solnyne-icon.png"
-                  alt="Solnyne Solution"
-                  className="w-16 mx-auto"
-                  width={64}
-                  height={75}
-                />
-                <h2>Solar Batteries</h2>
-                <p>
-                  Experience uninterrupted power supply with our high-capacity
-                  solar batteries
-                </p>
-                <Image
-                  src="/images/solnyne-products-solar-batteries.png"
-                  alt="Solar Batteries"
-                  className="rounded-lg mt-3"
-                  width={400}
-                  height={200}
-                />
-              </div>
-            </Link>
-
-            <Link
-              href="/products"
-              className="bx-item-pro h-auto border-t-[3px] border-t-[#fcbc0d] "
-            >
-              <div className="flex flex-col w-full">
-                <Image
-                  src="/images/solnyne-icon.png"
-                  alt="Solnyne Solution"
-                  className="w-16 mx-auto"
-                  width={64}
-                  height={75}
-                />
-                <h2>Solar Accessories</h2>
-                <p>
-                  Complete your solar setup with our range of premium solar
-                  accessories
-                </p>
-                <Image
-                  src="/images/solnyne-products-solar-accessories.png"
-                  alt="Solar Accessories"
-                  className="rounded-lg mt-3"
-                  width={400}
-                  height={200}
-                />
-              </div>
-            </Link>
-          </div>
         </div>
       </section>
 
