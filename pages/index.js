@@ -258,7 +258,7 @@ export default function Home() {
               <div className="flex flex-col w-full">
                 <Image
                   src="/images/pre-nursery.png"
-                  alt="Solnyne Solution"
+                  alt="Spica International School"
                   className="w-16 mx-auto"
                   width={64}
                   height={75}
@@ -272,7 +272,7 @@ export default function Home() {
 
                 <Image
                   src="/images/pre-nursery-child.jpg"
-                  alt="Solar Panels"
+                  alt="Pre Nursery Chlidren Photo"
                   className="rounded-lg mt-3"
                   width={400}
                   height={200}
@@ -287,7 +287,7 @@ export default function Home() {
               <div className="flex flex-col w-full">
                 <Image
                   src="/images/nursery.png"
-                  alt="Solnyne Solution"
+                  alt="Spica International School"
                   className="w-16 mx-auto"
                   width={64}
                   height={75}
@@ -298,8 +298,8 @@ export default function Home() {
                 Where Learning Comes to Life
                 </p>
                 <Image
-                  src="/images/solnyne-products-solar-inverters.png"
-                  alt="Solar Inverters"
+                  src="/images/nursery-child.jpg"
+                  alt="Nursery Childs Photo"
                   className="rounded-lg mt-3"
                   width={400}
                   height={200}
@@ -314,7 +314,7 @@ export default function Home() {
               <div className="flex flex-col w-full">
                 <Image
                   src="/images/kindergarten-1.png"
-                  alt="Solnyne Solution"
+                  alt="Spica International School"
                   className="w-16 mx-auto"
                   width={64}
                   height={75}
@@ -325,7 +325,7 @@ export default function Home() {
                 Where Imagination and Learning Take Flight
                 </p>
                 <Image
-                  src="/images/solnyne-products-solar-batteries.png"
+                  src="/images/kindergarten-child.jpg"
                   alt="Solar Batteries"
                   className="rounded-lg mt-3"
                   width={400}
@@ -341,7 +341,7 @@ export default function Home() {
               <div className="flex flex-col w-full">
                 <Image
                   src="/images/kindergarten-2.png"
-                  alt="Solnyne Solution"
+                  alt="Spica International School"
                   className="w-16 mx-auto"
                   width={64}
                   height={75}
@@ -352,7 +352,7 @@ export default function Home() {
                 Lifetime of Success: Where Education Meets Inspiration
                 </p>
                 <Image
-                  src="/images/solnyne-products-solar-accessories.png"
+                  src="/images/kindergarten-child-2.jpg"
                   alt="Solar Accessories"
                   className="rounded-lg mt-3"
                   width={400}
