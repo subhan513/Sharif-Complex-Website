@@ -13,23 +13,19 @@ export default function Footer({ children, home }) {
           <div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-4 text-white">
             <div className="md:col-span-2">
               <h2 className="text-lg sm:text-xl font-semibold py-2">
-                About Solnyne Solutions
+                About Spica International
               </h2>
               <div className="flex text-sm sm:text-base pr-10">
                 <div><p>
-                  Solnyne Solutions is a leading energy company focusing on
-                  transition to clean energy by increasing the adoption of solar
-                  technology. We provide complete rooftop solar system for
-                  industrial, commercial and residential customers right from
-                  site audit to complete installation & commissioning.
-                   
+                At Spica International School, we believe in nurturing young minds through play-based learning experiences. Our experienced teachers create a safe and stimulating environment where children can explore, discover, and learn at their own pace. We focus on developing social, emotional, cognitive, and physical skills to prepare children for success in school and beyond.
+             
                 </p>
                 <Link
-                      href="../about"
+                      href="#"
                       className=" pr-4  py-1 mt-4 border px-4 rounded-full inline-block  no-underline"
-                      title="About Solnyne Solutions"
+                      title="About Spica"
                     >
-                      Solnyne Solutions
+                      Spica International
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -51,12 +47,12 @@ export default function Footer({ children, home }) {
 
             <div>
               <h2 className="text-lg sm:text-xl font-semibold py-2 mt-3 uppercase md:mt-0">
-                Solnyne Solutions - SERVICES
+                Important Links
               </h2>
               <div className="flex flex-col space-y-3 sm:space-y-2 text-sm sm:text-base">
                 <Link
-                  href="/installation-services"
-                  title="Installation Services"
+                  href="#"
+                  title="Applicant Performa"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -70,11 +66,11 @@ export default function Footer({ children, home }) {
                       clipRule="evenodd"
                     />
                   </svg>
-                  Installation Services
+                  Applicant Performa
                 </Link>
                 <Link
-                  href="/maintenance-services"
-                  title="Maintenance Services "
+                  href="#"
+                  title="Online Admission"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -88,9 +84,9 @@ export default function Footer({ children, home }) {
                       clipRule="evenodd"
                     />
                   </svg>
-                  Maintenance Services
+                  Online Admission
                 </Link>
-                <Link href="/project-consultation" title="Project Consultation">
+                <Link href="#" title="Fee Voucher">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -103,26 +99,10 @@ export default function Footer({ children, home }) {
                       clipRule="evenodd"
                     />
                   </svg>
-                  Project Consultation
-                </Link>
-
-                <Link href="/advisory-services" title="Advisory Services">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    className="w-5 h-5 inline -mt-1 mr-1"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                  Advisory Services
+                  Fee Voucher
                 </Link>
 
-                <Link href="/system-design" title="System Design">
+                <Link href="#" title="Staff Login">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -135,10 +115,10 @@ export default function Footer({ children, home }) {
                       clipRule="evenodd"
                     />
                   </svg>
-                  System Design
+                  Staff Login
                 </Link>
 
-                <Link href="/net-metering" title=" NET Metering Services">
+                <Link href="#" title="Student Login">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -151,10 +131,10 @@ export default function Footer({ children, home }) {
                       clipRule="evenodd"
                     />
                   </svg>
-                  NET Metering Services
+                  Student Login
                 </Link>
 
-                <Link href="/sale-services" title="After Sale Services">
+                <Link href="#" title="Parent's Login">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -167,7 +147,23 @@ export default function Footer({ children, home }) {
                       clipRule="evenodd"
                     />
                   </svg>
-                  After Sale Services
+                  Parent's Login
+                </Link>
+
+                <Link href="#" title="Admin Login">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="w-5 h-5 inline -mt-1 mr-1"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  Admin Login
                 </Link>
               </div>
             </div>
@@ -178,8 +174,8 @@ export default function Footer({ children, home }) {
 
               <div className="flex-1">
                 <div className="block mt-2">
-                  <h2 className="text-xl font-bold text-amber-400">
-                    Solnyne Solutions - Gujranwala
+                  <h2 className="text-xl font-bold text-red-400">
+                    Spica International School - Gujranwala
                   </h2>
                   <p className="mt-3 sm:text-base text-sm text-gray-300">
                     <svg
@@ -201,8 +197,7 @@ export default function Footer({ children, home }) {
                         d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                       />
                     </svg> 
-                    1st Floor Taaj Din Pharmacy, Near Amazon Gym Khana, Rahwali
-                    Cantt, Gujranwala, Pakistan
+                    Hafizabad Road, Near Aalam Chowk, Gujranwala, Pakistan.
                   </p>
                   <p className="text-base mt-2">
                     <svg
@@ -219,7 +214,7 @@ export default function Footer({ children, home }) {
                         d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
                       />
                     </svg>
-                    <a href="tel:+923041111908"> + 92 304 1111908</a>
+                    <a href="tel:+923001234567"> + 92 300 1234567</a>
                   </p>
                   <p className="text-base mt-2">
                     <svg
@@ -236,7 +231,7 @@ export default function Footer({ children, home }) {
                         d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
                       />
                     </svg>
-                    <a href="mailto:info@solnyne.com"> info@solnyne.com</a>
+                    <a href="mailto:info@spica.com.pk"> info@spica.com.pk</a>
                   </p>
                 </div>
               </div>
@@ -248,21 +243,21 @@ export default function Footer({ children, home }) {
           <div className="  w-full h-full py-2">
             <div className="flex flex-col md:flex-row md:justify-between">
               <div className="ftr-links">
-                <Link href="/privacy-policy" title="Privacy Policy">
+                <Link href="#" title="Privacy Policy">
                   Privacy Policy
                 </Link>
-                <Link href="/disclaimer" title="Legal Disclaimer">
+                <Link href="#" title="Legal Disclaimer">
                   Legal Disclaimer
                 </Link>
-                <Link href="/terms" title="Terms of Use">
+                <Link href="#" title="Terms of Use">
                   Terms of Use
                 </Link>
-                <Link href="/sitemap.xml" title="Site Map">
+                <Link href="#" title="Site Map">
                   Site Map
                 </Link>
               </div>
               <div className="copy mt-3 md:mt-0">
-                Copyright &copy; Solnyne Solutions Pvt. Ltd.
+                Copyright &copy; Spica International School.
               </div>
             </div>
           </div>
@@ -271,7 +266,7 @@ export default function Footer({ children, home }) {
 
       <div className="top-social">
         <a
-          href="mailto:info@solnyne.com"
+          href="mailto:info@spica.com.pk"
           title="Email"
           className="emailit tooltip group  bg-slate-500"
         >
@@ -287,8 +282,8 @@ export default function Footer({ children, home }) {
         </a>
 
         <a
-          href="https://www.facebook.com/solnynepk"
-          title="Solnyne Solutions Facebook"
+          href="https://www.facebook.com/spicapk"
+          title="Spica International School"
           className="facebook tooltip group bg-[#4267B2]"
         >
           <svg
@@ -302,8 +297,8 @@ export default function Footer({ children, home }) {
         </a>
 
         <a
-          href="https://www.instagram.com/solnyne_energy/"
-          title="Solnyne Solutions Instagram"
+          href="https://www.instagram.com/spicapk"
+          title="Spica International Instagram"
           className="instagram tooltip group   bg-[#405DE6] "
         >
           <svg
@@ -318,7 +313,7 @@ export default function Footer({ children, home }) {
 
         <a
           href="https://www.youtube.com"
-          title="Solnyne Solutions Youtube"
+          title="Spica International Youtube"
           className="youtube group tooltip  bg-[#FF0000]"
         >
           <svg
