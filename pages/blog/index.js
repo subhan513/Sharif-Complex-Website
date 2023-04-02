@@ -28,18 +28,18 @@ export default function Blog() {
         <meta name="revisit-after" content="1 days" />
         <meta name="author" content="Najam Awan" />
         <meta itemProp="name" content="Explore our blog for a diverse range of articles that will inform, entertain, and inspire you. From news and trends to lifestyle and culture, we've got you covered." />
-        <meta itemProp="image" content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75" />
+        <meta itemProp="image" content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Insightful Blog Posts | Source for Thought-Provoking Content" />
         <meta name="twitter:description" content="Explore our blog for a diverse range of articles that will inform, entertain, and inspire you. From news and trends to lifestyle and culture, we've got you covered." />
-        <meta name="twitter:image:src" content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75" />
+        <meta name="twitter:image:src" content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
         <meta property="og:title" content="Insightful Blog Posts | Source for Thought-Provoking Content" />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75" />
+        <meta property="og:image" content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
         <meta property="og:description" content="Explore our blog for a diverse range of articles that will inform, entertain, and inspire you. From news and trends to lifestyle and culture, we've got you covered." />
         <meta property="og:locale" content="en" />
-        <meta itemProp="image" content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75" />
-        <link rel="canonical" href="https://solnyne.com/blog"/>
+        <meta itemProp="image" content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
+        <link rel="canonical" href="https://spica.com.pk/blog"/>
         <link rel="preconnect" href="//www.google-analytics.com" as="script" />
         <meta name="google" content="notranslate" />
       </Head>

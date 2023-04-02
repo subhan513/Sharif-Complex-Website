@@ -78,7 +78,7 @@ export default function Faqs() {
         <meta itemProp="name" content="" />
         <meta
           itemProp="image"
-          content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75"
+          content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
         />
         <meta name="twitter:card" content="summary" />
         <meta
@@ -91,7 +91,7 @@ export default function Faqs() {
         />
         <meta
           name="twitter:image:src"
-          content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75"
+          content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
         />
         <meta
           property="og:title"
@@ -100,7 +100,7 @@ export default function Faqs() {
         <meta property="og:type" content="article" />
         <meta
           property="og:image"
-          content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75"
+          content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
         />
         <meta
           property="og:description"
@@ -109,9 +109,9 @@ export default function Faqs() {
         <meta property="og:locale" content="en" />
         <meta
           itemProp="image"
-          content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75"
+          content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
         />
-        <link rel="canonical" href="https://solnyne.com/faqs" />
+        <link rel="canonical" href="https://spica.com.pk/faqs" />
         <link rel="preconnect" href="//www.google-analytics.com" as="script" />
         <meta name="google" content="notranslate" />
       </Head>
