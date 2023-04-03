@@ -1,58 +1,69 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Disclosure } from "@headlessui/react";
-import { ChevronDownIcon } from "@heroicons/react/outline";
+import { Disclosure, Transition } from "@headlessui/react";
+import {
+  ChevronDownIcon,
+  AcademicCapIcon,
+  CalculatorIcon,
+  BeakerIcon,
+  UserGroupIcon,
+} from "@heroicons/react/outline";
 import { NextSeo } from "next-seo";
 import Link from "next/link";
-import { Swiper, SwiperSlide  } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 import content from "./blogposts.json";
 import solution from "./solutions.json";
 import "swiper/css";
- 
 
 const faqs = [
-
   {
     question: "What makes Spica International?",
-    answer: "Our school is a project owned by the [name] education company called [name]. We offer an international curriculum delivered through authentic learning and assessment. In addition to this, we partner with our sister schools around the world to collaborate and promote exchange programmes. We also have a blend of team members from [name] and Pakistan.",
+    answer:
+      "Our school is a project owned by the [name] education company called [name]. We offer an international curriculum delivered through authentic learning and assessment. In addition to this, we partner with our sister schools around the world to collaborate and promote exchange programmes. We also have a blend of team members from [name] and Pakistan.",
   },
   {
     question: "What grades are being offered as of now?",
-    answer: "We are offering classes from Playgroup to Kindergarten II, preparing students to lead the world.",
+    answer:
+      "We are offering classes from Playgroup to Kindergarten II, preparing students to lead the world.",
   },
   {
     question: "What are the school’s long term plans?",
-    answer: "It is our ambition to open further schools in Lahore as well as Karachi and Islamabad.",
+    answer:
+      "It is our ambition to open further schools in Lahore as well as Karachi and Islamabad.",
   },
 
   {
     question: "What is the school admission criterion?",
-    answer: "Visit the school at your appointed time to understand the school culture and philosophy. An entrance test and interview to assess the child’s learning capacity and development needs. Submission of duly filled Spica International School Lahore admission form, along with the correct documents and information. Submission of school admission fee, security fee and an advance tuition fee.",
+    answer:
+      "Visit the school at your appointed time to understand the school culture and philosophy. An entrance test and interview to assess the child’s learning capacity and development needs. Submission of duly filled Spica International School Lahore admission form, along with the correct documents and information. Submission of school admission fee, security fee and an advance tuition fee.",
   },
-   
 ];
 
 const faqsb = [
   {
     question: "When does an academic session start? ",
-    answer: "A new term for an academic year commences in August and ends in May.",
+    answer:
+      "A new term for an academic year commences in August and ends in May.",
   },
   {
     question: "What is the fee structure?",
-    answer: "Please visit the school office or call us on 0321-1234567 to enquire about the fee for your child’s year group.",
+    answer:
+      "Please visit the school office or call us on 0321-1234567 to enquire about the fee for your child’s year group.",
   },
-    {
-	question: "How many teachers are there in one class of the Preschool Programme?",
-    answer: "There is usually one lead teacher and one or more assistant teachers in a preschool classroom. The exact ratio of teachers to children can also vary based on state or local regulations and the age range of the children in the classroom.",
+  {
+    question:
+      "How many teachers are there in one class of the Preschool Programme?",
+    answer:
+      "There is usually one lead teacher and one or more assistant teachers in a preschool classroom. The exact ratio of teachers to children can also vary based on state or local regulations and the age range of the children in the classroom.",
   },
   {
     question: "How will I know what’s happening in my child’s classroom?",
-    answer: "We value timely communication with parents and how this effective partnership benefits our students. Spica International School uses 21st Century communication tool called ClassDojo (interactive mobile & computer application) to keep parents updated. The application gives parents access to learning activities, photographs, their children’s performance and school based information. Teachers post weekly newsletter to parents via email and ClassDojo. The application also has a messaging portal that parents can use to keep regular contact with the school. Apart from this, formal written reports are provided to parents twice each academic year. Open days and other opportunities for parents to see the working school are arranged routinely.",
+    answer:
+      "We value timely communication with parents and how this effective partnership benefits our students. Spica International School uses 21st Century communication tool called ClassDojo (interactive mobile & computer application) to keep parents updated. The application gives parents access to learning activities, photographs, their children’s performance and school based information. Teachers post weekly newsletter to parents via email and ClassDojo. The application also has a messaging portal that parents can use to keep regular contact with the school. Apart from this, formal written reports are provided to parents twice each academic year. Open days and other opportunities for parents to see the working school are arranged routinely.",
   },
-   
 ];
- 
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
@@ -68,9 +79,7 @@ export default function Home() {
         />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="generator" content="Getsol Inc." />
-        <title>
-          Spica International School Gujranwala - Spica
-        </title>
+        <title>Spica International School Gujranwala - Spica</title>
         <meta
           name="title"
           content="Spica International School Gujranwala - Spica"
@@ -124,17 +133,19 @@ export default function Home() {
       <header className="homeHeader bg-slate-800">
         <div className="homehdrtxt z-40">
           <div>
-            
-            <h1>
-                Excellence In Education
+            <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-slate-300 via-white to-slate-50">
+              Excellence In Education
             </h1>
-            <h2>Our mission is to inspire students not only intellectually but also Spirtually</h2>
+            <h2>
+              Our mission is to inspire students not only intellectually but
+              also Spirtually
+            </h2>
 
             <div className=" flex justify-center items-center mt-10">
               <Link
                 href="#"
                 //href="/solutions"
-                className="text-white border-2 hover:bg-black-500   rounded-full px-5 py-2 bg-[#b31507] border-[#f00707]   hover:text-white text-lg transition duration-	300 font-medium"
+                className="text-white border-2 hover:bg-black-500   rounded-full px-5 py-2 bg-gradient-to-tr from-[#b31507] via-[#fe5445] to-[#b31507] border-[#f00707]   hover:text-white text-lg transition duration-	300 font-medium"
               >
                 APPLY FOR ADMISSION
               </Link>
@@ -142,109 +153,157 @@ export default function Home() {
           </div>
         </div>
 
-        
-          
-            <video
-              autoPlay
-              className="mySwiper absolute inset-0 h-full w-full object-cover"
-              controlsList="nodownload"
-              loop={true}
-              muted=""
-              playsInline=""               
-              src="/images/slides/spica-video.mp4"
-            ></video>
-         
-          
-        
+        <video
+          autoPlay
+          className="mySwiper absolute inset-0 h-full w-full object-cover"
+          controlsList="nodownload"
+          loop={true}
+          muted=""
+          playsInline=""
+          src="/images/slides/spica-video.mp4"
+        ></video>
+
         <div className="w-full h-full bg-gradient-to-b from-slate-800 via-transparent z-20  absolute"></div>
       </header>
-
 
       <section className="py-0 pt-16 ">
         <div className="sec-heading">
           <h2>WHY SPICA INTERNATIONAL ?</h2>
           <p>
-          Building a Strong Foundation for Lifelong Learning: Early Learning Domains
+            Building a Strong Foundation for Lifelong Learning: Early Learning
+            Domains
           </p>
         </div>
         <div className="container mx-auto px-4 mt-10 ">
-          <ul role="list" className="grid grid-cols-2 gap-6 gap-y-10 sm:grid-cols-3 md:grid-cols-6 "
+          <ul
+            role="list"
+            className="grid grid-cols-2 gap-6 gap-y-10 sm:grid-cols-3 md:grid-cols-6 "
           >
-            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-gradient-to-br from-[#a2292b] to-[#c44545] p-5 flex justify-center items-center">
-               <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
-               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-[#c44545]">
-               <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
-              </svg>
-            </div>
+            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-gradient-to-br from-[#a2292b] to-[#f26666] p-5 flex justify-center items-center">
+              <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
+                <AcademicCapIcon
+                  className="w-8 h-8 text-[#c44545]"
+                  strokeWidth={1}
+                />
+              </div>
 
-             <h2 className="text-white text-base sm:text-xl pt-4 md:pt-8 font-medium" style={{textShadow:"0 2px 2px rgba(0,0,0,.4)"}}>Approaches to Learning</h2>
-             {/*<p>Each child learns in different ways.</p>*/}
+              <h2
+                className="text-white text-base sm:text-xl pt-4 md:pt-8 font-medium"
+                style={{ textShadow: "0 2px 2px rgba(0,0,0,.4)" }}
+              >
+                Approaches to Learning
+              </h2>
+              {/*<p>Each child learns in different ways.</p>*/}
             </li>
 
-            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-gradient-to-br from-[#a2292b] to-[#c44545] p-5 flex justify-center items-center">
-               <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
-               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-[#c44545]">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 01-3.827-5.802" />
-</svg>
-
- </div>     
-             <h2 className="text-white text-base sm:text-xl pt-4 md:pt-8  font-medium" style={{textShadow:"0 2px 2px rgba(0,0,0,.4)"}}>Language and Literacy</h2>
-             {/*<p>The early years are critical for literacy development.</p> */}
+            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-gradient-to-br from-[#a2292b] to-[#f26666] p-5 flex justify-center items-center">
+              <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-8 h-8 text-[#c44545]"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 01-3.827-5.802"
+                  />
+                </svg>
+              </div>
+              <h2
+                className="text-white text-base sm:text-xl pt-4 md:pt-8  font-medium"
+                style={{ textShadow: "0 2px 2px rgba(0,0,0,.4)" }}
+              >
+                Language and Literacy
+              </h2>
+              {/*<p>The early years are critical for literacy development.</p> */}
             </li>
-            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-gradient-to-br from-[#a2292b] to-[#c44545] p-5 flex justify-center items-center">
-               <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
-               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-[#c44545]">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
-</svg>
-
-</div>     
-             <h2 className="text-white text-base sm:text-xl pt-4 md:pt-8  font-medium" style={{textShadow:"0 2px 2px rgba(0,0,0,.4)"}}>Social Studies</h2>
-             {/* <p>Our social studies domain helps children understand themselves.</p> */}
+            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-gradient-to-br from-[#a2292b] to-[#f26666] p-5 flex justify-center items-center">
+              <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
+                <UserGroupIcon
+                  className="w-8 h-8 text-[#c44545]"
+                  strokeWidth={1.5}
+                />
+              </div>
+              <h2
+                className="text-white text-base sm:text-xl pt-4 md:pt-8  font-medium"
+                style={{ textShadow: "0 2px 2px rgba(0,0,0,.4)" }}
+              >
+                Social Studies
+              </h2>
+              {/* <p>Our social studies domain helps children understand themselves.</p> */}
             </li>
 
-            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-gradient-to-br from-[#a2292b] to-[#c44545] p-5 flex justify-center items-center">
-               <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
-               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-[#c44545]">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V13.5zm0 2.25h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V18zm2.498-6.75h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V13.5zm0 2.25h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V18zm2.504-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zm0 2.25h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V18zm2.498-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zM8.25 6h7.5v2.25h-7.5V6zM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 002.25 2.25h10.5a2.25 2.25 0 002.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0012 2.25z" />
-</svg>
-
-</div>     
-             <h2 className="text-white text-base sm:text-xl pt-4 md:pt-8  font-medium" style={{textShadow:"0 2px 2px rgba(0,0,0,.4)"}}>Mathematics</h2>
-            {/* <p>Early experiences with math help children develop reasoning skills</p> */}
+            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-gradient-to-br from-[#a2292b] to-[#f26666] p-5 flex justify-center items-center">
+              <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
+                <CalculatorIcon
+                  className="w-8 h-8 text-[#c44545]"
+                  strokeWidth={1.5}
+                />
+              </div>
+              <h2
+                className="text-white text-base sm:text-xl pt-4 md:pt-8  font-medium"
+                style={{ textShadow: "0 2px 2px rgba(0,0,0,.4)" }}
+              >
+                Mathematics
+              </h2>
+              {/* <p>Early experiences with math help children develop reasoning skills</p> */}
             </li>
-             
-            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-gradient-to-br from-[#a2292b] to-[#c44545] p-5 flex justify-center items-center">
-               <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
-               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-[#c44545]">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
-</svg>
 
-</div>     
-             <h2 className="text-white text-base sm:text-xl pt-4 md:pt-8  font-medium" style={{textShadow:"0 2px 2px rgba(0,0,0,.4)"}}>Science & Engineering</h2>
+            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-gradient-to-br from-[#a2292b] to-[#f26666] p-5 flex justify-center items-center">
+              <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
+                <BeakerIcon
+                  className="w-8 h-8 text-[#c44545]"
+                  strokeWidth={1.5}
+                />
+              </div>
+              <h2
+                className="text-white text-base sm:text-xl pt-4 md:pt-8  font-medium"
+                style={{ textShadow: "0 2px 2px rgba(0,0,0,.4)" }}
+              >
+                Science & Engineering
+              </h2>
               {/*<p>Children are natural scientists.</p> */}
             </li>
 
-            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-gradient-to-br from-[#a2292b] to-[#c44545] p-5 flex justify-center items-center">
-               <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
-               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-[#c44545]">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
-</svg>
-
-</div>     
-             <h2 className="text-white text-base sm:text-xl pt-4 md:pt-8  font-medium" style={{textShadow:"0 2px 2px rgba(0,0,0,.4)"}}>Physical Development</h2>
-             {/*<p>Active children become active adults.</p> */}
-            </li> 
+            <li className=" h-32 hover:-translate-y-2 duration-300 transition  text-center  rounded-lg shadow relative bg-gradient-to-br from-[#a2292b] to-[#f26666] p-5 flex justify-center items-center">
+              <div className="w-16 h-16 flex justify-center items-center bg-gradient-to-br from-white via-slate-50 to-slate-300 rounded-full border-2 border-[#c44545] shadow-sm absolute -mt-32">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-8 h-8 text-[#c44545]"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z"
+                  />
+                </svg>
+              </div>
+              <h2
+                className="text-white text-base sm:text-xl pt-4 md:pt-8  font-medium"
+                style={{ textShadow: "0 2px 2px rgba(0,0,0,.4)" }}
+              >
+                Physical Development
+              </h2>
+              {/*<p>Active children become active adults.</p> */}
+            </li>
           </ul>
         </div>
       </section>
 
- 
-
-     <section className="py-10 ">
+      <section className="py-10 ">
         <div className="sec-heading">
           <h2>OUR PROGRAMS</h2>
           <p>
-          Discovering the Wonders of Learning with Spica International's Four-Star Programs
+            Discovering the Wonders of Learning with Spica International's
+            Four-Star Programs
           </p>
         </div>
 
@@ -266,14 +325,14 @@ export default function Home() {
 
                 <h2>Pre Nursery</h2>
                 <p>
-                  For Age 1.5 Years to 2.5 Years - From Toddling to Thriving: 
+                  For Age 1.5 Years to 2.5 Years - From Toddling to Thriving:
                   Nurturing Young Minds at Every Step in Life
                 </p>
 
                 <Image
                   src="/images/pre-nursery-child.jpg"
                   alt="Pre Nursery Chlidren Photo"
-                  className="rounded-lg mt-3"
+                  className="rounded-lg rounded-t-none mt-3"
                   width={400}
                   height={200}
                 />
@@ -294,13 +353,13 @@ export default function Home() {
                 />
                 <h2>Nursery</h2>
                 <p>
-                For Age 2.5 Years to 3 Years - Exploring the World with Curious Minds: 
-                Where Learning Comes to Life
+                  For Age 2.5 Years to 3 Years - Exploring the World with
+                  Curious Minds: Where Learning Comes to Life
                 </p>
                 <Image
                   src="/images/nursery-child.jpg"
                   alt="Nursery Childs Photo"
-                  className="rounded-lg mt-3"
+                  className="rounded-lg mt-3 rounded-t-none "
                   width={400}
                   height={200}
                 />
@@ -321,13 +380,13 @@ export default function Home() {
                 />
                 <h2>Kindergarten I</h2>
                 <p>
-                For Age 3 Years to 4 Years - Growing Bright Minds: 
-                Where Imagination and Learning Take Flight
+                  For Age 3 Years to 4 Years - Growing Bright Minds: Where
+                  Imagination and Learning Take Flight
                 </p>
                 <Image
                   src="/images/kindergarten-child.jpg"
                   alt="Solar Batteries"
-                  className="rounded-lg mt-3"
+                  className="rounded-lg mt-3 rounded-t-none "
                   width={400}
                   height={200}
                 />
@@ -348,13 +407,13 @@ export default function Home() {
                 />
                 <h2>Kindergarten II</h2>
                 <p>
-                For Age 4 Years to 5 Years - Empowering Young Learners for a 
-                Lifetime of Success: Where Education Meets Inspiration
+                  For Age 4 Years to 5 Years - Empowering Young Learners for a
+                  Lifetime of Success: Where Education Meets Inspiration
                 </p>
                 <Image
                   src="/images/kindergarten-child-2.jpg"
                   alt="Solar Accessories"
-                  className="rounded-lg mt-3"
+                  className="rounded-lg mt-3 rounded-t-none "
                   width={400}
                   height={200}
                 />
@@ -368,7 +427,7 @@ export default function Home() {
         <div className="sec-heading">
           <h2>Where Children and Parents Feel Confident</h2>
           <p>
-          Our one line mission is Active minds, Healthy Bodies & Happy Hearts.
+            Our one line mission is Active minds, Healthy Bodies & Happy Hearts.
           </p>
         </div>
         <div className="container mx-auto px-4 ">
@@ -376,66 +435,95 @@ export default function Home() {
             role="list"
             className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4 "
           >
-            <li className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"  style={{
-          backgroundImage: "url('./images/admission.jpg')",
-        }}>
-              <div className=" rounded-md h-full relative bg-gradient-to-t from-red-500 via-transparent
-              "><div className="flex-1 flex flex-col p-8 bottom-0 absolute">
-                
-                <h2 className="mt-5 text-gray-100 text-lg sm:text-xl font-bold">
-                ADMISSIONS
-                </h2>
-                <p className="text-gray-100 text-sm">
-                Learn about admission requirements, how to apply, and the next steps once you’ve applied at SPICA.
-                </p>
-              </div></div>
+            <li
+              className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"
+              style={{
+                backgroundImage: "url('./images/admission.jpg')",
+              }}
+            >
+              <div
+                className=" rounded-md h-full relative bg-gradient-to-t from-red-700 via-transparent
+              "
+              >
+                <div className="flex-1 flex flex-col p-8 bottom-0 absolute">
+                  <h2 className="mt-5 text-white text-lg sm:text-xl font-bold uppercase">
+                    ADMISSIONS
+                  </h2>
+                  <p className="text-gray-100 text-sm">
+                    Learn about admission requirements, how to apply, and the
+                    next steps once you’ve applied at SPICA.
+                  </p>
+                </div>
+              </div>
             </li>
 
-            <li className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition  flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"  style={{
-          backgroundImage: "url('./images/virtual.jpg')",
-        }}>
-              <div className=" rounded-md h-full relative bg-gradient-to-t from-red-500 via-transparent
-              "><div className="flex-1 flex flex-col p-8 bottom-0 absolute">
-               
-                <h2 className="mt-5 text-gray-100 text-lg sm:text-xl font-bold">
-                VIRTUAL 360° TOUR
-                </h2>
-                <p className="text-gray-100 text-sm">
-                Step into our school without leaving your seat! Join our virtual tour and discover our campus from the comfort of your own device.
-                </p>
-              </div></div>
+            <li
+              className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition  flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"
+              style={{
+                backgroundImage: "url('./images/virtual.jpg')",
+              }}
+            >
+              <div
+                className=" rounded-md h-full relative bg-gradient-to-t from-red-700 via-transparent
+              "
+              >
+                <div className="flex-1 flex flex-col p-8 bottom-0 absolute">
+                  <h2 className="mt-5 text-white text-lg sm:text-xl font-bold uppercase">
+                    VIRTUAL 360° TOUR
+                  </h2>
+                  <p className="text-gray-100 text-sm">
+                    Step into our school without leaving your seat! Join our
+                    virtual tour and discover our campus from the comfort of
+                    your own device.
+                  </p>
+                </div>
+              </div>
             </li>
 
-            <li className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition  flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"  style={{
-          backgroundImage: "url('./images/scholorships.jpg')",
-        }}>
-              <div className=" rounded-md h-full relative bg-gradient-to-t from-red-500 via-transparent
-              "><div className="flex-1 flex flex-col p-8 bottom-0 absolute">
-                
-                <h2 className="mt-5 text-gray-100 text-lg sm:text-xl font-bold">
-                Scholarships
-                </h2>
-                <p className="text-gray-100 text-sm">
-                SPICA offers a range of different scholarship programmes for national & international students to help cover tuition fees.
-                </p>
-              </div></div>
+            <li
+              className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition  flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"
+              style={{
+                backgroundImage: "url('./images/scholorships.jpg')",
+              }}
+            >
+              <div
+                className=" rounded-md h-full relative bg-gradient-to-t from-red-700 via-transparent
+              "
+              >
+                <div className="flex-1 flex flex-col p-8 bottom-0 absolute">
+                  <h2 className="mt-5 text-white text-lg sm:text-xl font-bold uppercase">
+                    Scholarships
+                  </h2>
+                  <p className="text-gray-100 text-sm">
+                    SPICA offers a range of different scholarship programmes for
+                    national & international students to help cover tuition
+                    fees.
+                  </p>
+                </div>
+              </div>
             </li>
-            
-            <li className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition  flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"  style={{
-          backgroundImage: "url('./images/innovative-learning.jpg')",
-        }}>
-              <div className=" rounded-md h-full relative bg-gradient-to-t from-red-500 via-transparent
-              "><div className="flex-1 flex flex-col p-8 bottom-0 absolute">
-                
-                <h2 className="mt-5 text-gray-100 text-lg sm:text-xl font-bold">
-                Innovative Learning
-                </h2>
-                <p className="text-gray-100 text-sm">
-                In association with ROBOTMEA, SPICA offers a dynamic robotics programme to its primary level students.
-                </p>
-              </div></div>
+
+            <li
+              className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition  flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"
+              style={{
+                backgroundImage: "url('./images/innovative-learning.jpg')",
+              }}
+            >
+              <div
+                className=" rounded-md h-full relative bg-gradient-to-t from-red-700 via-transparent
+              "
+              >
+                <div className="flex-1 flex flex-col p-8 bottom-0 absolute">
+                  <h2 className="mt-5 text-white text-lg sm:text-xl font-bold uppercase">
+                    Innovative Learning
+                  </h2>
+                  <p className="text-gray-100 text-sm">
+                    In association with ROBOTMEA, SPICA offers a dynamic
+                    robotics programme to its primary level students.
+                  </p>
+                </div>
+              </div>
             </li>
-             
           </ul>
         </div>
       </section>
@@ -502,7 +590,10 @@ export default function Home() {
         <section className="py-10 ">
           <div className="sec-heading">
             <h2>News & Updates</h2>
-            <p>Stay up-to-date with our School community and all the exciting news and updates!</p>
+            <p>
+              Stay up-to-date with our School community and all the exciting
+              news and updates!
+            </p>
           </div>
           <div className="container mx-auto px-4 ">
             <div className="mt-4 max-w-lg mx-auto grid gap-5 lg:grid-cols-4 lg:max-w-none">
@@ -513,7 +604,7 @@ export default function Home() {
                       key={post.slug + "_" + index}
                       className="flex flex-col rounded-lg shadow-lg overflow-hidden group"
                     >
-                       <div className="flex-shrink-0">
+                      <div className="flex-shrink-0">
                         <Image
                           className="h-48 w-full object-cover"
                           width={400}
@@ -549,8 +640,6 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-
-                     
                     </div>
                   );
                 }
@@ -560,7 +649,7 @@ export default function Home() {
             <div className=" flex justify-center items-center mt-10">
               <Link
                 href="/blog"
-                className="border border-red-700 text-slate-700 text-lg  rounded-full px-5 py-2 hover:bg-red-700 hover:border-red-700  hover:text-white transition duration-300 font-medium"
+                className="border-2 border-red-700 text-slate-700 text-lg  rounded-full px-5 py-2 hover:bg-red-700 hover:border-red-700  hover:text-white transition duration-300 font-medium"
               >
                 View all News & Updates
               </Link>
@@ -583,7 +672,6 @@ export default function Home() {
                         <>
                           <dt className="text-lg">
                             <Disclosure.Button
-                              
                               className="w-full sm:px-6 sm:py-3 px-3 py-2  border border-slate-300
       bg-gradient-to-br from-white via-slate-100 to-zinc-200 text-gray-700 rounded-lg text-base sm:text-lg font-medium shadow 
       text-left  flex justify-between items-start "
@@ -602,14 +690,23 @@ export default function Home() {
                               </span>
                             </Disclosure.Button>
                           </dt>
-                          <Disclosure.Panel
-                            as="dd"
-                            className="transition-all p-5 duration-700 text-sm sm:text-base text-gray-600"
+                          <Transition
+                            enter="transition duration-300 ease-out"
+                            enterFrom="transform scale-95 opacity-0"
+                            enterTo="transform scale-100 opacity-100"
+                            leave="transition duration-300 ease-out"
+                            leaveFrom="transform scale-100 opacity-100"
+                            leaveTo="transform scale-100 opacity-0"
                           >
-                            <p className="text-base text-gray-800">
-                              {faq.answer}
-                            </p>
-                          </Disclosure.Panel>
+                            <Disclosure.Panel
+                              as="dd"
+                              className="transition-all p-5 duration-700 text-sm sm:text-base text-gray-600"
+                            >
+                              <p className="text-base text-gray-800">
+                                {faq.answer}
+                              </p>
+                            </Disclosure.Panel>
+                          </Transition>
                         </>
                       )}
                     </Disclosure>
@@ -642,14 +739,23 @@ export default function Home() {
                               </span>
                             </Disclosure.Button>
                           </dt>
-                          <Disclosure.Panel
-                            as="dd"
-                            className="transition-all p-5 duration-700 text-sm sm:text-base text-gray-600"
+                          <Transition
+                            enter="transition duration-300 ease-out"
+                            enterFrom="transform scale-95 opacity-0"
+                            enterTo="transform scale-100 opacity-100"
+                            leave="transition duration-300 ease-out"
+                            leaveFrom="transform scale-100 opacity-100"
+                            leaveTo="transform scale-100 opacity-0"
                           >
-                            <p className="text-base text-gray-800">
-                              {faq.answer}
-                            </p>
-                          </Disclosure.Panel>
+                            <Disclosure.Panel
+                              as="dd"
+                              className="transition-all p-5 duration-700 text-sm sm:text-base text-gray-600"
+                            >
+                              <p className="text-base text-gray-800">
+                                {faq.answer}
+                              </p>
+                            </Disclosure.Panel>
+                          </Transition>
                         </>
                       )}
                     </Disclosure>
@@ -661,7 +767,7 @@ export default function Home() {
             <div className=" flex justify-center items-center mt-10">
               <Link
                 href="/faqs"
-                className="border border-red-500 text-slate-700 text-lg  rounded-full px-5 py-2 hover:bg-red-400 hover:border-red-400  hover:text-black transition duration-300 font-medium"
+                className="border-2 border-red-500 text-slate-700 text-lg  rounded-full px-5 py-2 hover:bg-red-700 hover:border-red-700  hover:text-white transition duration-300 font-medium"
               >
                 View all FAQs
               </Link>
@@ -669,7 +775,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section   className="py-10 pt-0 relative">
+        <section className="py-10 pt-0 relative">
           <div className="container mx-auto px-5 sec-cta">
             <div className="logo-badge">
               <Image
@@ -681,7 +787,7 @@ export default function Home() {
               ></Image>
             </div>
             <h2>
-            It's a bird! It's a plane! 
+              It's a bird! It's a plane!
               <span className="marksvg">
                 <svg
                   aria-hidden="true"
@@ -691,17 +797,18 @@ export default function Home() {
                 >
                   <path d="M203.371.916c-26.013-2.078-76.686 1.963-124.73 9.946L67.3 12.749C35.421 18.062 18.2 21.766 6.004 25.934 1.244 27.561.828 27.778.874 28.61c.07 1.214.828 1.121 9.595-1.176 9.072-2.377 17.15-3.92 39.246-7.496C123.565 7.986 157.869 4.492 195.942 5.046c7.461.108 19.25 1.696 19.17 2.582-.107 1.183-7.874 4.31-25.75 10.366-21.992 7.45-35.43 12.534-36.701 13.884-2.173 2.308-.202 4.407 4.442 4.734 2.654.187 3.263.157 15.593-.78 35.401-2.686 57.944-3.488 88.365-3.143 46.327.526 75.721 2.23 130.788 7.584 19.787 1.924 20.814 1.98 24.557 1.332l.066-.011c1.201-.203 1.53-1.825.399-2.335-2.911-1.31-4.893-1.604-22.048-3.261-57.509-5.556-87.871-7.36-132.059-7.842-23.239-.254-33.617-.116-50.627.674-11.629.54-42.371 2.494-46.696 2.967-2.359.259 8.133-3.625 26.504-9.81 23.239-7.825 27.934-10.149 28.304-14.005.417-4.348-3.529-6-16.878-7.066Z"></path>
                 </svg>
-                <span className="relative block md:inline"> It's your three-year-old! </span>
+                <span className="relative block md:inline">
+                  {" "}
+                  It's your three-year-old!{" "}
+                </span>
               </span>
             </h2>
 
             <p>
-
-            To your presschooler, nothing is impossible! They are opening up their world and developing
-            special friendship. Together, they are learning new words and forming new ideas every day.
- 
+              To your presschooler, nothing is impossible! They are opening up
+              their world and developing special friendship. Together, they are
+              learning new words and forming new ideas every day.
             </p>
- 
 
             <div className="social">
               <a
@@ -725,7 +832,11 @@ export default function Home() {
                 </svg>
               </a>
 
-              <a href="tel:+92321234567" title="Call" className="tooltip  hover:-translate-y-2 duration-300 transition">
+              <a
+                href="tel:+92321234567"
+                title="Call"
+                className="tooltip  hover:-translate-y-2 duration-300 transition"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -740,10 +851,10 @@ export default function Home() {
                 </svg>
               </a>
             </div>
-          </div> 
+          </div>
         </section>
 
-                {/* <div className="grid grid-cols-2 mx-auto items-center md:grid-cols-4 container xl:grid-cols-4 2xl:grid-cols-5  gap-4 mt-5 featured-showrooms pb-10 hidden">
+        {/* <div className="grid grid-cols-2 mx-auto items-center md:grid-cols-4 container xl:grid-cols-4 2xl:grid-cols-5  gap-4 mt-5 featured-showrooms pb-10 hidden">
                   
                 <div className="dealer-item">
                     <div className="img-cnt">
@@ -796,14 +907,8 @@ export default function Home() {
                       <img src="./images/solnyne-longi.png" className="w-48 h-auto" />
                     </div>                 
                   </div>
-
-
-
+ 
                 </div> */}
-
-
-
-
       </div>
     </div>
   );
