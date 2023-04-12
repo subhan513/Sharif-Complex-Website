@@ -207,11 +207,11 @@ export default function Contact() {
                       />
                     </svg>
                     <a
-                      href="tel: +923271215000"
+                      href="tel: +923281215000"
                       style={{ color: "black" }}
                       className="hover:underline"
                     >
-                      +92-327-121-5000
+                      +92-328-121-5000
                     </a>
                   </p>
                   <p className="text-sm sm:text-lg mt-2 text-gray-800 ">

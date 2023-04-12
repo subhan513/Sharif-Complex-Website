@@ -305,7 +305,7 @@ export default function Nav() {
           <ul className="items-center   uppercase group-hover:text-white   text-white   text-lg font-normal hidden xl:flex">
             <li className="mr-2">
               <a
-                href="https://wa.me/+923271215000"
+                href="https://wa.me/+923281215000"
                 title="WhatsApp Spica International"
                 className="tooltip font-bold flex text-xl hover:-translate-y-1 duration-300 transition   text-black py-1 px-1    rounded-full "
               >
@@ -629,7 +629,7 @@ export default function Nav() {
                           <div className="gap-x-2  panel-social relative top-0 items-center justify-center">
 
                           <a
-                              href="https://wa.me/+923271215000"
+                              href="https://wa.me/+923281215000"
                               title="WhatsApp Spica International"
                               className="tooltip group fill-white bg-green-500 border-black"
                             >

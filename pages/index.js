@@ -92,7 +92,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta name="revisit-after" content="1 days" />
         <meta name="author" content="Najam Awan" />
-        <meta itemProp="name" content="" />
+        <meta itemProp="name" content="A leading institution committed to providing quality education, global exposure, and holistic development." />
 
         <meta
           name="twitter:title"
@@ -110,7 +110,7 @@ export default function Home() {
           property="og:title"
           content="Spica International School Gujranwala - Spica"
         />
-        <meta property="og:type" content="article" />
+        <meta property="og:type" content="website" />
         <meta
           property="og:image"
           content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
