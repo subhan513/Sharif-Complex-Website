@@ -272,7 +272,7 @@ export default function Nav() {
               <Link
                 href="#"
                 className={
-                  currentRoute === "/contact-us"
+                  currentRoute === "#"
                     ? "text-[#e88081] px-3"
                     : "hover:text-[#e88081] px-3"
                 }

@@ -137,7 +137,7 @@ export default function Contact() {
               <div className="block mt-2 text-gray-900 p-8">
                 <Image
                 src="/images/spica-logo2.png"
-                className="mx-auto" alt="Spica International"
+                className="mx-auto mb-5" alt="Spica International"
                 width={150}
                 height={140}
               ></Image>
@@ -166,7 +166,9 @@ export default function Contact() {
                         d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                       />
                     </svg>
-                    Hafiz Abad Road Near Rose Marriage Garden, Opp Flow Petrol Pump Aalam Chowk, Gujranwala, Pakistan.
+                    Hafiz Abad Road Near Rose Marriage Garden, <br/>
+                    Opp Flow Petrol Pump Aalam Chowk, <br/>
+                    Gujranwala, Pakistan.
                     <a
                       href="https://www.google.com/maps/dir//SPICA+INTERNATIONAL+SCHOOL,+Hafizabad+Road,+near+Rose+Marriage+Garden,+opposite+Flow+Petrol+Pump,+Mian+Mir+Town+Gujranwala/@32.1557497,74.1158726,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x391f2bdab05a7bf5:0x1a7ff34116b9776c!2m2!1d74.1508908!2d32.1557819"
                       title="Get direction to Spica International"
