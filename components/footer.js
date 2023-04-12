@@ -102,7 +102,7 @@ export default function Footer({ children, home }) {
                   Fee Voucher
                 </Link>
 
-                <Link href="#" title="Staff Login">
+                <Link href="https://school.spica.com.pk/site/login" title="Staff Login">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -118,7 +118,7 @@ export default function Footer({ children, home }) {
                   Staff Login
                 </Link>
 
-                <Link href="#" title="Student Login">
+                <Link href="https://school.spica.com.pk/site/userlogin" title="Student Login">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -134,7 +134,7 @@ export default function Footer({ children, home }) {
                   Student Login
                 </Link>
 
-                <Link href="#" title="Parent's Login">
+                <Link href="https://school.spica.com.pk/site/userlogin" title="Parent's Login">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -150,7 +150,7 @@ export default function Footer({ children, home }) {
                   Parent's Login
                 </Link>
 
-                <Link href="#" title="Admin Login">
+                <Link href="https://school.spica.com.pk/site/login" title="Admin Login">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -197,7 +197,8 @@ export default function Footer({ children, home }) {
                         d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                       />
                     </svg> 
-                    Hafizabad Road, Near Aalam Chowk, Gujranwala, Pakistan.
+                    Hafiz Abad Road Near Rose Marriage Garden, 
+                    Opp Flow Petrol Pump Aalam Chowk, Grw.
                   </p>
                   <p className="text-base mt-2">
                     <svg
@@ -214,7 +215,7 @@ export default function Footer({ children, home }) {
                         d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
                       />
                     </svg>
-                    <a href="tel:+923001234567"> + 92 300 1234567</a>
+                    <a href="tel:+923271215000"> 0327-121-5000</a>
                   </p>
                   <p className="text-base mt-2">
                     <svg
@@ -231,7 +232,7 @@ export default function Footer({ children, home }) {
                         d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
                       />
                     </svg>
-                    <a href="mailto:info@spica.com.pk"> info@spica.com.pk</a>
+                    <a href="mailto:info@spica.com.pk"> Spicainternationalschool@gmail.com</a>
                   </p>
                 </div>
               </div>

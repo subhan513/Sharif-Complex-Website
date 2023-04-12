@@ -305,7 +305,7 @@ export default function Nav() {
           <ul className="items-center   uppercase group-hover:text-white   text-white   text-lg font-normal hidden xl:flex">
             <li className="mr-2">
               <a
-                href="https://wa.me/+9231234567"
+                href="https://wa.me/+923271215000"
                 title="WhatsApp Spica International"
                 className="tooltip font-bold flex text-xl hover:-translate-y-1 duration-300 transition   text-black py-1 px-1    rounded-full "
               >
@@ -330,7 +330,7 @@ export default function Nav() {
 
             <li>
               <a
-                href="tel:+9212345678 "
+                href="tel:+92554233324 "
                 title="Call Spica International"
                 className="tooltip font-bold flex text-xl 
                 bg-gradient-to-br from-[#dc9612] via-[#f5e9b8] to-[#fbbf03] hover:to-[#dc9612] hover:via-[#ede6cd] hover:from-[#fbbf03] text-black py-1 px-1 2xl:pr-4  rounded-full  "
@@ -351,7 +351,7 @@ export default function Nav() {
                 </span>
 
                 <span className="2xl:ml-3 justify-center items-center hidden 2xl:flex ">
-                    (055) 1234567 
+                    (055)-4233324 
                 </span>
               </a>
             </li>
@@ -603,7 +603,7 @@ export default function Nav() {
                           <div>
                             {" "}
                             <a
-                              href="tel:+921234567"
+                              href="tel:+92554223338"
                               title="Call"
                               className="tooltip font-bold text-xl mt-5 block hover:text-red-600"
                             >
@@ -622,14 +622,14 @@ export default function Nav() {
                                   d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
                                 />
                               </svg>
-                              (055) 1234567
+                              (055)-4223338
                             </a>
                           </div>
 
                           <div className="gap-x-2  panel-social relative top-0 items-center justify-center">
 
                           <a
-                              href="https://wa.me/+9212345678"
+                              href="https://wa.me/+923271215000"
                               title="WhatsApp Spica International"
                               className="tooltip group fill-white bg-green-500 border-black"
                             >
@@ -651,7 +651,7 @@ export default function Nav() {
 
 
                             <a
-                              href="#"
+                              href="spicainternationalschool@gmail.com"
                               title="Email"
                               className="emailit tooltip group fill-white bg-black border-black"
                             >
@@ -667,7 +667,7 @@ export default function Nav() {
                             </a>
 
                             <a
-                              href="#"
+                              href="https://www.facebook.com/profile.php?id=100091807777245"
                               title="Spica International"
                               className="facebook tooltip group fill-white bg-[#4267B2] border-[#4267B2]"
                             >
