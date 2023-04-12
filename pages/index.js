@@ -88,7 +88,7 @@ export default function Home() {
           name="description"
           content="Discover Spica International School Gujranwala - a leading institution committed to providing quality education, global exposure, and holistic development."
         />
-        <link rel="icon" type="image/x-icon" href="/favicon.ico"></link>
+        <link rel="icon" type="image/x-icon" href="/favicon.png"></link>
         <meta name="robots" content="index, follow" />
         <meta name="revisit-after" content="1 days" />
         <meta name="author" content="Najam Awan" />

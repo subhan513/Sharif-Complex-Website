@@ -283,7 +283,7 @@ export default function Nav() {
             
             <li>
               <Link
-                href="#"
+                href="/contact-us"
                 className={
                   currentRoute === "/contact-us"
                     ? "text-[#e88081] px-3"

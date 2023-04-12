@@ -105,45 +105,45 @@ export default function Contact() {
         />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="generator" content="Getsol Inc." />
-        <title>Contact Us | Solnyne Solutions</title>
-        <meta name="title" content="Contact Us | Solnyne Solutions" />
+        <title>Contact Us | Spica International</title>
+        <meta name="title" content="Contact Us | Spica International" />
         <meta name="description" content="" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico"></link>
         <meta name="robots" content="index, follow" />
         <meta name="revisit-after" content="1 days" />
         <meta name="author" content="Najam Awan" />
-        <meta itemProp="name" content="Contact Us | Solnyne Solutions" />
-        <meta itemProp="image" content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75" />
+        <meta itemProp="name" content="Contact Us | Spica International" />
+        <meta itemProp="image" content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Contact Us | Solnyne Solutions" />
+        <meta name="twitter:title" content="Contact Us | Spica International" />
         <meta name="twitter:description" content="" />
-        <meta name="twitter:image:src" content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75" />
-        <meta property="og:title" content="Contact Us | Solnyne Solutions" />
+        <meta name="twitter:image:src" content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
+        <meta property="og:title" content="Contact Us | Spica International" />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75" />
+        <meta property="og:image" content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
         <meta property="og:description" content="" />
         <meta property="og:locale" content="en" />
-        <meta itemProp="image" content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75" />
+        <meta itemProp="image" content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
         <link rel="canonical" href="https://solnyne.com/contact-us" />
         <link rel="preconnect" href="//www.google-analytics.com" as="script" />
         <meta name="google" content="notranslate" />
       </Head>
-      <MainHeader pageHeading="CONTACT US | Solnyne Solutions" pageImg="bg3-1.jpg" />
+      <MainHeader pageHeading="CONTACT US | Spica International" pageImg="bg3-1.jpg" />
 		
 		
 		<section className="main-sec relative">
           <div className="grid sm:grid-cols-2 gap-4 container mx-auto">
             <div className="content-bx bg-no-repeat   bg-center" style={{
-          backgroundImage: "url('./images/cnt-bg.jpg')" }}>
+          backgroundImage: "url('./images/pre-nursery-child.jpg')" }}>
               <div className="block mt-2 text-gray-900 p-8">
                 <Image
-                src="/images/solnyne-logo.png"
-                className="mx-auto" alt="Solnyne Solutions"
+                src="/images/spica-logo2.png"
+                className="mx-auto" alt="Spica International"
                 width={150}
                 height={140}
               ></Image>
                 <center><span className="text-xl font-bold text-center mt-3">
-                Solnyne Solutions - Gujranwala 
+                Spica International - Gujranwala 
               </span></center>
                 <ul className="text-center">
                 <li>
@@ -167,10 +167,10 @@ export default function Contact() {
                         d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                       />
                     </svg>
-                    1st Floor Taaj Din Pharmacy, Near Amazon Gym Khana, Rahwali Cantt, Gujranwala, Pakistan
+                    Hafiz Abad Road Near Rose Marriage Garden, Opp Flow Petrol Pump Aalam Chowk, Gujranwala, Pakistan.
                     <a
-                      href="https://www.google.com/maps/dir//Solnyne+Solutions+1st+Floor+Taaj+din+Pharmacy+Near+Amazon+Gymkhana,+Rahwali+Gate+Grand+Trunk+Rd+Green+Town,+Rahwali,+Gujranwala,+Punjab+52250/@32.2420442,74.1644135,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x391f294c03e41757:0xc52dfeae5e136734"
-                      title="Get direction to Solnyne Solutions"
+                      href="https://www.google.com/maps/dir//SPICA+INTERNATIONAL+SCHOOL,+Hafizabad+Road,+near+Rose+Marriage+Garden,+opposite+Flow+Petrol+Pump,+Mian+Mir+Town+Gujranwala/@32.1557497,74.1158726,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x391f2bdab05a7bf5:0x1a7ff34116b9776c!2m2!1d74.1508908!2d32.1557819"
+                      title="Get direction to Spica International"
                       className="tooltip"
                       target="_blank"
                     >
@@ -206,11 +206,11 @@ export default function Contact() {
                       />
                     </svg>
                     <a
-                      href="tel: +923041111908"
+                      href="tel: +923271215000"
                       style={{ color: "black" }}
                       className="hover:underline"
                     >
-                      + 92 304 1111908
+                      +92-327-121-5000
                     </a>
                   </p>
                   <p className="text-sm sm:text-lg mt-2 text-gray-800 ">
@@ -233,7 +233,7 @@ export default function Contact() {
                       href="mailto:info@solnyne.com"
                       style={{ color: "black" }}
                     >
-                      info@solnyne.com
+                      Spicainternationalschool@gmail.com
                     </a>
                   </p>
                 </li>
@@ -243,7 +243,7 @@ export default function Contact() {
 
             <div className="content-bx ">
 
-              <h3 className="text-2xl text-center">Get Free Consultation</h3> 
+              <h3 className="text-2xl text-center">Inquire Now</h3> 
            
             <form onSubmit={handleSubmit} className="mt-2">
             <div className="grid sm:grid-cols-2 gap-4">
@@ -367,15 +367,8 @@ export default function Contact() {
           </div>
 
           <div className="content-bx">
-		  
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3374.595950788218!2d74.16222481512395!3d32.24204418113678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391f294c03e41757%3A0xc52dfeae5e136734!2sSolnyne%20Solutions!5e0!3m2!1sen!2s!4v1667998798047!5m2!1sen!2s"
-              style={{ border: "0" }}
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              className="w-full h-96 rounded-xl outline-none"
-            ></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3377.79781229272!2d74.14870331554248!3d32.15575448116402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391f2bdab05a7bf5%3A0x1a7ff34116b9776c!2sSPICA%20INTERNATIONAL%20SCHOOL!5e0!3m2!1sen!2s!4v1681268513735!5m2!1sen!2s" style={{ border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className="w-full h-96 rounded-xl outline-none"></iframe>
+            
 
  
 
