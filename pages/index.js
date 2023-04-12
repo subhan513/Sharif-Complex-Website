@@ -812,7 +812,7 @@ export default function Home() {
 
             <div className="social">
               <a
-                href="https://wa.me/+9231234567"
+                 href="https://wa.me/+923271215000"
                 title="WhatsApp"
                 className="tooltip hover:-translate-y-2 duration-300 transition"
               >
@@ -833,7 +833,7 @@ export default function Home() {
               </a>
 
               <a
-                href="tel:+92321234567"
+                href="tel:+923271215000"
                 title="Call"
                 className="tooltip  hover:-translate-y-2 duration-300 transition"
               >
