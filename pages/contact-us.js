@@ -108,7 +108,7 @@ export default function Contact() {
         <title>Contact Us | Spica International</title>
         <meta name="title" content="Contact Us | Spica International" />
         <meta name="description" content="" />
-        <link rel="icon" type="image/x-icon" href="/favicon.ico"></link>
+        <link rel="icon" type="image/x-icon" href="/favicon.png"></link>
         <meta name="robots" content="index, follow" />
         <meta name="revisit-after" content="1 days" />
         <meta name="author" content="Najam Awan" />
@@ -124,17 +124,16 @@ export default function Contact() {
         <meta property="og:description" content="" />
         <meta property="og:locale" content="en" />
         <meta itemProp="image" content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
-        <link rel="canonical" href="https://solnyne.com/contact-us" />
+        <link rel="canonical" href="https://spica.com.pk/contact-us" />
         <link rel="preconnect" href="//www.google-analytics.com" as="script" />
         <meta name="google" content="notranslate" />
       </Head>
-      <MainHeader pageHeading="CONTACT US | Spica International" pageImg="bg3-1.jpg" />
+      <MainHeader pageHeading="CONTACT US | Spica International" pageImg="hdr-1.jpg" />
 		
 		
 		<section className="main-sec relative">
           <div className="grid sm:grid-cols-2 gap-4 container mx-auto">
-            <div className="content-bx bg-no-repeat   bg-center" style={{
-          backgroundImage: "url('./images/pre-nursery-child.jpg')" }}>
+            <div className="content-bx bg-no-repeat   bg-center">
               <div className="block mt-2 text-gray-900 p-8">
                 <Image
                 src="/images/spica-logo2.png"
@@ -243,7 +242,7 @@ export default function Contact() {
 
             <div className="content-bx ">
 
-              <h3 className="text-2xl text-center">Inquire Now</h3> 
+              <h3 className="text-2xl text-center">Send us your Inquiry</h3> 
            
             <form onSubmit={handleSubmit} className="mt-2">
             <div className="grid sm:grid-cols-2 gap-4">
