@@ -62,7 +62,7 @@ export default function About() {
           name="description"
           content="We provides a high-quality early childhood education in a safe and nurturing environment that fosters creativity, critical thinking, and global awareness."
         />
-        <link rel="icon" type="image/x-icon" href="/favicon.ico"></link>
+        <link rel="icon" type="image/x-icon" href="/favicon."></link>
         <meta name="robots" content="index, follow" />
         <meta name="revisit-after" content="1 days" />
         <meta name="author" content="Najam Awan" />
@@ -108,7 +108,7 @@ export default function About() {
       </Head>
 
       <MainHeader
-        pageHeading="ABOUT US - Spica International School"
+        pageHeading="ABOUT US"
         pageImg="header-1.jpg"
       />
 
@@ -222,25 +222,7 @@ export default function About() {
           </blockquote>
         </div>
       </figure>
-      <section className="px-5">
-      <div className="relative container mx-auto max-w-7xl py-10">
-        <div className="absolute inset-0 flex items-center" aria-hidden="true">
-          <div className="w-full border-t border-gray-300" />
-        </div>
-        <div className="relative flex justify-center">
-          <span className=" px-2 text-gray-500">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              className="h-5 w-5 text-gray-500"
-            >
-              <path d="M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z" />
-            </svg>
-          </span>
-        </div>
-      </div>
-    </section>
+      
       {/* <section className="px-5 pb-0">
         <div className="sec-heading">
           <h2>Messages</h2>
@@ -333,79 +315,31 @@ export default function About() {
         </div>
       </section> */}
                   
-    <section className="relative">
-
-
-
-    
-      {/* <div className="mx-auto max-w-7xl py-12 px-4 sm:py-16 sm:px-6 lg:px-8 z-20">
-        <div className="mx-auto   divide-y-2 divide-gray-200">
-          <h2 className="text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-           Our Process
-          </h2>
-          <dl className="mt-6 space-y-6 divide-y divide-gray-200 bg-white p-6 rounded-xl shadow">
-            {faqs.map((faq,index) => (
-              <Disclosure as="div" key={faq.question} className="pt-6">
-                {({ open }) => (
-                  <>
-                    <dt className="md:text-xl text-base">
-                      <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-400 group">
-                        <i className="absolute not-italic">{index+1}</i><span className="font-bold pl-5 md:pl-10 text-gray-900 group-hover:text-amber-500">{faq.question}</span>
-                        <span className="ml-6 flex h-7 items-center text-amber-500">
-                          <PlusIcon
-                            className={classNames(open ? 'hidden' : 'flex', 'h-5 w-5 mr-4 transform')}
-                            aria-hidden="true"
-                          />
-                           <MinusIcon
-                            className={classNames(open ? 'flex' : 'hidden', 'h-5 w-5 mr-4 transform')}
-                            aria-hidden="true"
-                          />
-                        </span>
-                      </Disclosure.Button>
-                    </dt>
-                    <Transition
-        enter="transition duration-100 ease-out"
-        enterFrom="transform scale-95 opacity-0"
-        enterTo="transform scale-100 opacity-100"
-        leave="transition duration-75 ease-out"
-        leaveFrom="transform scale-100 opacity-100"
-        leaveTo="transform scale-95 opacity-0"
-      >
-        <Disclosure.Panel as="dd" className="mt-2 pr-2">
-                      <p className="md:text-lg text-sm text-gray-500">{faq.answer}</p>
-                    </Disclosure.Panel>
-      </Transition>
-         
-                  </>
-                )}
-              </Disclosure>
-            ))}
-          </dl>
-        </div>
-
-       
-      
-
-
-
-      </div> 
-
-
-*/}
-      <div className=" flex justify-center items-center mt-10">
-              <Link href="/solar-referral"
-                className="border   text-white text-sm sm:text-base md:text-2xl mt-5 cursor-pointer   hover:text-white 
-                rounded-full text-center    mx-auto md:px-8   inline-flex items-center w-auto p-4 py-4   font-semibold   transition-all duration-300 shadow-md hover:from-amber-400 hover:via-amber-600 hover:to-amber-800 bg-gradient-to-tr from-amber-400 via-amber-500 to-amber-600  
-                "
-              >
-               Earn Money with Solar Referral Program
-              </Link>
-            </div>
+   
 
 
       <div className="absolute inset-x-0 bottom-0 h-96 -z-10 text-slate-600/10 [mask-image:linear-gradient(to_bottom,transparent,white)]"><svg className="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="pricing-pattern" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)"><path d="M0 32V.5H32" fill="none" stroke="currentColor"></path></pattern></defs><rect width="100%" height="100%" fill="url(#pricing-pattern)"></rect></svg></div>  
       
-      </section>
+     
+      <section className="px-5">
+      <div className="relative container mx-auto max-w-7xl py-10">
+        <div className="absolute inset-0 flex items-center" aria-hidden="true">
+          <div className="w-full border-t border-gray-300" />
+        </div>
+        <div className="relative flex justify-center">
+          <span className=" px-2 text-gray-500">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              className="h-5 w-5 text-gray-500"
+            >
+              <path d="M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z" />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </section>
     </>
   );
 }

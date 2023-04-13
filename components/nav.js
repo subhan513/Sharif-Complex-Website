@@ -236,10 +236,10 @@ export default function Nav() {
 
             <li>
               <Link
-                href="#"
+                href="/gallery"
                 //href="/solutions"
                 className={
-                  currentRoute.includes("solutions")
+                  currentRoute.includes("gallery")
                     ? "text-[#e88081] px-3"
                     : "hover:text-[#e88081] px-3"
                 }
@@ -551,10 +551,10 @@ export default function Nav() {
             </li>
                         <li className="py-3 productslink">
                           <Link
-                            href="#"
+                            href="/gallery"
                             onClick={handleToggle}
                             className={
-                              currentRoute === "/solutions"
+                              currentRoute === "/gallery"
                                 ? "text-[#01b8ee] "
                                 : "hover:text-[#01b8ee]"
                             }
