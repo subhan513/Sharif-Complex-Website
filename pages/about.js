@@ -8,34 +8,34 @@ import { PlusIcon,MinusIcon } from "@heroicons/react/outline";
 
  
 
-const faqs = [
-  {
-    question: "Pre Planning",
-    answer:
-      "Concept, Feasibility study, financing & funding, permits & licensing",
-  },
-  {
-    question: "Designing & Engineering",
-    answer:
-      "Specification, outline & detailed design, energy estimates.",
-  },
-  {
-    question: "Construction",
-    answer:
-      "Procurement, Contracting, Logistics, Site Preparation & environment mitigation, mounting structures & Assembly subsystems.",
-  },
-  {
-    question: "Operation",
-    answer:
-      "Running the power plant in order to deliver Projected energy performance in compliance with applicable rules and regulations. Certification & Commissioning Connection to power grid.",
-  },
-  {
-    question: "Maintenance & After Sales",
-    answer:
-      "Solar maintenance services, solar repair, solar checking, solar fix, solar report, Solar O&m. After-Sales Services help to establish customer loyalty and ensure customer retainment. They mark that customer's relations with your company hasn't ended yet.",
-  },
+// const faqs = [
+//   {
+//     question: "Pre Planning",
+//     answer:
+//       "Concept, Feasibility study, financing & funding, permits & licensing",
+//   },
+//   {
+//     question: "Designing & Engineering",
+//     answer:
+//       "Specification, outline & detailed design, energy estimates.",
+//   },
+//   {
+//     question: "Construction",
+//     answer:
+//       "Procurement, Contracting, Logistics, Site Preparation & environment mitigation, mounting structures & Assembly subsystems.",
+//   },
+//   {
+//     question: "Operation",
+//     answer:
+//       "Running the power plant in order to deliver Projected energy performance in compliance with applicable rules and regulations. Certification & Commissioning Connection to power grid.",
+//   },
+//   {
+//     question: "Maintenance & After Sales",
+//     answer:
+//       "Solar maintenance services, solar repair, solar checking, solar fix, solar report, Solar O&m. After-Sales Services help to establish customer loyalty and ensure customer retainment. They mark that customer's relations with your company hasn't ended yet.",
+//   },
    
-]
+// ]
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -53,14 +53,14 @@ export default function About() {
         />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="generator" content="Getsol Inc." />
-        <title>About Us | Solnyne Solutions</title>
+        <title>About Us | Spica International School</title>
         <meta
           name="title"
-          content="About Us | Solnyne Solutions"
+          content="About Us | Spica International School"
         />
         <meta
           name="description"
-          content="Looking for a reliable solar solutions provider in Pakistan? Look no further than Solnyne! We offer expert services for all your solar needs."
+          content="We provides a high-quality early childhood education in a safe and nurturing environment that fosters creativity, critical thinking, and global awareness."
         />
         <link rel="icon" type="image/x-icon" href="/favicon.ico"></link>
         <meta name="robots" content="index, follow" />
@@ -69,47 +69,47 @@ export default function About() {
         <meta itemProp="name" content="" />
         <meta
           itemProp="image"
-          content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75"
+          content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
         />
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
-          content="About Us | Solnyne Solutions"
+          content="About Us | Spica International School"
         />
         <meta
           name="twitter:description"
-          content="Looking for a reliable solar solutions provider in Pakistan? Look no further than Solnyne! We offer expert services for all your solar needs."
+          content="We provides a high-quality early childhood education in a safe and nurturing environment that fosters creativity, critical thinking, and global awareness."
         />
         <meta
           name="twitter:image:src"
-          content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75"
+          content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
         />
         <meta
           property="og:title"
-          content="About Us | Solnyne Solutions"
+          content="About Us | Spica International School"
         />
-        <meta property="og:type" content="article" />
+        <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75"
+          content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
         />
         <meta
           property="og:description"
-          content="Looking for a reliable solar solutions provider in Pakistan? Look no further than Solnyne! We offer expert services for all your solar needs."
+          content="We provides a high-quality early childhood education in a safe and nurturing environment that fosters creativity, critical thinking, and global awareness."
         />
         <meta property="og:locale" content="en" />
         <meta
           itemProp="image"
-          content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75"
+          content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
         />
-        <link rel="canonical" href="https://solnyne.com/about" />
+        <link rel="canonical" href="https://spica.com.pk/about" />
         <link rel="preconnect" href="//www.google-analytics.com" as="script" />
         <meta name="google" content="notranslate" />
       </Head>
 
       <MainHeader
-        pageHeading="ABOUT US - Solnyne Solutions"
-        pageImg="hdr-2.jpg"
+        pageHeading="ABOUT US - Spica International School"
+        pageImg="header-1.jpg"
       />
 
       <section className="main-sec">
@@ -118,29 +118,12 @@ export default function About() {
           style={{ boxShadow: "0px -15px 15px rgba(1,41,112,0.08)" }}
         >
           <p>
-            <span className="font-bold">Solnyne Solutions</span> is a leading
-            energy company focusing on transition to clean energy by increasing
-            the adoption of solar technology. We provide complete rooftop solar
-            system for industrial, commercial and residential customers right
-            from site audit to complete installation & commissioning.
+            <span className="font-bold">Spica International School</span> is a vibrant and nurturing environment that is specifically designed for children aged 2 to 5 years old. With a strong focus on early childhood education, the school provides a range of stimulating and engaging activities that promote learning and development in a fun and supportive atmosphere. From the colorful and interactive classrooms to the spacious outdoor play area, every aspect of Spica International School has been thoughtfully designed to meet the unique needs of young learners. Highly trained and experienced teachers are dedicated to providing individualized attention to each child and fostering a love of learning that will stay with them throughout their lives. With a commitment to excellence and a warm and welcoming community, Spica International School is the perfect place for young children to begin their educational journey.
           </p>
           <p>
-            Our goal is to increase the adoption of solar energy by making
-            process simpler, faster supported by finance and technical guidance.
-            We have highly skilled team having hands on experience in designing
-            and commissioning different kinds of solar plants. We have worked
-            with large real estate players, schools & colleges, bungalows and
-            religious outfits.
+          Spica International School's goal is to provide a high-quality, inclusive, and nurturing learning environment that empowers young children to reach their full potential. Our aim is to foster a love of learning, creativity, critical thinking, and global awareness in our students, while promoting values of respect, kindness, and empathy. We strive to maintain an inclusive and diverse community that celebrates differences and promotes understanding and acceptance. We are committed to continuously improving our curriculum, facilities, and teaching practices to provide the best possible learning experiences for our students. Our goal is to prepare our students for success in their future academic and personal pursuits, and to become responsible and compassionate global citizens who make positive contributions to society.
           </p>
-          <p>
-            The future is clean energy and solar is an extremely versatile
-            technology promising a green future. So, if you are looking to adopt
-            this great technology, you can trust us as of the leading solar
-            system suppliers in Gujranwala. We have made many go green and save
-            on their electricity bills by switching to solar energy. Along with
-            our solar rooftop offerings we believe that we are also one of the
-            top solar consultants in Gujranwala.
-          </p>
+         
         </div>
       </section>
 
@@ -172,19 +155,13 @@ export default function About() {
                     <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                   </svg>
                   <p className="relative text-justify">
-                    Solnyne Solution aims to promote solar energy and envisions
-                    a future where renewable energy sources will be predominant,
-                    breaking humanity's addiction to fossil fuels and changing
-                    our destructive habits in energy and resource consumption,
-                    leading to smarter and more efficient energy management and
-                    assuring our wellbeing, ultimately leading us to new
-                    frontiers.
+                  At SPICA International School, our vision is to be a leading institution in early childhood education that provides an exceptional learning experience to children from diverse backgrounds. Our goal is to foster a love of learning in every child that inspires them to become curious, creative, and critical thinkers who are ready to face the challenges of the future. We envision a school where every child is valued and respected, and where they are encouraged to develop their unique talents and interests.
                   </p>
                 </div>
 
                 <div className="mt-4">
                   <p className="text-base font-semibold text-slate-300">
-                    Solnyne Solutions
+                    Spica International School
                   </p>
                 </div>
               </blockquote>
@@ -218,11 +195,7 @@ export default function About() {
                     <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                   </svg>
                   <p className="relative text-justify">
-                    Solnyne Solution aims to promote solar energy in Pakistan
-                    and implement efficient and optimal PV systems for clients
-                    to help protect the environment and reduce the damage caused
-                    by fossil fuels, utilizing the practically unlimited
-                    sunlight available in Pakistan.
+                  The mission of SPICA International School is to provide a high-quality early childhood education that empowers young children to reach their full potential. We aim to provide a safe, nurturing, and inclusive learning environment that fosters a love of learning, creativity, and critical thinking in our students. Our mission is to provide a curriculum that is engaging, developmentally appropriate, and designed to meet the unique needs of each child. We are committed to recruiting and retaining highly qualified and experienced teachers who are dedicated to the success of each child.
                   </p>
                 </div>
               </blockquote>
@@ -268,7 +241,7 @@ export default function About() {
         </div>
       </div>
     </section>
-      <section className="px-5 pb-0">
+      {/* <section className="px-5 pb-0">
         <div className="sec-heading">
           <h2>Messages</h2>
         </div>
@@ -358,14 +331,14 @@ export default function About() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
                   
     <section className="relative">
 
 
 
     
-      <div className="mx-auto max-w-7xl py-12 px-4 sm:py-16 sm:px-6 lg:px-8 z-20">
+      {/* <div className="mx-auto max-w-7xl py-12 px-4 sm:py-16 sm:px-6 lg:px-8 z-20">
         <div className="mx-auto   divide-y-2 divide-gray-200">
           <h2 className="text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
            Our Process
@@ -411,6 +384,14 @@ export default function About() {
         </div>
 
        
+      
+
+
+
+      </div> 
+
+
+*/}
       <div className=" flex justify-center items-center mt-10">
               <Link href="/solar-referral"
                 className="border   text-white text-sm sm:text-base md:text-2xl mt-5 cursor-pointer   hover:text-white 
@@ -420,14 +401,6 @@ export default function About() {
                Earn Money with Solar Referral Program
               </Link>
             </div>
-
-
-
-      </div>
-
-
-
-
 
 
       <div className="absolute inset-x-0 bottom-0 h-96 -z-10 text-slate-600/10 [mask-image:linear-gradient(to_bottom,transparent,white)]"><svg className="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="pricing-pattern" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)"><path d="M0 32V.5H32" fill="none" stroke="currentColor"></path></pattern></defs><rect width="100%" height="100%" fill="url(#pricing-pattern)"></rect></svg></div>  

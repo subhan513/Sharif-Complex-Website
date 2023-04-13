@@ -68,6 +68,20 @@ export default function Nav() {
             </li>
 
             <li>
+              <Link
+                href="/about"
+                //href="/solutions"
+                className={
+                  currentRoute.includes("about")
+                    ? "text-[#e88081] px-3"
+                    : "hover:text-[#e88081] px-3"
+                }
+              >
+                About Us
+              </Link>
+            </li>
+
+            {/* <li>
               <Menu as="div" className="relative inline-block text-left px-3">
                 <div>
                   <Menu.Button  className={
@@ -92,12 +106,7 @@ export default function Nav() {
                 
                 
 
-                {/*
-                  SunIcon change to this
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
-                </svg>
-                */}
+                
 
 
                 <Transition
@@ -149,7 +158,7 @@ export default function Nav() {
                   </Menu.Items>
                 </Transition>
               </Menu>
-            </li>
+            </li> */}
 
             
            {/* <li>
@@ -436,10 +445,10 @@ export default function Nav() {
                           </Link>{" "}
                         </li>
                        
-                        <li className="py-3">
+                        {/* <li className="py-3">
                           ABOUT US
-                          <Link  onClick={handleToggle} href="#" title="Director's Message" className="block mt-2 ml-4 text-blue-500">
-                        <svg
+                           <Link  onClick={handleToggle} href="#" title="Director's Message" className="block mt-2 ml-4 text-blue-500">
+                          <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
                             fill="currentColor"
@@ -451,9 +460,9 @@ export default function Nav() {
                               clipRule="evenodd"
                             />
                           </svg>Director's Message
-                        </Link>
-                        <Link  onClick={handleToggle} href="#" title="Our Team" className="block mt-2 ml-4 text-blue-500">
-                        <svg
+                           </Link>
+                             <Link  onClick={handleToggle} href="#" title="Our Team" className="block mt-2 ml-4 text-blue-500">
+                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
                             fill="currentColor"
@@ -465,9 +474,9 @@ export default function Nav() {
                               clipRule="evenodd"
                             />
                           </svg>Our Team
-                        </Link>
-                         <Link  onClick={handleToggle} href="#" title="Our Philosphy" className="block mt-2 ml-4 text-blue-500">
-                         <svg
+                             </Link>
+                             <Link  onClick={handleToggle} href="#" title="Our Philosphy" className="block mt-2 ml-4 text-blue-500">
+                             <svg
                              xmlns="http://www.w3.org/2000/svg"
                              viewBox="0 0 20 20"
                              fill="currentColor"
@@ -478,10 +487,25 @@ export default function Nav() {
                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
                                clipRule="evenodd"
                              />
-                           </svg>Our Philosphy
-                         </Link>
-                         <Link  onClick={handleToggle} href="#" title="Our Mission and Vision" className="block mt-2 ml-4 text-blue-500">
-                         <svg
+                              </svg>Our Philosphy
+                            </Link>
+                             <Link  onClick={handleToggle} href="#" title="Our Mission and Vision" className="block mt-2 ml-4 text-blue-500">
+                             <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           viewBox="0 0 20 20"
+                           fill="currentColor"
+                           className="w-5 h-5 inline -mt-1 mr-1"
+                             >
+                           <path
+                             fillRule="evenodd"
+                             d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                             clipRule="evenodd"
+                           />
+                             </svg>
+                           Our Mission and Vision
+                            </Link>
+                           <Link  onClick={handleToggle} href="#" title="Our Goals" className="block mt-2 ml-4 text-blue-500">
+                             <svg
                            xmlns="http://www.w3.org/2000/svg"
                            viewBox="0 0 20 20"
                            fill="currentColor"
@@ -492,40 +516,39 @@ export default function Nav() {
                              d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
                              clipRule="evenodd"
                            />
-                         </svg>
-                         Our Mission and Vision
-                       </Link>
-                       <Link  onClick={handleToggle} href="#" title="Our Goals" className="block mt-2 ml-4 text-blue-500">
-                       <svg
+                            </svg>Our Goals
+                          </Link>
+                          <Link  onClick={handleToggle} href="#" title="Our Campus" className="block mt-2 ml-4 text-blue-500">
+                          <svg
                            xmlns="http://www.w3.org/2000/svg"
                            viewBox="0 0 20 20"
                            fill="currentColor"
                            className="w-5 h-5 inline -mt-1 mr-1"
-                         >
-                           <path
+                             >
+                               <path
                              fillRule="evenodd"
                              d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
                              clipRule="evenodd"
-                           />
-                         </svg>Our Goals
-                       </Link>
-                       <Link  onClick={handleToggle} href="#" title="Our Campus" className="block mt-2 ml-4 text-blue-500">
-                       <svg
-                           xmlns="http://www.w3.org/2000/svg"
-                           viewBox="0 0 20 20"
-                           fill="currentColor"
-                           className="w-5 h-5 inline -mt-1 mr-1"
-                         >
-                           <path
-                             fillRule="evenodd"
-                             d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
-                             clipRule="evenodd"
-                           />
-                         </svg>Our Campus
-                       </Link>
+                               />
+                              </svg>Our Campus
+                              </Link>
                        
                         
-                        </li>
+                        </li> */}
+
+
+<li>
+              <Link
+                href="/about"
+                                className={
+                  currentRoute.includes("about")
+                    ? "text-[#e88081] px-3"
+                    : "hover:text-[#e88081] px-3"
+                }
+              >
+                About Us
+              </Link>
+            </li>
                         <li className="py-3 productslink">
                           <Link
                             href="#"
