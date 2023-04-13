@@ -109,7 +109,7 @@ export default function About() {
 
       <MainHeader
         pageHeading="ABOUT US"
-        pageImg="header-1.jpg"
+        pageImg="header-1.webp"
       />
 
       <section className="main-sec">

@@ -80,7 +80,7 @@ export default function About() {
 
       <MainHeader
         pageHeading="Gallery"
-        pageImg="header-2.jpg"
+        pageImg="header-2.webp"
       />
 
       <section className="main-sec">
@@ -106,19 +106,19 @@ export default function About() {
                               <img
                                 alt="gallery"
                                 className="block h-full w-full rounded-lg object-cover object-center"
-                                src="./images/gallery/1.jpg" />
+                                src="./images/gallery/1.webp" />
                             </div>
                             <div className="w-1/2 p-1 md:p-2">
                               <img
                                 alt="gallery"
                                 className="block h-full w-full rounded-lg object-cover object-center"
-                                src="./images/gallery/2.jpg" />
+                                src="./images/gallery/2.webp" />
                             </div>
                             <div className="w-full p-1 md:p-2">
                               <img
                                 alt="gallery"
                                 className="block h-full w-full rounded-lg object-cover object-center"
-                                src="./images/gallery/3.jpg" />
+                                src="./images/gallery/3.webp" />
                             </div>
                           </div>
                           <div className="flex w-1/2 flex-wrap">
@@ -126,19 +126,19 @@ export default function About() {
                               <img
                                 alt="gallery"
                                 className="block h-full w-full rounded-lg object-cover object-center"
-                                src="./images/gallery/4.jpg" />
+                                src="./images/gallery/4.webp" />
                             </div>
                             <div className="w-1/2 p-1 md:p-2">
                               <img
                                 alt="gallery"
                                 className="block h-full w-full rounded-lg object-cover object-center"
-                                src="./images/gallery/5.jpg" />
+                                src="./images/gallery/5.webp" />
                             </div>
                             <div className="w-1/2 p-1 md:p-2">
                               <img
                                 alt="gallery"
                                 className="block h-full w-full rounded-lg object-cover object-center"
-                                src="./images/gallery/6.jpg" />
+                                src="./images/gallery/6.webp" />
                             </div>
                           </div>
                         </div>
@@ -198,7 +198,7 @@ export default function About() {
                       <img
                         alt="gallery"
                         className="block h-full w-full rounded-lg object-cover object-center"
-                        src="./images/gallery/7.jpg" />
+                        src="./images/gallery/7.webp" />
                     </div>
                   </div>
                   <div className="flex w-1/3 flex-wrap">
@@ -206,7 +206,7 @@ export default function About() {
                       <img
                         alt="gallery"
                         className="block h-full w-full rounded-lg object-cover object-center"
-                        src="./images/gallery/8.jpg" />
+                        src="./images/gallery/8.webp" />
                     </div>
                   </div>
                   <div className="flex w-1/3 flex-wrap">
@@ -214,7 +214,7 @@ export default function About() {
                       <img
                         alt="gallery"
                         className="block h-full w-full rounded-lg object-cover object-center"
-                        src="./images/gallery/9.jpg" />
+                        src="./images/gallery/9.webp" />
                     </div>
                   </div>
                   <div className="flex w-1/3 flex-wrap">
@@ -222,7 +222,7 @@ export default function About() {
                       <img
                         alt="gallery"
                         className="block h-full w-full rounded-lg object-cover object-center"
-                        src="./images/gallery/10.jpg" />
+                        src="./images/gallery/10.webp" />
                     </div>
                   </div>
                   <div className="flex w-1/3 flex-wrap">
@@ -230,7 +230,7 @@ export default function About() {
                       <img
                         alt="gallery"
                         className="block h-full w-full rounded-lg object-cover object-center"
-                        src="./images/gallery/11.jpg" />
+                        src="./images/gallery/11.webp" />
                     </div>
                   </div>
                   <div className="flex w-1/3 flex-wrap">
@@ -238,7 +238,7 @@ export default function About() {
                       <img
                         alt="gallery"
                         className="block h-full w-full rounded-lg object-cover object-center"
-                        src="./images/gallery/12.jpg" />
+                        src="./images/gallery/12.webp" />
                     </div>
                   </div>
                 </div>
