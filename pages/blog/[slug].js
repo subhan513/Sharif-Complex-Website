@@ -5,10 +5,13 @@ import MainHeader from "../../components/mainheader";
 import MainHeaderBlog from "../../components/mainheaderblog";
 import Head from "next/head";
 import content from "../blogposts";
-
+import { ArticleJsonLd,BreadcrumbJsonLd} from "next-seo";
 export default function BlogPage({ post }) {
-  //console.log(post);
+ 
 
+  const dateStrings = post.date;
+  const date = new Date(dateStrings);
+  const formattedDates = date.toISOString();
   return (
     <>
       <Head>
@@ -45,6 +48,38 @@ export default function BlogPage({ post }) {
         <link rel="preconnect" href="//www.google-analytics.com" as="script" />
         <meta name="google" content="notranslate" />
       </Head>
+      <ArticleJsonLd
+        type="BlogPosting"
+        url={`https://spica.com.pk/blog/${post.slug}`}
+        title={`${post.title}`}
+        images={[`${"https://spica.com.pk" + post.featured_img}`]}
+        datePublished={`${formattedDates}`}
+        dateModified={`${formattedDates}`}
+        authorName={`${post.author}`}
+        description={`${post.shortdescription}`}
+      />
+      <BreadcrumbJsonLd
+      itemListElements={[
+        {
+          position: 1,
+          name: 'Home',
+          item: 'https://spica.com.pk',
+        },
+        {
+          position: 2,
+          name: 'Blog',
+          item: 'https://spica.com.pk/blog',
+        },
+        {
+          position: 3,
+          name: post.title,
+          item: 'https://spica.com.pk/blog/'+post.slug,
+        }        
+      ]}
+    />
+
+
+
       <MainHeader pageImg={"header-2.jpg"} pageHeading={post.title} />
 
       <section className="  pb-10 relative px-5">
