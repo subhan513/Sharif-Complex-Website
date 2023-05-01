@@ -133,10 +133,11 @@ export default function Home() {
       <header className="homeHeader bg-slate-800">
         <div className="homehdrtxt z-40">
           <div>
+            
             <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-slate-300 via-white to-slate-50">
               Excellence In Education
             </h1>
-            <h2>
+            <h2 style={{textShadow: "1px 2px 2px rgba(0,0,0,.4)"}}> 
               Our mission is to inspire students not only intellectually but
               also Spiritually
             </h2>
@@ -152,7 +153,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-
+        <div className="w-full h-full bg-gradient-to-b from-slate-800 via-transparent z-20  absolute"></div>
         <Image
               src="/images/spica-home-banner.jpg"
               alt="Spica International School"
@@ -162,8 +163,8 @@ export default function Home() {
             ></Image>
 
         <div className="w-full h-full bg-gradient-to-b from-slate-800 via-transparent z-20  absolute"></div>
-        <div className="w-full h-full bg-gradient-to-b from-red-800 via-transparent z-20  absolute"></div>
-        <div className="w-full h-full bg-gradient-to-t from-red-800 via-transparent z-20  absolute"></div>
+      
+        <div className="w-full h-full bg-gradient-to-t from-red-800 via-transparent z-40  absolute"></div>
       </header>
 
       <section className="py-0 pt-16 ">
