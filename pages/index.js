@@ -138,7 +138,7 @@ export default function Home() {
             </h1>
             <h2>
               Our mission is to inspire students not only intellectually but
-              also Spirtually
+              also Spiritually
             </h2>
 
             <div className=" flex justify-center items-center mt-10">
@@ -153,17 +153,17 @@ export default function Home() {
           </div>
         </div>
 
-        <video
-          autoPlay
-          className="mySwiper absolute inset-0 h-full w-full object-cover"
-          controlsList="nodownload"
-          loop={true}
-          muted=""
-          playsInline=""
-          src="/images/slides/spica-video.mp4"
-        ></video>
+        <Image
+              src="/images/spica-home-banner.jpg"
+              alt="Spica International School"
+              title="SPICA"
+              fill="true"
+              className="bg-cover"
+            ></Image>
 
         <div className="w-full h-full bg-gradient-to-b from-slate-800 via-transparent z-20  absolute"></div>
+        <div className="w-full h-full bg-gradient-to-b from-red-800 via-transparent z-20  absolute"></div>
+        <div className="w-full h-full bg-gradient-to-t from-red-800 via-transparent z-20  absolute"></div>
       </header>
 
       <section className="py-0 pt-16 ">
@@ -323,10 +323,9 @@ export default function Home() {
                   height={75}
                 />
 
-                <h2>Pre Nursery</h2>
+                <h2>Pre School</h2>
                 <p>
-                  For Age 1.5 Years to 2.5 Years - From Toddling to Thriving:
-                  Nurturing Young Minds at Every Step in Life
+                Early Learning Adventures: Our Pre-School Program for Playgroup, Nursery, and Kindergarten
                 </p>
 
                 <Image
@@ -351,10 +350,9 @@ export default function Home() {
                   width={64}
                   height={75}
                 />
-                <h2>Nursery</h2>
+                <h2>Primary School</h2>
                 <p>
-                  For Age 2.5 Years to 3 Years - Exploring the World with
-                  Curious Minds: Where Learning Comes to Life
+                Building a Strong Foundation: Our Primary Schooling Program for Grades I to Grade V for your child
                 </p>
                 <Image
                   src="/images/nursery-child.jpg"
@@ -378,10 +376,9 @@ export default function Home() {
                   width={64}
                   height={75}
                 />
-                <h2>Kindergarten I</h2>
+                <h2>Middle School</h2>
                 <p>
-                  For Age 3 Years to 4 Years - Growing Bright Minds: Where
-                  Imagination and Learning Take Flight
+                Our Comprehensive Schooling Program for Grades VI to VIII, Designed to Empower and Inspire Young Minds
                 </p>
                 <Image
                   src="/images/kindergarten-child.jpg"
