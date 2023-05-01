@@ -454,30 +454,36 @@ export default function Home() {
                 </div>
               </div>
             </li>
-
-            <li
+            <Link
+              href="/tour/index.html"
+              //href="/products"
+              >
+             <li
               className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition  flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"
               style={{
                 backgroundImage: "url('./images/virtual.jpg')",
               }}
             >
-              <div
-                className=" rounded-md h-full relative bg-gradient-to-t from-red-700 via-transparent
-              "
-              >
-                <div className="flex-1 flex flex-col p-8 bottom-0 absolute">
+             
+                  <div
+                 className=" rounded-md h-full relative bg-gradient-to-t from-red-700 via-transparent"
+                  >
+                 <div className="flex-1 flex flex-col p-8 bottom-0 absolute">
+               
                   <h2 className="mt-5 text-white text-lg sm:text-xl font-bold uppercase">
                     VIRTUAL 360° TOUR
                   </h2>
+                 
                   <p className="text-gray-100 text-sm">
                     Step into our school without leaving your seat! Join our
                     virtual tour and discover our campus from the comfort of
                     your own device.
                   </p>
-                </div>
-              </div>
+                  </div>
+                  </div>
+              
             </li>
-
+            </Link>
             <li
               className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition  flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"
               style={{
