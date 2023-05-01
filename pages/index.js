@@ -309,7 +309,7 @@ export default function Home() {
         </div>
 
         <div className="container mx-auto px-4 ">
-          <div className="grid lg:grid-cols-4 grid-cols-1 gap-4  text-center">
+          <div className="grid lg:grid-cols-3 grid-cols-1 gap-4  text-center mx-auto">
             <Link
               href="#"
               //href="/products"
@@ -332,7 +332,7 @@ export default function Home() {
                 <Image
                   src="/images/pre-nursery-child.jpg"
                   alt="Pre Nursery Chlidren Photo"
-                  className="rounded-lg rounded-t-none mt-3"
+                  className="rounded-lg w-full rounded-t-none mt-3"
                   width={400}
                   height={200}
                 />
@@ -347,7 +347,7 @@ export default function Home() {
                 <Image
                   src="/images/nursery.png"
                   alt="Spica International School"
-                  className="w-16 mx-auto"
+                  className="w-16 mx-auto "
                   width={64}
                   height={75}
                 />
@@ -358,7 +358,7 @@ export default function Home() {
                 <Image
                   src="/images/nursery-child.jpg"
                   alt="Nursery Childs Photo"
-                  className="rounded-lg mt-3 rounded-t-none "
+                  className="rounded-lg mt-3 rounded-t-none w-full"
                   width={400}
                   height={200}
                 />
@@ -373,7 +373,7 @@ export default function Home() {
                 <Image
                   src="/images/kindergarten-1.png"
                   alt="Spica International School"
-                  className="w-16 mx-auto"
+                  className="w-16 mx-auto w-full"
                   width={64}
                   height={75}
                 />
@@ -384,17 +384,17 @@ export default function Home() {
                 <Image
                   src="/images/kindergarten-child.jpg"
                   alt="Solar Batteries"
-                  className="rounded-lg mt-3 rounded-t-none "
+                  className="rounded-lg mt-3 rounded-t-none w-full"
                   width={400}
                   height={200}
                 />
               </div>
             </Link>
 
-            <Link
+            {/* <Link
               href="#"
               className="bx-item-pro h-auto border-t-[3px] border-t-[#fc0d21] "
-            >
+              >
               <div className="flex flex-col w-full">
                 <Image
                   src="/images/kindergarten-2.png"
@@ -416,7 +416,7 @@ export default function Home() {
                   height={200}
                 />
               </div>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </section>
