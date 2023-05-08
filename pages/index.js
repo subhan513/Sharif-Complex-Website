@@ -144,7 +144,7 @@ export default function Home() {
 
             <div className=" flex justify-center items-center mt-10">
               <Link
-                href="#"
+                href="online-admission"
                 //href="/solutions"
                 className="text-white border-2 hover:bg-black-500   rounded-full px-5 py-2 bg-gradient-to-tr from-[#b31507] via-[#fe5445] to-[#b31507] border-[#f00707]   hover:text-white text-lg transition duration-	300 font-medium"
               >
@@ -163,7 +163,7 @@ export default function Home() {
             ></Image> */}
         <iframe src="/tour/index.html" className="w-full h-full "></iframe>
         <div className="w-full h-full bg-gradient-to-b from-slate-800 via-transparent z-20  absolute"></div>      
-        <div className="w-full h-full bg-gradient-to-t from-red-800 via-transparent z-40  absolute"></div>
+        <div className="w-full h-full bg-gradient-to-t from-red-800 via-transparent z-20  absolute"></div>
       </header>
 
       <section className="py-0 pt-16 ">
