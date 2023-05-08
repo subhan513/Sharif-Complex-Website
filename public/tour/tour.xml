@@ -1,4 +1,4 @@
-﻿<krpano version="1.20.9" title="Virtual Tour">
+﻿<krpano version="1.20.9" title="Virtual Tour"  onstart="set(showcontrols,false);">
 
 	<include url="skin/vtourskin.xml" /> 
 	<skin_settings maps="false"
@@ -73,6 +73,7 @@
 		if(startscene === null OR !scene[get(startscene)], copy(startscene,scene[0].name); );
 		loadscene(get(startscene), null, MERGE);
 		if(startactions !== null, startactions() );
+		 showcontrols = false;
 	</action>
 
 <include url="plugins/fmouse.xml" />
