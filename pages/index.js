@@ -144,7 +144,7 @@ export default function Home() {
 
             <div className=" flex justify-center items-center mt-10">
               <Link
-                href="#"
+                href="online-admission"
                 //href="/solutions"
                 className="text-white border-2 hover:bg-black-500   rounded-full px-5 py-2 bg-gradient-to-tr from-[#b31507] via-[#fe5445] to-[#b31507] border-[#f00707]   hover:text-white text-lg transition duration-	300 font-medium"
               >
@@ -154,17 +154,16 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full h-full bg-gradient-to-b from-slate-800 via-transparent z-20  absolute"></div>
-        <Image
+        {/* <Image
               src="/images/spica-home-banner.jpg"
               alt="Spica International School"
               title="SPICA"
               fill="true"
               className="bg-cover"
-            ></Image>
-
-        <div className="w-full h-full bg-gradient-to-b from-slate-800 via-transparent z-20  absolute"></div>
-      
-        <div className="w-full h-full bg-gradient-to-t from-red-800 via-transparent z-40  absolute"></div>
+            ></Image> */}
+        <iframe src="/tour/index.html" className="w-full h-full "></iframe>
+        <div className="w-full h-full bg-gradient-to-b from-slate-800 via-transparent z-20  absolute"></div>      
+        <div className="w-full h-full bg-gradient-to-t from-red-800 via-transparent z-20  absolute"></div>
       </header>
 
       <section className="py-0 pt-16 ">
@@ -436,7 +435,7 @@ export default function Home() {
             <li
               className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"
               style={{
-                backgroundImage: "url('./images/admission.jpg')",
+                backgroundImage: "url('./images/gallery/10.webp')",
               }}
             >
               <div
@@ -454,14 +453,11 @@ export default function Home() {
                 </div>
               </div>
             </li>
-            <Link
-              href="/tour/index.html"
-              //href="/products"
-              >
+           
              <li
               className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition  flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"
               style={{
-                backgroundImage: "url('./images/virtual.jpg')",
+                backgroundImage: "url('./images/gallery/3.webp')",
               }}
             >
              
@@ -483,11 +479,11 @@ export default function Home() {
                   </div>
               
             </li>
-            </Link>
+             
             <li
               className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition  flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"
               style={{
-                backgroundImage: "url('./images/scholorships.jpg')",
+                backgroundImage: "url('./images/gallery/8.webp')",
               }}
             >
               <div
@@ -510,7 +506,7 @@ export default function Home() {
             <li
               className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition  flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"
               style={{
-                backgroundImage: "url('./images/innovative-learning.jpg')",
+                backgroundImage: "url('./images/gallery/16.jpg')",
               }}
             >
               <div
