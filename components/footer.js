@@ -283,7 +283,7 @@ export default function Footer({ children, home }) {
         </a>
 
         <a
-          href="https://www.facebook.com/spicapk"
+          href="https://www.facebook.com/Spicainternationalschool/"
           title="Spica International School"
           className="facebook tooltip group bg-[#4267B2]"
         >
@@ -298,7 +298,7 @@ export default function Footer({ children, home }) {
         </a>
 
         <a
-          href="https://www.instagram.com/spicapk"
+          href="https://www.instagram.com/spica_international_school/"
           title="Spica International Instagram"
           className="instagram tooltip group   bg-[#405DE6] "
         >
