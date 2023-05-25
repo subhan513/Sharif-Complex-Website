@@ -799,7 +799,7 @@ export default function Home() {
                 </svg>
                 <span className="relative block md:inline">
                   {" "}
-                  It's your three-year-old!{" "}
+                  It's your child!{" "}
                 </span>
               </span>
             </h2>

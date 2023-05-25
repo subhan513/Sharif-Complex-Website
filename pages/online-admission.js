@@ -154,8 +154,8 @@ export default function reServation() {
         />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="generator" content="Getsol Inc." />
-        <title> </title>
-        <meta name="title" content="" />
+        <title>Online Admission | SPICA International School</title>
+        <meta name="title" content="Online Admission | SPICA International School" />
         <meta name="description" content="" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico"></link>
         <meta name="robots" content="index, follow" />
@@ -164,25 +164,25 @@ export default function reServation() {
         <meta itemProp="name" content="" />
         <meta itemProp="image" content="" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="" />
+        <meta name="twitter:title" content="Online Admission | SPICA International School" />
         <meta name="twitter:description" content="" />
         <meta name="twitter:image:src" content="" />
         <meta
           property="og:title"
-          content="Reserve a Luxurious Limo for Your Special Occasion"
+          content="Online Admission | SPICA International School"
         />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="" />
         <meta
           property="og:description"
-          content="Make your special occasion even more memorable by reserving a luxurious limo with us. Our top-rated limousine service provides comfort, style, and elegance."
+          content=""
         />
         <meta property="og:locale" content="en" />
         <meta
           itemProp="image"
-          content="https://baytour.net/_next/image?url=%2Fimages%2Fbaytour.net-logo.png&w=256&q=75"
+          content=""
         />
-        <link rel="canonical" href="https://baytour.net/reservation" />
+        <link rel="canonical" href="https://spica.com.pk/online-admission" />
         <link rel="preconnect" href="//www.google-analytics.com" as="script" />
         <meta name="google" content="notranslate" />
       </Head>

@@ -155,7 +155,8 @@ export default function About() {
                     <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                   </svg>
                   <p className="relative text-justify">
-                  At SPICA International School, our vision is to be a leading institution in early childhood education that provides an exceptional learning experience to children from diverse backgrounds. Our goal is to foster a love of learning in every child that inspires them to become curious, creative, and critical thinkers who are ready to face the challenges of the future. We envision a school where every child is valued and respected, and where they are encouraged to develop their unique talents and interests.
+                  Spica International School Gujranwala Campus aims to offer quality education of an international standard  within our cultural structure.
+                  We aim for merit through quality management, quality training and quality teaching bringing betterment to our students, society, country and the wider world.
                   </p>
                 </div>
 
@@ -195,7 +196,7 @@ export default function About() {
                     <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                   </svg>
                   <p className="relative text-justify">
-                  The mission of SPICA International School is to provide a high-quality early childhood education that empowers young children to reach their full potential. We aim to provide a safe, nurturing, and inclusive learning environment that fosters a love of learning, creativity, and critical thinking in our students. Our mission is to provide a curriculum that is engaging, developmentally appropriate, and designed to meet the unique needs of each child. We are committed to recruiting and retaining highly qualified and experienced teachers who are dedicated to the success of each child.
+                  Spica International School aims to impart quality education, knowledge, inspire, and influence through its innovative and stem educational practices. At Spica International School we want to raise a generation of talented, confident, enlightened individuals who socially and morally contribute towards the society.
                   </p>
                 </div>
               </blockquote>
