@@ -251,7 +251,7 @@ Spica International School Gujranwala Campus</p>
             ></Image>
 
 <div className="space-y-4 ">
-      <h2 className="text-2xl text-center">Director's Message</h2>
+      <h2 className="text-2xl text-center">Chairman's Message</h2>
 
       <p>Dear Students and Parents,</p>
 <p>Welcome to the family of Spica International School Gujranwala Campus! Thank you for trusting our school and admitting your child here. We place high value on our partnership with parents, families and community and we invite you to be an active part of our organization. </p>
