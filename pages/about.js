@@ -155,8 +155,8 @@ export default function About() {
                     <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                   </svg>
                   <p className="relative text-justify">
-                  Spica International School Gujranwala Campus aims to offer quality education of an international standard  within our cultural structure.
-                  We aim for merit through quality management, quality training and quality teaching bringing betterment to our students, society, country and the wider world.
+                  Spica International School Gujranwala Campus aims to offer quality education of an international standard  within our cultural structure.</p>
+                  <p className="mt-3"> We aim for merit through quality management, quality training and quality teaching bringing betterment to our students, society, country and the wider world.
                   </p>
                 </div>
 
@@ -205,7 +205,76 @@ export default function About() {
         </div>
       </div>
 
-      <figure className="container pt-10 md:pt-0 mx-auto max-w-7xl ">
+<section className="container mx-auto">
+<div
+          className="content-bx1 space-y-4 container mx-auto px-4 bg-gradient-to-b from-white to-transparent rounded-xl py-5  mb-4 border border-slate-200 border-b-0 rounded-b-none pb-10 "
+          style={{ boxShadow: "0px -15px 15px rgba(1,41,112,0.08)" }}
+        >
+      <h2 className="text-2xl text-center">Principal's Message</h2>
+
+<p>As a proud Principal of this academically accomplished school with well-respected directors of providing exceptional educational outcomes and opportunities to our talented young students since March, 2023, I warmly welcome you to Spica International School Gujranwala Campus.</p>
+
+<p>Our aim is to create a supportive and inclusive environment where students from all socioeconomic strata are encouraged to explore their potential and achieve their personal best in all aspects of school life. Students are challenged and engaged through authentic learning opportunities that inspire them to develop creativity, confidence and resilience to become independent and ethical life-long learners.</p>
+
+<p>We offer a broad curriculum and a range of opportunities for all our girls to achieve excellence in academic, creative, social, cultural, sporting and community endeavours. We value collaborative learning, positive relationships and building capacity amongst our girls to effectively allow them to engage in the world of the future, where problem solving, evaluating, working in teams, communicating, creating and innovating are not only valued concepts, but expected skills, attributes and capabilities.</p>
+<p>We support the individual wellbeing of our students and provide a school environment that allows every child to thrive as they work towards achieving their personal best performance. We set high expectations for our students and work hard to safeguard positive emotions across our school community. We are partners in learning with our students and seek to deepen their knowledge, provide enriching and innovative learning experiences, while also gently urging our students out of their comfort zone to attempt new challenges. We value relationships and connections with the community. We encourage our students to develop respectful relationships with their peers, teachers and the broader community.</p>
+<p>We instill in our students a keen social conscience and the capacity to make ethical decisions. We work hard to develop and sustain productive partnerships and connections with our parents, local schools and businesses and leading tertiary institutions. We are proud to be a high performing school and aim to be the selective school of first choice for all families within our community.</p>
+
+<p>Our students graduate with the skills, mind sets and qualities that will best equip them for success in the world of the future. Our students are intelligent, resilient, creative, imaginative, disciplined, dedicated to life-long learning, respectful and ethical. They are the future leaders and role models of society.</p>
+<p>Welcome to the Family of Spica International School! We place high value on our partnership with parents, families and community and we invite you to be an active part of our organization.</p>
+
+
+<p>Warm Regards,</p>
+
+<p className="font-bold">Ma'am Maliha Fatima<br/>
+
+Principal<br/>
+
+Spica International School Gujranwala Campus</p>
+
+</div>
+</section>
+
+
+<section className="container mx-auto mt-16">
+<div
+          className="content-bx1 space-y-4 container mx-auto px-4 bg-gradient-to-b from-white to-transparent rounded-xl py-5  mb-4 border border-slate-200 border-b-0 rounded-b-none pb-10 "
+          style={{ boxShadow: "0px -15px 15px rgba(1,41,112,0.08)" }}
+        >
+<div className="grid lg:flex gap-10">
+<Image
+              src="/images/chairman-spica-haji-muhammad-bashir-ansari-gujranwala.jpg"
+              alt="Chairman Spica Haji Muhammad Bashir Ansari Gujranwala"
+                width={445} height={591}
+              
+              className="lg:w-80 lg:h-96 w-60 h-auto shadow-xl mt-12 mx-auto"
+            ></Image>
+
+<div className="space-y-4 ">
+      <h2 className="text-2xl text-center">Director's Message</h2>
+
+      <p>Dear Students and Parents,</p>
+<p>Welcome to the family of Spica International School Gujranwala Campus! Thank you for trusting our school and admitting your child here. We place high value on our partnership with parents, families and community and we invite you to be an active part of our organization. </p>
+<p>We consider it an honour to work with your children every day and cherish your trust in us. We believe that each and every student has a gift to share with the world, and we are here to unlock their highest potential. We have high expectations of our students, and we have high expectations of ourselves to help them learn and grow into well-rounded citizens and critical thinkers. Spica International School aims to develop leadership skills, social and emotional skills and academic skills to prepare students for success not only in school but also in their future careers, relationships and life-long learning.</p>
+<p>We strongly believe in the importance of teachers, parents and administrators collaborating and communicating openly and frequently. We are in a process of continually improving the quality of tools of communication, including giving our parents access to an interactive website, facebook page,whatsapp groups and face to face interaction. You are encouraged to regularly check our early mentioned mediums and read about our exciting academic and co-curricular activities.</p>
+
+
+
+<p>Best Regards,</p>
+
+<p className="font-bold">Chairman<br/>
+
+Haji Muhammad Bashir Ansari<br/>
+
+Spica International School Gujranwala Campus</p>
+</div></div>
+</div>
+</section>
+
+
+
+
+      <figure className="container pt-10 md:pt-10 mx-auto max-w-7xl ">
         <div className="text-center space-y-4 ">
           <blockquote>
             <div className="text-lg font-medium">
