@@ -220,7 +220,7 @@ export default function About() {
             ></Image>
 
 <div className="space-y-4 ">
-      <h2 className="text-2xl">Founder's Message</h2>
+      <h2 className="text-2xl text-center">Founder's Message</h2>
 
       <p>Dear Students and Parents,</p>
 <p>Welcome to the family of Spica International School Gujranwala Campus! Thank you for trusting our school and admitting your child here. We place high value on our partnership with parents, families and community and we invite you to be an active part of our organization. </p>
@@ -256,7 +256,7 @@ Spica International School Gujranwala Campus</p>
               className="lg:w-80 lg:h-96 w-60 h-auto shadow-xl mt-12 mx-auto border-solid border-4 border-white hover:border-dotted"
             ></Image>
             <div className="space-y-4 ">
-      <h2 className="text-2xl">Principal's Message</h2>
+      <h2 className="text-2xl text-center">Principal's Message</h2>
 
 <p>As a proud Principal of this academically accomplished school with well-respected directors of providing exceptional educational outcomes and opportunities to our talented young students since March, 2023, I warmly welcome you to Spica International School Gujranwala Campus.</p>
 

@@ -579,6 +579,183 @@ export default function Home() {
           backgroundImage: "url('./images/beams-templates.png')",
         }}
       >
+
+
+
+{/* <!-- Founder Message Homepage 1 --> */}
+<div class="container my-24 mx-auto md:px-6">
+  {/* <!-- Section: Design Block --> */}
+  <section class="mb-32 text-center md:text-left">
+    <div
+      class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+      <div class="flex flex-wrap items-center">
+        <div class="block w-full shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-4/12">
+        <Image
+              src="/images/chairman-spica-haji-muhammad-bashir-ansari-gujranwala.jpg"
+              alt="Chairman Spica Haji Muhammad Bashir Ansari Gujranwala"
+                width={445} height={591}
+              
+              className="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
+            ></Image>
+         
+        </div>
+        <div className="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-8/12">
+          <div className="px-6 py-12 md:px-12">
+            <h2 className="mb-2 text-3xl font-bold text-primary dark:text-primary-400">
+            Haji Muhammad Bashir Ansari (Late)
+            </h2>
+            <p class="mb-4 font-semibold">Founder @ Spica International</p>
+            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+            Dear Students and Parents,
+            </p>
+            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+            Welcome to the family of Spica International School Gujranwala Campus! Thank you for trusting our school and admitting your child here. We place high value on our partnership with parents, families and community and we invite you to be an active part of our organization.
+            </p>
+            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+            We consider it an honour to work with your children every day and cherish your trust in us. We believe that each and every student has a gift to share with the world, and we are here to unlock their highest potential. We have high expectations of our students, and we have high expectations of ourselves to help them learn and grow into well-rounded citizens and critical thinkers. Spica International School aims to develop leadership skills, social and emotional skills and academic skills to prepare students for success not only in school but also in their future careers, relationships and life-long learning.
+            </p>
+            <p className="mb-6 text-neutral-500 dark:text-neutral-300">
+            We strongly believe in the importance of teachers, parents and administrators collaborating and communicating openly and frequently. We are in a process of continually improving the quality of tools of communication, including giving our parents access to an interactive website, facebook page,whatsapp groups and face to face interaction. You are encouraged to regularly check our early mentioned mediums and read about our exciting academic and co-curricular activities.
+            </p>
+            {/* <p className="mb-6 text-neutral-500 dark:text-neutral-300">Best Regards,</p> */}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</div>
+{/* <!-- Founder Message Homepage 1 --> */}
+
+
+
+{/* <!-- Principal Message Homepage 1 --> */}
+<div class="container my-24 mx-auto md:px-6">
+  {/* <!-- Section: Design Block --> */}
+  <section class="mb-32 text-center md:text-left">
+    <div
+      class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+      <div class="flex flex-wrap items-center">
+        <div class="block w-full shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-4/12">
+        <Image
+              src="/images/maliha-principal-spica-international-school-gujranwala.jpg"
+              alt="Principal Spica International School"
+                width={445} height={591}
+              
+              className="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg border-solid border-4 border-white hover:border-dotted"
+            ></Image>
+      
+         
+        </div>
+        <div className="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-8/12">
+          <div className="px-6 py-12 md:px-12">
+            <h2 className="mb-2 text-3xl font-bold text-primary dark:text-primary-400">
+            Ma'am Maliha Fatima
+            </h2>
+            <p class="mb-4 font-semibold">Principal @ Spica International</p>
+            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+            As a proud Principal of this academically accomplished school with well-respected directors of providing exceptional educational outcomes and opportunities to our talented young students since March, 2023, I warmly welcome you to Spica International School Gujranwala Campus.
+            </p>
+            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+            Our aim is to create a supportive and inclusive environment where students from all socioeconomic strata are encouraged to explore their potential and achieve their personal best in all aspects of school life. Students are challenged and engaged through authentic learning opportunities that inspire them to develop creativity, confidence and resilience to become independent and ethical life-long learners.
+            </p>
+            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+            We offer a broad curriculum and a range of opportunities for all our girls to achieve excellence in academic, creative, social, cultural, sporting and community endeavours. We value collaborative learning, positive relationships and building capacity amongst our girls to effectively allow them to engage in the world of the future, where problem solving, evaluating, working in teams, communicating, creating and innovating are not only valued concepts, but expected skills, attributes and capabilities.
+            </p>
+            <p className="mb-6 text-neutral-500 dark:text-neutral-300">
+            We support the individual wellbeing of our students and provide a school environment that allows every child to thrive as they work towards achieving their personal best performance. We set high expectations for our students and work hard to safeguard positive emotions across our school community. We are partners in learning with our students and seek to deepen their knowledge, provide enriching and innovative learning experiences, while also gently urging our students out of their comfort zone to attempt new challenges. We value relationships and connections with the community. We encourage our students to develop respectful relationships with their peers, teachers and the broader community.
+            </p>
+            <p className="mb-6 text-neutral-500 dark:text-neutral-300">
+            We instill in our students a keen social conscience and the capacity to make ethical decisions. We work hard to develop and sustain productive partnerships and connections with our parents, local schools and businesses and leading tertiary institutions. We are proud to be a high performing school and aim to be the selective school of first choice for all families within our community.
+            </p>
+            <p className="mb-6 text-neutral-500 dark:text-neutral-300">
+            Our students graduate with the skills, mind sets and qualities that will best equip them for success in the world of the future. Our students are intelligent, resilient, creative, imaginative, disciplined, dedicated to life-long learning, respectful and ethical. They are the future leaders and role models of society.
+            </p>
+            <p className="mb-6 text-neutral-500 dark:text-neutral-300">
+            Welcome to the Family of Spica International School! We place high value on our partnership with parents, families and community and we invite you to be an active part of our organization.
+            </p>
+            {/* <p className="mb-6 text-neutral-500 dark:text-neutral-300">Best Regards,</p> */}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</div>
+{/* <!-- Principal Message Homepage 1 --> */}
+
+
+
+{/* Founder & Principal Messages
+<div class="container my-24 mx-auto md:px-6 ">
+  <section class="mb-32 text-center justify-center">
+    <h2 class="mb-12 text-3xl font-bold">Founder's & Principal Messages</h2>
+
+    <div className="grid gap-x-6 md:grid-cols-3 xl:gap-x-12">
+      <div class="mb-6 lg:mb-0">
+        <div
+          class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+          <div class="relative overflow-hidden bg-cover bg-no-repeat">
+            <img src="/images/chairman-spica-haji-muhammad-bashir-ansari-gujranwala.jpg" class="w-full rounded-t-lg" />
+            <a href="/about">
+              <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"></div>
+            </a>
+            <svg class="absolute left-0 bottom-0 text-white dark:text-neutral-700" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1440 320">
+              <path fill="currentColor"
+                d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+              </path>
+            </svg>
+          </div>
+          <div class="p-6">
+            <h5 class="mb-2 text-lg font-bold">Haji Muhammad Bashir Ansari (Late)</h5>
+            <h6 class="mb-4 font-medium text-primary dark:text-primary-400">
+              Founder @ Spica International
+            </h6>
+            
+            <p>
+            Welcome to the family of Spica International School Gujranwala Campus! Thank you for trusting our school and admitting your child here. We place high value on our partnership with parents, families and community and we invite you to be an active part of our organization.
+            </p>
+          </div>
+        </div>
+      </div>
+
+     
+
+      <div className="">
+        <div
+          class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+          <div class="relative overflow-hidden bg-cover bg-no-repeat">
+            <img src="/images/maliha-principal-spica-international-school-gujranwala.jpg" class="w-full rounded-t-lg" />
+            <a href="/about">
+              <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"></div>
+            </a>
+            <svg class="absolute left-0 bottom-0 text-white dark:text-neutral-700" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1440 320">
+              <path fill="currentColor"
+                d="M0,288L48,256C96,224,192,160,288,160C384,160,480,224,576,213.3C672,203,768,117,864,85.3C960,53,1056,75,1152,69.3C1248,64,1344,32,1392,16L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+              </path>
+            </svg>
+          </div>
+          <div class="p-6">
+            <h5 class="mb-2 text-lg font-bold">Ma'am Maliha Fatima</h5>
+            <h6 class="mb-4 font-medium text-primary dark:text-primary-400">
+            Principal @ Spica International
+            </h6>
+            
+            <p>
+            As a proud Principal of this academically accomplished school with well-respected directors of providing exceptional educational outcomes and opportunities to our talented young students since March, 2023, I warmly welcome you to Spica International School Gujranwala Campus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div> */}
+
+
+
         <section className="py-10 ">
           <div className="sec-heading">
             <h2>News & Updates</h2>
