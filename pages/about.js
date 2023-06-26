@@ -205,12 +205,58 @@ export default function About() {
         </div>
       </div>
 
+      <section className="container mx-auto mt-16">
+<div
+          className="content-bx1 space-y-4 container mx-auto px-4 bg-gradient-to-b from-white to-transparent rounded-xl py-5  mb-4 border border-slate-200 border-b-0 rounded-b-none pb-10 "
+          style={{ boxShadow: "0px -15px 15px rgba(1,41,112,0.08)" }}
+        >
+<div className="grid lg:flex gap-10">
+<Image
+              src="/images/chairman-spica-haji-muhammad-bashir-ansari-gujranwala.jpg"
+              alt="Chairman Spica Haji Muhammad Bashir Ansari Gujranwala"
+                width={445} height={591}
+              
+              className="lg:w-80 lg:h-96 w-60 h-auto shadow-xl mt-12 mx-auto"
+            ></Image>
+
+<div className="space-y-4 ">
+      <h2 className="text-2xl">Founder's Message</h2>
+
+      <p>Dear Students and Parents,</p>
+<p>Welcome to the family of Spica International School Gujranwala Campus! Thank you for trusting our school and admitting your child here. We place high value on our partnership with parents, families and community and we invite you to be an active part of our organization. </p>
+<p>We consider it an honour to work with your children every day and cherish your trust in us. We believe that each and every student has a gift to share with the world, and we are here to unlock their highest potential. We have high expectations of our students, and we have high expectations of ourselves to help them learn and grow into well-rounded citizens and critical thinkers. Spica International School aims to develop leadership skills, social and emotional skills and academic skills to prepare students for success not only in school but also in their future careers, relationships and life-long learning.</p>
+<p>We strongly believe in the importance of teachers, parents and administrators collaborating and communicating openly and frequently. We are in a process of continually improving the quality of tools of communication, including giving our parents access to an interactive website, facebook page,whatsapp groups and face to face interaction. You are encouraged to regularly check our early mentioned mediums and read about our exciting academic and co-curricular activities.</p>
+
+
+
+<p>Best Regards,</p>
+
+<p className="font-bold">Founder<br/>
+
+Haji Muhammad Bashir Ansari (Late)<br/>
+
+Spica International School Gujranwala Campus</p>
+</div></div>
+</div>
+</section>
+
+
 <section className="container mx-auto">
 <div
           className="content-bx1 space-y-4 container mx-auto px-4 bg-gradient-to-b from-white to-transparent rounded-xl py-5  mb-4 border border-slate-200 border-b-0 rounded-b-none pb-10 "
           style={{ boxShadow: "0px -15px 15px rgba(1,41,112,0.08)" }}
         >
-      <h2 className="text-2xl text-center">Principal's Message</h2>
+
+<div className="grid lg:flex gap-10">
+<Image
+              src="/images/maliha-principal-spica-international-school-gujranwala.jpg"
+              alt="Principal Spica International School"
+                width={445} height={591}
+              
+              className="lg:w-80 lg:h-96 w-60 h-auto shadow-xl mt-12 mx-auto border-solid border-4 border-white hover:border-dotted"
+            ></Image>
+            <div className="space-y-4 ">
+      <h2 className="text-2xl">Principal's Message</h2>
 
 <p>As a proud Principal of this academically accomplished school with well-respected directors of providing exceptional educational outcomes and opportunities to our talented young students since March, 2023, I warmly welcome you to Spica International School Gujranwala Campus.</p>
 
@@ -231,45 +277,11 @@ export default function About() {
 Principal<br/>
 
 Spica International School Gujranwala Campus</p>
-
+</div>
+</div>
 </div>
 </section>
 
-
-<section className="container mx-auto mt-16">
-<div
-          className="content-bx1 space-y-4 container mx-auto px-4 bg-gradient-to-b from-white to-transparent rounded-xl py-5  mb-4 border border-slate-200 border-b-0 rounded-b-none pb-10 "
-          style={{ boxShadow: "0px -15px 15px rgba(1,41,112,0.08)" }}
-        >
-<div className="grid lg:flex gap-10">
-<Image
-              src="/images/chairman-spica-haji-muhammad-bashir-ansari-gujranwala.jpg"
-              alt="Chairman Spica Haji Muhammad Bashir Ansari Gujranwala"
-                width={445} height={591}
-              
-              className="lg:w-80 lg:h-96 w-60 h-auto shadow-xl mt-12 mx-auto"
-            ></Image>
-
-<div className="space-y-4 ">
-      <h2 className="text-2xl text-center">Chairman's Message</h2>
-
-      <p>Dear Students and Parents,</p>
-<p>Welcome to the family of Spica International School Gujranwala Campus! Thank you for trusting our school and admitting your child here. We place high value on our partnership with parents, families and community and we invite you to be an active part of our organization. </p>
-<p>We consider it an honour to work with your children every day and cherish your trust in us. We believe that each and every student has a gift to share with the world, and we are here to unlock their highest potential. We have high expectations of our students, and we have high expectations of ourselves to help them learn and grow into well-rounded citizens and critical thinkers. Spica International School aims to develop leadership skills, social and emotional skills and academic skills to prepare students for success not only in school but also in their future careers, relationships and life-long learning.</p>
-<p>We strongly believe in the importance of teachers, parents and administrators collaborating and communicating openly and frequently. We are in a process of continually improving the quality of tools of communication, including giving our parents access to an interactive website, facebook page,whatsapp groups and face to face interaction. You are encouraged to regularly check our early mentioned mediums and read about our exciting academic and co-curricular activities.</p>
-
-
-
-<p>Best Regards,</p>
-
-<p className="font-bold">Chairman<br/>
-
-Haji Muhammad Bashir Ansari<br/>
-
-Spica International School Gujranwala Campus</p>
-</div></div>
-</div>
-</section>
 
 
 

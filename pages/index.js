@@ -19,49 +19,41 @@ import "swiper/css";
 const faqs = [
   {
     question: "What makes Spica International?",
-    answer:
-      "Our school is a project owned by the [name] education company called [name]. We offer an international curriculum delivered through authentic learning and assessment. In addition to this, we partner with our sister schools around the world to collaborate and promote exchange programmes. We also have a blend of team members from [name] and Pakistan.",
+    answer: "Our school is a project owned by the Mr. Muhammad Shahid Ansari education company called Spica International School Gujranwala Campus. We offer an international curriculum and deliver it through authentic learning and assessment. ",
   },
   {
     question: "What grades are being offered as of now?",
-    answer:
-      "We are offering classes from Playgroup to Kindergarten II, preparing students to lead the world.",
+    answer: "We are offering classes from Playgroup to Grade VII at the moment, preparing students to lead the world.",
   },
   {
     question: "What are the school’s long term plans?",
-    answer:
-      "It is our ambition to open further schools in Lahore as well as Karachi and Islamabad.",
+    answer: "It is our ambition to provide quality education to the student’s and open further schools across Pakistan.",
   },
-
   {
     question: "What is the school admission criterion?",
-    answer:
-      "Visit the school at your appointed time to understand the school culture and philosophy. An entrance test and interview to assess the child’s learning capacity and development needs. Submission of duly filled Spica International School Lahore admission form, along with the correct documents and information. Submission of school admission fee, security fee and an advance tuition fee.",
+    answer: "Visit the school at your appointed time to understand the school culture, philosophy and teaching dynamics. An entrance test and interview to assess the child’s learning capacity and development needs. Submission of duly filled Spica International School admission form, along with the copies of required documents. Submission of school admission fee, security fee and an advance tuition fee.",
   },
 ];
 
 const faqsb = [
+  
   {
     question: "When does an academic session start? ",
-    answer:
-      "A new term for an academic year commences in August and ends in May.",
+    answer: "A new term for an academic year commences in February and ends in March.",
   },
   {
     question: "What is the fee structure?",
-    answer:
-      "Please visit the school office or call us on 0321-1234567 to enquire about the fee for your child’s year group.",
+    answer: "Please visit the school office to enquire about the fee and admission for your child.",
   },
+  
   {
-    question:
-      "How many teachers are there in one class of the Preschool Programme?",
-    answer:
-      "There is usually one lead teacher and one or more assistant teachers in a preschool classroom. The exact ratio of teachers to children can also vary based on state or local regulations and the age range of the children in the classroom.",
-  },
-  {
-    question: "How will I know what’s happening in my child’s classroom?",
-    answer:
-      "We value timely communication with parents and how this effective partnership benefits our students. Spica International School uses 21st Century communication tool called ClassDojo (interactive mobile & computer application) to keep parents updated. The application gives parents access to learning activities, photographs, their children’s performance and school based information. Teachers post weekly newsletter to parents via email and ClassDojo. The application also has a messaging portal that parents can use to keep regular contact with the school. Apart from this, formal written reports are provided to parents twice each academic year. Open days and other opportunities for parents to see the working school are arranged routinely.",
-  },
+    question: "How many teachers are there in one class of the Preschool Programme?",
+      answer: "There is usually one lead teacher and one or more assistant teachers in a preschool classroom. The exact ratio of teachers to children can also vary based on state or local regulations and the age range of the children in the classroom.",
+    },
+    {
+      question: "How will I know what’s happening in my child’s classroom and in the school?",
+      answer: "We value timely communication with parents and how this effective partnership benefits our students. Spica International School uses 21st Century communication tool called ClassDojo (interactive mobile & computer application) to keep parents updated. The software, Face book page, instagram and website gives parents access to learning activities, photographs, their children’s performance and school based information. Teachers post daily activities  to parents via email and ClassDojo. The application also has a messaging portal that parents can use to keep regular contact with the school. Apart from this, formal written reports are provided to parents twice each academic year and also on daily basis. ",
+    },
 ];
 
 function classNames(...classes) {
