@@ -605,19 +605,19 @@ export default function Home() {
             Haji Muhammad Bashir Ansari (Late)
             </h2>
             <p class="mb-4 font-semibold">Founder @ Spica International</p>
-            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+            <p class="mb-6  ">
             Dear Students and Parents,
             </p>
-            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+            <p class="mb-6  ">
             Welcome to the family of Spica International School Gujranwala Campus! Thank you for trusting our school and admitting your child here. We place high value on our partnership with parents, families and community and we invite you to be an active part of our organization.
             </p>
-            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+            <p class="mb-6  ">
             We consider it an honour to work with your children every day and cherish your trust in us. We believe that each and every student has a gift to share with the world, and we are here to unlock their highest potential. We have high expectations of our students, and we have high expectations of ourselves to help them learn and grow into well-rounded citizens and critical thinkers. Spica International School aims to develop leadership skills, social and emotional skills and academic skills to prepare students for success not only in school but also in their future careers, relationships and life-long learning.
             </p>
-            <p className="mb-6 text-neutral-500 dark:text-neutral-300">
+            <p className="mb-6  ">
             We strongly believe in the importance of teachers, parents and administrators collaborating and communicating openly and frequently. We are in a process of continually improving the quality of tools of communication, including giving our parents access to an interactive website, facebook page,whatsapp groups and face to face interaction. You are encouraged to regularly check our early mentioned mediums and read about our exciting academic and co-curricular activities.
             </p>
-            {/* <p className="mb-6 text-neutral-500 dark:text-neutral-300">Best Regards,</p> */}
+            {/* <p className="mb-6  ">Best Regards,</p> */}
           </div>
         </div>
       </div>
@@ -653,28 +653,28 @@ export default function Home() {
             Ma'am Maliha Fatima
             </h2>
             <p class="mb-4 font-semibold">Principal @ Spica International</p>
-            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+            <p class="mb-6  ">
             As a proud Principal of this academically accomplished school with well-respected directors of providing exceptional educational outcomes and opportunities to our talented young students since March, 2023, I warmly welcome you to Spica International School Gujranwala Campus.
             </p>
-            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+            <p class="mb-6  ">
             Our aim is to create a supportive and inclusive environment where students from all socioeconomic strata are encouraged to explore their potential and achieve their personal best in all aspects of school life. Students are challenged and engaged through authentic learning opportunities that inspire them to develop creativity, confidence and resilience to become independent and ethical life-long learners.
             </p>
-            <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+            <p class="mb-6  ">
             We offer a broad curriculum and a range of opportunities for all our girls to achieve excellence in academic, creative, social, cultural, sporting and community endeavours. We value collaborative learning, positive relationships and building capacity amongst our girls to effectively allow them to engage in the world of the future, where problem solving, evaluating, working in teams, communicating, creating and innovating are not only valued concepts, but expected skills, attributes and capabilities.
             </p>
-            <p className="mb-6 text-neutral-500 dark:text-neutral-300">
+            <p className="mb-6  ">
             We support the individual wellbeing of our students and provide a school environment that allows every child to thrive as they work towards achieving their personal best performance. We set high expectations for our students and work hard to safeguard positive emotions across our school community. We are partners in learning with our students and seek to deepen their knowledge, provide enriching and innovative learning experiences, while also gently urging our students out of their comfort zone to attempt new challenges. We value relationships and connections with the community. We encourage our students to develop respectful relationships with their peers, teachers and the broader community.
             </p>
-            <p className="mb-6 text-neutral-500 dark:text-neutral-300">
+            <p className="mb-6  ">
             We instill in our students a keen social conscience and the capacity to make ethical decisions. We work hard to develop and sustain productive partnerships and connections with our parents, local schools and businesses and leading tertiary institutions. We are proud to be a high performing school and aim to be the selective school of first choice for all families within our community.
             </p>
-            <p className="mb-6 text-neutral-500 dark:text-neutral-300">
+            <p className="mb-6  ">
             Our students graduate with the skills, mind sets and qualities that will best equip them for success in the world of the future. Our students are intelligent, resilient, creative, imaginative, disciplined, dedicated to life-long learning, respectful and ethical. They are the future leaders and role models of society.
             </p>
-            <p className="mb-6 text-neutral-500 dark:text-neutral-300">
+            <p className="mb-6  ">
             Welcome to the Family of Spica International School! We place high value on our partnership with parents, families and community and we invite you to be an active part of our organization.
             </p>
-            {/* <p className="mb-6 text-neutral-500 dark:text-neutral-300">Best Regards,</p> */}
+            {/* <p className="mb-6  ">Best Regards,</p> */}
           </div>
         </div>
       </div>
