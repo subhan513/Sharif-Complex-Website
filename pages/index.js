@@ -7,6 +7,7 @@ import {
   CalculatorIcon,
   BeakerIcon,
   UserGroupIcon,
+  ArrowRightIcon,
 } from "@heroicons/react/outline";
 import { NextSeo } from "next-seo";
 import Link from "next/link";
@@ -583,387 +584,107 @@ export default function Home() {
 
 
 {/* <!-- Founder Message Homepage 1 --> */}
-<div class="container my-24 mx-auto md:px-6">
+<div class="container my-8 mx-auto md:px-6">
   {/* <!-- Section: Design Block --> */}
-  <section class="mb-32 text-center md:text-left">
+
+
+    <div className="grid xl:grid-cols-2 gap-x-6">
+
+
+    <section class="mb-8 text-center md:text-left">
     <div
       className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
-      <div class="flex flex-wrap items-center">
-        <div class="block w-full shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-4/12">
-        <Image
-              src="/images/chairman-spica-haji-muhammad-bashir-ansari-gujranwala.jpg"
-              alt="Chairman Spica Haji Muhammad Bashir Ansari Gujranwala"
-                width={445} height={591}
-              
-              className="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
-            ></Image>
-         
-        </div>
-        <div className="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-8/12">
-          <div className="px-6 py-12 md:px-12">
+       
+      
+        <div className="w-full shrink-0 grow-0 basis-auto pt-10 ">
+
+        
+
+              <div className="xl:w-80 xl:h-80 w-60 h-60 mx-auto rounded-full bg-cover" style={{backgroundImage:"url('/images/chairman-spica-haji-muhammad-bashir-ansari-gujranwala.jpg')"}}>
+
+              </div>
+
+
+          <div className="px-6 py-12 md:px-12 text-center">
             <h2 className="mb-2 text-3xl font-bold text-primary dark:text-primary-400">
             Haji Muhammad Bashir Ansari (Late)
             </h2>
             <p class="mb-4 font-semibold">Founder @ Spica International</p>
-            <p class="mb-6  ">
-            Dear Students and Parents,
-            </p>
-            <p class="mb-6  ">
+           
+            <p class="mb-6 relative ">
+            <svg
+                    className="absolute top-0 left-0 transform -translate-x-3 -translate-y-6 h-8 w-8 text-slate-300"
+                    fill="currentColor"
+                    viewBox="0 0 32 32"
+                    aria-hidden="true"
+                  >
+                    <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                  </svg> 
+              
             Welcome to the family of Spica International School Gujranwala Campus! Thank you for trusting our school and admitting your child here. We place high value on our partnership with parents, families and community and we invite you to be an active part of our organization.
             </p>
-            <p class="mb-6  ">
-            We consider it an honour to work with your children every day and cherish your trust in us. We believe that each and every student has a gift to share with the world, and we are here to unlock their highest potential. We have high expectations of our students, and we have high expectations of ourselves to help them learn and grow into well-rounded citizens and critical thinkers. Spica International School aims to develop leadership skills, social and emotional skills and academic skills to prepare students for success not only in school but also in their future careers, relationships and life-long learning.
-            </p>
-            <p className="mb-6  ">
-            We strongly believe in the importance of teachers, parents and administrators collaborating and communicating openly and frequently. We are in a process of continually improving the quality of tools of communication, including giving our parents access to an interactive website, facebook page,whatsapp groups and face to face interaction. You are encouraged to regularly check our early mentioned mediums and read about our exciting academic and co-curricular activities.
-            </p>
-            {/* <p className="mb-6  ">Best Regards,</p> */}
+            <div className=" flex justify-center items-center mt-10">
+              <Link
+                href="/about"
+                className="border-2 flex border-red-700 text-slate-500 text-lg  rounded-full px-5 py-2 hover:bg-red-700 hover:border-red-700  hover:text-white transition duration-300 font-medium"
+              >
+                Read More <ArrowRightIcon className="w-5 ml-3"/>
+              </Link>
+            </div>
           </div>
         </div>
-      </div>
+     
     </div>
   </section>
-  
-</div>
-{/* <!-- Founder Message Homepage 1 --> */}
 
-
-
-{/* <!-- Principal Message Homepage 1 --> */}
-<div class="container my-24 mx-auto md:px-6">
-  {/* <!-- Section: Design Block --> */}
-  <section class="mb-32 text-center md:text-left">
+  <section class="mb-8 text-center md:text-left">
     <div
-      class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
-      <div class="flex flex-wrap items-center">
-        <div class="block w-full shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-4/12">
-        <Image
-              src="/images/maliha-principal-spica-international-school-gujranwala.jpg"
-              alt="Principal Spica International School"
-                width={445} height={591}
-              
-              className="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg border-solid border-4 border-white hover:border-dotted"
-            ></Image>
+      className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
+       
       
-         
-        </div>
-        <div className="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-8/12">
-          <div className="px-6 py-12 md:px-12">
-            <h2 className="mb-2 text-3xl font-bold text-primary dark:text-primary-400">
+        <div className="w-full shrink-0 grow-0 basis-auto pt-10 ">
+
+        
+
+              <div className="xl:w-80 xl:h-80 w-60 h-60  mx-auto rounded-full bg-cover" style={{backgroundImage:"url('/images/maliha-principal-spica-international-school-gujranwala.jpg')"}}>
+
+              </div>
+
+
+          <div className="px-6 py-12 md:px-12 text-center">
+          <h2 className="mb-2 text-3xl font-bold text-primary dark:text-primary-400">
             Ma'am Maliha Fatima
             </h2>
             <p class="mb-4 font-semibold">Principal @ Spica International</p>
-            <p class="mb-6  ">
-            As a proud Principal of this academically accomplished school with well-respected directors of providing exceptional educational outcomes and opportunities to our talented young students since March, 2023, I warmly welcome you to Spica International School Gujranwala Campus.
+            <p class="mb-6 relative ">
+            <svg
+                    className="absolute top-0 left-0 transform -translate-x-3 -translate-y-6 h-8 w-8 text-slate-300"
+                    fill="currentColor"
+                    viewBox="0 0 32 32"
+                    aria-hidden="true"
+                  >
+                    <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                  </svg> As a proud Principal of this academically accomplished school with well-respected directors of providing exceptional educational outcomes and opportunities to our talented young students since March, 2023, I warmly welcome you to Spica International School Gujranwala Campus.
             </p>
-            <p class="mb-6  ">
-            Our aim is to create a supportive and inclusive environment where students from all socioeconomic strata are encouraged to explore their potential and achieve their personal best in all aspects of school life. Students are challenged and engaged through authentic learning opportunities that inspire them to develop creativity, confidence and resilience to become independent and ethical life-long learners.
-            </p>
-            <p class="mb-6  ">
-            We offer a broad curriculum and a range of opportunities for all our girls to achieve excellence in academic, creative, social, cultural, sporting and community endeavours. We value collaborative learning, positive relationships and building capacity amongst our girls to effectively allow them to engage in the world of the future, where problem solving, evaluating, working in teams, communicating, creating and innovating are not only valued concepts, but expected skills, attributes and capabilities.
-            </p>
-            <p className="mb-6  ">
-            We support the individual wellbeing of our students and provide a school environment that allows every child to thrive as they work towards achieving their personal best performance. We set high expectations for our students and work hard to safeguard positive emotions across our school community. We are partners in learning with our students and seek to deepen their knowledge, provide enriching and innovative learning experiences, while also gently urging our students out of their comfort zone to attempt new challenges. We value relationships and connections with the community. We encourage our students to develop respectful relationships with their peers, teachers and the broader community.
-            </p>
-            <p className="mb-6  ">
-            We instill in our students a keen social conscience and the capacity to make ethical decisions. We work hard to develop and sustain productive partnerships and connections with our parents, local schools and businesses and leading tertiary institutions. We are proud to be a high performing school and aim to be the selective school of first choice for all families within our community.
-            </p>
-            <p className="mb-6  ">
-            Our students graduate with the skills, mind sets and qualities that will best equip them for success in the world of the future. Our students are intelligent, resilient, creative, imaginative, disciplined, dedicated to life-long learning, respectful and ethical. They are the future leaders and role models of society.
-            </p>
-            <p className="mb-6  ">
-            Welcome to the Family of Spica International School! We place high value on our partnership with parents, families and community and we invite you to be an active part of our organization.
-            </p>
-            {/* <p className="mb-6  ">Best Regards,</p> */}
+            <div className=" flex justify-center items-center mt-10">
+              <Link
+                href="/about"
+                className="border-2 flex border-red-700 text-slate-500 text-lg  rounded-full px-5 py-2 hover:bg-red-700 hover:border-red-700  hover:text-white transition duration-300 font-medium"
+              >
+                Read More <ArrowRightIcon className="w-5 ml-3"/>
+              </Link>
+            </div>
           </div>
         </div>
-      </div>
+     
     </div>
   </section>
+ 
+      </div>    
+ 
   
 </div>
-{/* <!-- Principal Message Homepage 1 --> */}
-
-
-
-{/* Founder & Principal Messages
-<div class="container my-24 mx-auto md:px-6 ">
-  <section class="mb-32 text-center justify-center">
-    <h2 class="mb-12 text-3xl font-bold">Founder's & Principal Messages</h2>
-
-    <div className="grid gap-x-6 md:grid-cols-3 xl:gap-x-12">
-      <div class="mb-6 lg:mb-0">
-        <div
-          class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
-          <div class="relative overflow-hidden bg-cover bg-no-repeat">
-            <img src="/images/chairman-spica-haji-muhammad-bashir-ansari-gujranwala.jpg" class="w-full rounded-t-lg" />
-            <a href="/about">
-              <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"></div>
-            </a>
-            <svg class="absolute left-0 bottom-0 text-white dark:text-neutral-700" xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 1440 320">
-              <path fill="currentColor"
-                d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-              </path>
-            </svg>
-          </div>
-          <div class="p-6">
-            <h5 class="mb-2 text-lg font-bold">Haji Muhammad Bashir Ansari (Late)</h5>
-            <h6 class="mb-4 font-medium text-primary dark:text-primary-400">
-              Founder @ Spica International
-            </h6>
-            
-            <p>
-            Welcome to the family of Spica International School Gujranwala Campus! Thank you for trusting our school and admitting your child here. We place high value on our partnership with parents, families and community and we invite you to be an active part of our organization.
-            </p>
-          </div>
-        </div>
-      </div>
-
-     
-
-      <div className="">
-        <div
-          class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  ">
-          <div class="relative overflow-hidden bg-cover bg-no-repeat">
-            <img src="/images/maliha-principal-spica-international-school-gujranwala.jpg" class="w-full rounded-t-lg" />
-            <a href="/about">
-              <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"></div>
-            </a>
-            <svg class="absolute left-0 bottom-0 text-white dark:text-neutral-700" xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 1440 320">
-              <path fill="currentColor"
-                d="M0,288L48,256C96,224,192,160,288,160C384,160,480,224,576,213.3C672,203,768,117,864,85.3C960,53,1056,75,1152,69.3C1248,64,1344,32,1392,16L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-              </path>
-            </svg>
-          </div>
-          <div class="p-6">
-            <h5 class="mb-2 text-lg font-bold">Ma'am Maliha Fatima</h5>
-            <h6 class="mb-4 font-medium text-primary dark:text-primary-400">
-            Principal @ Spica International
-            </h6>
-            
-            <p>
-            As a proud Principal of this academically accomplished school with well-respected directors of providing exceptional educational outcomes and opportunities to our talented young students since March, 2023, I warmly welcome you to Spica International School Gujranwala Campus.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-</div> */}
-
-
-{/* 
-<div class="container my-24 mx-auto md:px-6">
-
-  <section class="mb-32 text-center">
-    <h2 class="mb-12 text-3xl font-bold">Testimonials</h2>
-
-    <div id="carouselExampleCaptions" class="relative" data-te-carousel-init data-te-carousel-slide>
-      <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
-        <div
-          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-          data-te-carousel-active data-te-carousel-item style="backface-visibility: hidden">
-          <img class="mx-auto mb-6 rounded-full shadow-lg dark:shadow-black/20 w-[150px]"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).jpg" alt="avatar" />
-          <div class="flex flex-wrap justify-center">
-            <div class="w-full shrink-0 grow-0 basis-auto px-3 lg:w-8/12">
-              <h5 class="mb-2 text-lg font-bold">Maria Kate</h5>
-              <p class="mb-4 font-medium text-neutral-700 dark:text-neutral-400">
-                Photographer
-              </p>
-              <p class="mb-6 text-neutral-500 dark:text-neutral-300">
-                In ac turpis justo. Vivamus auctor quam vitae odio feugiat
-                pulvinar. Sed semper ligula sed lorem tincidunt dignissim.
-                Nam sed cursus lectus. Proin non rutrum magna. Proin
-                gravida, justo et imperdiet tristique turpis nisi viverra.
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="inline-block w-6">
-                  <path fill="currentColor"
-                    d="M580 556h160V396H580v160Zm-360 0h160V396H220v160Zm406 220 80-160H520V336h280v288l-76 152h-98Zm-360 0 80-160H160V336h280v288l-76 152h-98Zm34-300Zm360 0Z" />
-                </svg>
-              </p>
-              <ul class="mb-0 flex justify-center">
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                    <path fill="currentColor"
-                      d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                    <path fill="currentColor"
-                      d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                    <path fill="currentColor"
-                      d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                    <path fill="currentColor"
-                      d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                    <path fill="currentColor"
-                      d="m480 757 157 95-42-178 138-120-182-16-71-168v387ZM233 976l65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                  </svg>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div
-          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-          data-te-carousel-item style="backface-visibility: hidden">
-          <img class="mx-auto mb-6 rounded-full shadow-lg dark:shadow-black/20 w-[150px]"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).jpg" alt="avatar" />
-          <div class="flex flex-wrap justify-center">
-            <div class="w-full shrink-0 grow-0 basis-auto px-3 lg:w-8/12">
-              <h5 class="mb-2 text-lg font-bold">John Doe</h5>
-              <p class="mb-4 font-medium text-neutral-700 dark:text-neutral-400">
-                Web Developer
-              </p>
-              <p class="mb-6 text-neutral-500 dark:text-neutral-300">
-                Maecenas auctor, quam eget tincidunt pretium, felis diam
-                semper turpis, sed scelerisque diam libero facilisis libero.
-                Quisque vitae semper metus. Aliquam eu dui aliquam, faucibus
-                metus quis, elementum nunc.
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="inline-block w-6">
-                  <path fill="currentColor"
-                    d="M580 556h160V396H580v160Zm-360 0h160V396H220v160Zm406 220 80-160H520V336h280v288l-76 152h-98Zm-360 0 80-160H160V336h280v288l-76 152h-98Zm34-300Zm360 0Z" />
-                </svg>
-              </p>
-              <ul class="mb-0 flex justify-center">
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                    <path fill="currentColor"
-                      d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                    <path fill="currentColor"
-                      d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                    <path fill="currentColor"
-                      d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                    <path fill="currentColor"
-                      d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                    <path fill="currentColor"
-                      d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                  </svg>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div
-          class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-          data-te-carousel-item style="backface-visibility: hidden">
-          <img class="mx-auto mb-6 rounded-full shadow-lg dark:shadow-black/20 w-[150px]"
-            src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg" alt="avatar" />
-          <div class="flex flex-wrap justify-center">
-            <div class="w-full shrink-0 grow-0 basis-auto px-3 lg:w-8/12">
-              <h5 class="mb-2 text-lg font-bold">Anna Deynah</h5>
-              <p class="mb-4 font-medium text-neutral-700 dark:text-neutral-400">
-                UX Designer
-              </p>
-              <p class="mb-6 text-neutral-500 dark:text-neutral-300">
-                Duis sagittis, turpis in ullamcorper venenatis, ligula nibh
-                porta dui, sit amet rutrum enim massa in ante. Curabitur in
-                justo at lorem laoreet ultricies. Nunc ligula felis,
-                sagittis eget nisi vitae ex arcu sit amet erat.
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="inline-block w-6">
-                  <path fill="currentColor"
-                    d="M580 556h160V396H580v160Zm-360 0h160V396H220v160Zm406 220 80-160H520V336h280v288l-76 152h-98Zm-360 0 80-160H160V336h280v288l-76 152h-98Zm34-300Zm360 0Z" />
-                </svg>
-              </p>
-              <ul class="mb-0 flex justify-center">
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                    <path fill="currentColor"
-                      d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                    <path fill="currentColor"
-                      d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                    <path fill="currentColor"
-                      d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                    <path fill="currentColor"
-                      d="m233 976 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Z" />
-                  </svg>
-                </li>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" class="w-5 text-warning">
-                    <path fill="currentColor"
-                      d="m323 851 157-94 157 95-42-178 138-120-182-16-71-168-71 167-182 16 138 120-42 178Zm-90 125 65-281L80 506l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-355Z" />
-                  </svg>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <button
-        class="absolute top-0 bottom-0 left-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-        type="button" data-te-target="#carouselExampleCaptions" data-te-slide="prev">
-        <span class="inline-block h-8 w-8">
-          <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
-            class="text-neutral-600 dark:text-neutral-300">
-            <path fill="currentColor"
-              d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
-          </svg>
-        </span>
-        <span
-          class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Previous</span>
-      </button>
-      <button
-        class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-        type="button" data-te-target="#carouselExampleCaptions" data-te-slide="next">
-        <span class="inline-block h-8 w-8">
-          <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
-            class="text-neutral-600 dark:text-neutral-300">
-            <path fill="currentColor"
-              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-          </svg>
-        </span>
-        <span
-          class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Next</span>
-      </button>
-    </div>
-  </section>
-
-</div> */}
-
-
+  
 
         <section className="py-10 ">
           <div className="sec-heading">
