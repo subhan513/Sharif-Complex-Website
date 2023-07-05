@@ -192,7 +192,7 @@ export default function reServation() {
       <section className="main-sec">
         <div
           className="content-bx space-y-4 bg-no-repeat bg-center bg-cover"
-          style={{ backgroundImage: "url('/images/bg-res.jpg')" }}
+          // style={{ backgroundImage: "url('/images/bg-res.jpg')" }}
         >
           <p>
             Spica International School is a vibrant and nurturing environment
@@ -464,6 +464,22 @@ export default function reServation() {
                     <p className="text-red-500">Please enter phone number.</p>
                   )}
                 </label>
+                <label className="block">
+                  <span className="text-slate-600">Email Addeess:</span>
+                  <input
+                    name="email"
+                    value={email}
+                    onChange={(e) => {
+                      setPhone(e.target.value);
+                    }}
+                    type="email"
+                    className="txtbx"
+                     
+                  />
+                  {errors?.phone && (
+                    <p className="text-red-500">Please enter Email Address.</p>
+                  )}
+                </label>
               </div>
 
               <div className="space-y-4">
@@ -657,11 +673,24 @@ export default function reServation() {
                    
                   ></textarea>
                 </label> */}
-
+                 <label className="block">
+                  <span className="text-slate-600">Home Address</span>
+                  <textarea
+                    name="detail"
+                    value={detail}
+                    onChange={(e) => {
+                      setDetail(e.target.value);
+                    }}
+                    className="txtbx"
+                    rows="2"
+                   
+                  ></textarea>
+                </label>
                 <div className="mb-2 sm:text-right text-center mt-3 ">
                   <button type="submit" disabled className="btn-action cursor-not-allowed hover:from-red-500 hover:to-red-500 bg-gradient-to-b from-red-600 to-red-500 w-full">
                     {buttonText}
                   </button>
+                
                 </div>
                 <div className="text-left">
                   {showSuccessMessage && (
