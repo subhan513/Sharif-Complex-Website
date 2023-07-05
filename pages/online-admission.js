@@ -465,7 +465,7 @@ export default function reServation() {
                   )}
                 </label>
                 <label className="block">
-                  <span className="text-slate-600">Email Addeess:</span>
+                  <span className="text-slate-600">Email Address:</span>
                   <input
                     name="email"
                     value={email}

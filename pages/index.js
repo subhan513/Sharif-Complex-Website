@@ -303,8 +303,7 @@ export default function Home() {
         <div className="container mx-auto px-4 ">
           <div className="grid lg:grid-cols-3 grid-cols-1 gap-4  text-center mx-auto">
             <Link
-              href="#"
-              //href="/products"
+              href="/pre-school"
               className="bx-item-pro h-auto border-t-[3px] border-t-[#fc0d21] "
             >
               <div className="flex flex-col w-full">
@@ -332,7 +331,7 @@ export default function Home() {
             </Link>
 
             <Link
-              href="#"
+              href="/primary-and-middle-school"
               className="bx-item-pro h-auto border-t-[3px] border-t-[#fc0d21] "
             >
               <div className="flex flex-col w-full">
@@ -358,7 +357,7 @@ export default function Home() {
             </Link>
 
             <Link
-              href="#"
+               href="/primary-and-middle-school"
               className="bx-item-pro h-auto border-t-[3px] border-t-[#fc0d21] "
             >
               <div className="flex flex-col w-full">
@@ -600,7 +599,7 @@ export default function Home() {
 
         
 
-              <div className="xl:w-80 xl:h-80 w-60 h-60 mx-auto rounded-full bg-cover" style={{backgroundImage:"url('/images/chairman-spica-haji-muhammad-bashir-ansari-gujranwala.jpg')"}}>
+              <div className="xl:w-80 xl:h-80 w-60 h-60 mx-auto rounded-full bg-cover" style={{backgroundImage:"url('/images/founder-spica-haji-muhammad-bashir-ansari-gujranwala.jpg')"}}>
 
               </div>
 
@@ -621,7 +620,7 @@ export default function Home() {
                     <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                   </svg> 
                   Welcome to the family of Spica International School Gujranwala Campus! Thank you for trusting our school and admitting your child here. We place high value on our partnership with parents, families and community and we invite you to be an active part of our organization.<br/>
-                  We consider it an honour to work with your children every day and cherish your trust in us. We believe that each and every student has a gift to share with the world, and we are here to unlock their highest potential. We have high expectations of our students, and we have high expectations of ourselves to help them learn and grow into well-rounded citizens and critical thinkers. Spica International School aims to develop leadership skills, social and emotional skills and academic skills to prepare students for success not only in school but also in their future careers, relationships and life-long learning.
+                  We consider it an honour to work with your children every day and cherish your trust in us. We believe that each and every student has a gift to share with the world, and we are here to unlock their highest potential. We have high expectations of our students, and we have high expectations of ourselves to help them learn and grow into well-rounded citizens and critical thinkers.
             </p>
             <div className=" flex justify-center items-center mt-10">
               <Link
@@ -646,7 +645,7 @@ export default function Home() {
 
         
 
-              <div className="xl:w-80 xl:h-80 w-60 h-60  mx-auto rounded-full bg-cover" style={{backgroundImage:"url('/images/maliha-principal-spica-international-school-gujranwala.jpg')"}}>
+              <div className="xl:w-80 xl:h-80 w-60 h-60  mx-auto rounded-full bg-cover" style={{backgroundImage:"url('/images/madam-maliha-spica-international-school-gujranwala.jpg')"}}>
 
               </div>
 

@@ -109,7 +109,7 @@ export default function About() {
 
       <MainHeader
         pageHeading="ABOUT US"
-        pageImg="header-1.webp"
+        pageImg="header-1-pre-school.jpg"
       />
 
       <section className="main-sec">
@@ -212,7 +212,7 @@ export default function About() {
         >
 <div className="grid lg:flex gap-10">
 <Image
-              src="/images/chairman-spica-haji-muhammad-bashir-ansari-gujranwala.jpg"
+              src="/images/founder-chairman-spica-haji-muhammad-bashir-ansari-gujranwala.jpg"
               alt="Chairman Spica Haji Muhammad Bashir Ansari Gujranwala"
                 width={445} height={591}
               
@@ -264,7 +264,7 @@ Spica International School Gujranwala Campus</p>
 
 <div className="grid lg:flex gap-10">
 <Image
-              src="/images/maliha-principal-spica-international-school-gujranwala.jpg"
+              src="/images/maliha-principal-spica-school.jpg"
               alt="Principal Spica International School"
                 width={445} height={591}
               
