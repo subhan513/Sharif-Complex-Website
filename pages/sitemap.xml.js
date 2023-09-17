@@ -1,6 +1,5 @@
 import content from "./blogposts.json";
-import allproducts from "./products";
-function generateSiteMap(posts,products) {
+function generateSiteMap(posts) {
   
 
   return `<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/images/main-sitemap.xsl"?>
@@ -49,18 +48,7 @@ function generateSiteMap(posts,products) {
        </url> 
      `;
        })
-       .join("")}
-
-       ${products
-        .map(({ slug,lastmod }) => {
-          return `
-        <url>
-        <loc>${`https://spica.edu.pk/products/${slug}`}</loc>
-        <lastmod>${`${lastmod}`}</lastmod>
-        </url> 
-      `;
-        })
-        .join("")}
+       .join("")}       
    </urlset>
 
  `;
@@ -68,8 +56,8 @@ function generateSiteMap(posts,products) {
 function SiteMap() {}
 export async function getServerSideProps({ res }) {
   const posts = content.posts; 
-  const products = allproducts.products;   
-  const sitemap = generateSiteMap(posts,products);  
+    
+  const sitemap = generateSiteMap(posts);  
   res.setHeader("Content-Type", "text/xml");
   res.write(sitemap);
   res.end();
