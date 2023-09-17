@@ -24,18 +24,18 @@ export default function PrivacyPolicy() {
         <meta name="revisit-after" content="1 days" />
         <meta name="author" content="Najam Awan" />
         <meta itemProp="name" content="Our Privacy Policy outlines your data rights and our commitment to protecting your information. Trust us to keep your personal data safe and secure." />
-        <meta itemProp="image" content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75" />
+        <meta itemProp="image" content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Privacy Policy | Your Rights and Our Commitment" />
         <meta name="twitter:description" content="Our Privacy Policy outlines your data rights and our commitment to protecting your information. Trust us to keep your personal data safe and secure." />
-        <meta name="twitter:image:src" content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75" />
+        <meta name="twitter:image:src" content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
         <meta property="og:title" content="Privacy Policy | Your Rights and Our Commitment" />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75" />
+        <meta property="og:image" content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
         <meta property="og:description" content="Our Privacy Policy outlines your data rights and our commitment to protecting your information. Trust us to keep your personal data safe and secure." />
         <meta property="og:locale" content="en" />
-        <meta itemProp="image" content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75" />
-        <link rel="canonical" href="https://solnyne.com/privacy-policy" />
+        <meta itemProp="image" content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
+        <link rel="canonical" href="https://spica.edu.pk/privacy-policy" />
         <link rel="preconnect" href="//www.google-analytics.com" as="script" />
         <meta name="google" content="notranslate" />
       </Head>
@@ -134,11 +134,11 @@ export default function PrivacyPolicy() {
                 <p>
                   <strong>Website</strong> refers to SOLNYNE Solutions, accessible from{" "}
                   <a
-                    href="https://solnyne.com"
+                    href="https://spica.edu.pk"
                     rel="dofollow"
                     target="_blank"
                   >
-                    www.solnyne.com
+                    www.spica.edu.pk
                   </a>
                 </p>
               </li>
@@ -550,7 +550,7 @@ export default function PrivacyPolicy() {
             </p>
             <ul>
               <li>
-                <p>By email: info@solnyne.com</p>
+                <p>By email: info@spica.edu.pk</p>
               </li>
               <li>
                 <p>By phone number: +1 (510) 890-8393</p>

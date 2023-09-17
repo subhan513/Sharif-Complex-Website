@@ -23,18 +23,18 @@ export default function Disclamier() {
         <meta name="revisit-after" content="1 days" />
         <meta name="author" content="Najam Awan" />
         <meta itemProp="name" content="Looks like you've stumbled upon a page that doesn't exist. Don't worry, we've all been there. Want to head back home?" />
-        <meta itemProp="image" content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75" />
+        <meta itemProp="image" content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Server Error - Page Not Found" />
         <meta name="twitter:description" content="" />
-        <meta name="twitter:image:src" content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75" />
+        <meta name="twitter:image:src" content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
         <meta property="og:title" content="Server Error - Page Not Found" />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75" />
+        <meta property="og:image" content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
         <meta property="og:description" content="Looks like you've stumbled upon a page that doesn't exist. Don't worry, we've all been there. Want to head back home?" />
         <meta property="og:locale" content="en" />
-        <meta itemProp="image" content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75" />
-        <link rel="canonical" href="https://solnyne.com/404" />
+        <meta itemProp="image" content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
+        <link rel="canonical" href="https://spica.edu.pk/404" />
         <link rel="preconnect" href="//www.google-analytics.com" as="script" />
         <meta name="google" content="notranslate" />
       </Head>

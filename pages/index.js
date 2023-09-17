@@ -11,11 +11,7 @@ import {
 } from "@heroicons/react/outline";
 import { NextSeo } from "next-seo";
 import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
 import content from "./blogposts.json";
-import solution from "./solutions.json";
-import "swiper/css";
 
 const faqs = [
   {
@@ -97,7 +93,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image:src"
-          content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
+          content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
         />
         <meta
           property="og:title"
@@ -106,7 +102,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
+          content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
         />
         <meta
           property="og:description"
@@ -115,10 +111,10 @@ export default function Home() {
         <meta property="og:locale" content="en-us" />
         <meta
           itemProp="image"
-          content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
+          content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
         />
 
-        <link rel="canonical" href="https://spica.com.pk/" />
+        <link rel="canonical" href="https://spica.edu.pk/" />
         <link rel="preconnect" href="//www.google-analytics.com" as="script" />
         <meta name="google" content="notranslate" />
       </Head>
@@ -583,14 +579,14 @@ export default function Home() {
 
 
 {/* <!-- Founder Message Homepage 1 --> */}
-<div class="container my-8 mx-auto md:px-6">
+<div className="container my-8 mx-auto md:px-6">
   {/* <!-- Section: Design Block --> */}
 
 
     <div className="grid xl:grid-cols-2 gap-x-6">
 
 
-    <section class="mb-8 text-center md:text-left">
+    <section className="mb-8 text-center md:text-left">
     <div
       className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
        

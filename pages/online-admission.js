@@ -182,7 +182,7 @@ export default function reServation() {
           itemProp="image"
           content=""
         />
-        <link rel="canonical" href="https://spica.com.pk/online-admission" />
+        <link rel="canonical" href="https://spica.edu.pk/online-admission" />
         <link rel="preconnect" href="//www.google-analytics.com" as="script" />
         <meta name="google" content="notranslate" />
       </Head>

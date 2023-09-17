@@ -40,7 +40,7 @@ export default function About() {
         <meta itemProp="name" content="" />
         <meta
           itemProp="image"
-          content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
+          content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
         />
         <meta name="twitter:card" content="summary" />
         <meta
@@ -53,7 +53,7 @@ export default function About() {
         />
         <meta
           name="twitter:image:src"
-          content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
+          content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
         />
         <meta
           property="og:title"
@@ -62,7 +62,7 @@ export default function About() {
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
+          content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
         />
         <meta
           property="og:description"
@@ -71,9 +71,9 @@ export default function About() {
         <meta property="og:locale" content="en" />
         <meta
           itemProp="image"
-          content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
+          content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
         />
-        <link rel="canonical" href="https://spica.com.pk/about" />
+        <link rel="canonical" href="https://spica.edu.pk/about" />
         <link rel="preconnect" href="//www.google-analytics.com" as="script" />
         <meta name="google" content="notranslate" />
       </Head>

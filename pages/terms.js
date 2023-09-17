@@ -24,22 +24,22 @@ export default function Terms() {
         <meta name="revisit-after" content="1 days" />
         <meta name="author" content="Najam Awan" />
         <meta itemProp="name" content="Terms of Use - Limitations of Liability and Use of Information" />
-        <meta itemProp="image" content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75" />
+        <meta itemProp="image" content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Terms of Use - Limitations of Liability and Use of Information" />
         <meta name="twitter:description" content="Terms of Use outlines limitations of liability and proper use of information on our website. Read it carefully to understand your rights and responsibilities." />
-        <meta name="twitter:image:src" content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75" />
+        <meta name="twitter:image:src" content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
         <meta property="og:title" content="Terms of Use - Limitations of Liability and Use of Information" />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75" />
+        <meta property="og:image" content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
         <meta property="og:description" content="Terms of Use outlines limitations of liability and proper use of information on our website. Read it carefully to understand your rights and responsibilities." />
         <meta property="og:locale" content="en" />
-        <meta itemProp="image" content="https://solnyne.com/_next/image?url=%2Fimages%2Fsolnyne-logo.png&w=256&q=75" />
-        <link rel="canonical" href="https://solnyne.com/terms" />
+        <meta itemProp="image" content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
+        <link rel="canonical" href="https://spica.edu.pk/terms" />
         <link rel="preconnect" href="//www.google-analytics.com" as="script" />
         <meta name="google" content="notranslate" />
       </Head>
-         <MainHeader pageHeading="Terms of Use | Solnyne Solutions" pageImg="hdr-6.jpg" />   
+         <MainHeader pageHeading="Terms of Use | Spica International" pageImg="hdr-6.jpg" />   
 
          <section className="main-sec relative pb-10">
         <div className="space-y-4  container mx-auto px-4 sm:px-8 bg-gradient-to-b from-white to-transparent rounded-xl py-5  mb-4 border border-slate-200 border-b-0 rounded-b-none pb-10 "

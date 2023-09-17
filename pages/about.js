@@ -69,7 +69,7 @@ export default function About() {
         <meta itemProp="name" content="" />
         <meta
           itemProp="image"
-          content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
+          content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
         />
         <meta name="twitter:card" content="summary" />
         <meta
@@ -82,7 +82,7 @@ export default function About() {
         />
         <meta
           name="twitter:image:src"
-          content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
+          content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
         />
         <meta
           property="og:title"
@@ -91,7 +91,7 @@ export default function About() {
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
+          content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
         />
         <meta
           property="og:description"
@@ -100,16 +100,16 @@ export default function About() {
         <meta property="og:locale" content="en" />
         <meta
           itemProp="image"
-          content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
+          content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75"
         />
-        <link rel="canonical" href="https://spica.com.pk/about" />
+        <link rel="canonical" href="https://spica.edu.pk/about" />
         <link rel="preconnect" href="//www.google-analytics.com" as="script" />
         <meta name="google" content="notranslate" />
       </Head>
 
       <MainHeader
         pageHeading="ABOUT US"
-        pageImg="header-1-pre-school.jpg"
+        pageImg="header-about-us.jpg"
       />
 
       <section className="main-sec">
@@ -118,7 +118,7 @@ export default function About() {
           style={{ boxShadow: "0px -15px 15px rgba(1,41,112,0.08)" }}
         >
           <p>
-            <span className="font-bold">Spica International School</span> is a vibrant and nurturing environment that is specifically designed for children aged 2 to 5 years old. With a strong focus on early childhood education, the school provides a range of stimulating and engaging activities that promote learning and development in a fun and supportive atmosphere. From the colorful and interactive classrooms to the spacious outdoor play area, every aspect of Spica International School has been thoughtfully designed to meet the unique needs of young learners. Highly trained and experienced teachers are dedicated to providing individualized attention to each child and fostering a love of learning that will stay with them throughout their lives. With a commitment to excellence and a warm and welcoming community, Spica International School is the perfect place for young children to begin their educational journey.
+            <span className="font-bold">Spica International School</span> is a vibrant and nurturing environment that is specifically designed for the students. With a strong focus on early childhood education, including primary, middle and higher education the school provides a range of stimulating and engaging activities that promote learning and development in a fun and supportive atmosphere. From the colorful and interactive classrooms to the spacious outdoor play area, every aspect of Spica International School has been thoughtfully designed to meet the unique needs of learners. Highly trained and experienced teachers are dedicated to providing individualized attention to each child and fostering a love of learning that will stay with them throughout their lives. With a commitment to excellence and a warm and welcoming community, Spica International School is the perfect place for young children to begin their educational journey.
           </p>
           <p>
           Spica International School's goal is to provide a high-quality, inclusive, and nurturing learning environment that empowers young children to reach their full potential. Our aim is to foster a love of learning, creativity, critical thinking, and global awareness in our students, while promoting values of respect, kindness, and empathy. We strive to maintain an inclusive and diverse community that celebrates differences and promotes understanding and acceptance. We are committed to continuously improving our curriculum, facilities, and teaching practices to provide the best possible learning experiences for our students. Our goal is to prepare our students for success in their future academic and personal pursuits, and to become responsible and compassionate global citizens who make positive contributions to society.

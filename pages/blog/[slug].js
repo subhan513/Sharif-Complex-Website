@@ -30,29 +30,29 @@ export default function BlogPage({ post }) {
         <meta name="revisit-after" content="1 days" />
         <meta name="author" content="Najam Awan" />
         <meta itemProp="name" content="" />
-        <meta itemProp="image" content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
+        <meta itemProp="image" content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={post.title} />
         <meta name="twitter:description" content={post.shortdescription} />
-        <meta name="twitter:image:src" content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
+        <meta name="twitter:image:src" content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
         <meta property="og:title" content={post.title} />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
+        <meta property="og:image" content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
         <meta property="og:description" content={post.shortdescription} />
         <meta property="og:locale" content="en" />
-        <meta itemProp="image" content="https://spica.com.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
+        <meta itemProp="image" content="https://spica.edu.pk/_next/image?url=%2Fimages%2Fspica-logo2.png&w=256&q=75" />
         <link
           rel="canonical"
-          href={"https://spica.com.pk/blog/" + post.slug}
+          href={"https://spica.edu.pk/blog/" + post.slug}
         />
         <link rel="preconnect" href="//www.google-analytics.com" as="script" />
         <meta name="google" content="notranslate" />
       </Head>
       <ArticleJsonLd
         type="BlogPosting"
-        url={`https://spica.com.pk/blog/${post.slug}`}
+        url={`https://spica.edu.pk/blog/${post.slug}`}
         title={`${post.title}`}
-        images={[`${"https://spica.com.pk" + post.featured_img}`]}
+        images={[`${"https://spica.edu.pk" + post.featured_img}`]}
         datePublished={`${formattedDates}`}
         dateModified={`${formattedDates}`}
         authorName={`${post.author}`}
@@ -63,17 +63,17 @@ export default function BlogPage({ post }) {
         {
           position: 1,
           name: 'Home',
-          item: 'https://spica.com.pk',
+          item: 'https://spica.edu.pk',
         },
         {
           position: 2,
           name: 'Blog',
-          item: 'https://spica.com.pk/blog',
+          item: 'https://spica.edu.pk/blog',
         },
         {
           position: 3,
           name: post.title,
-          item: 'https://spica.com.pk/blog/'+post.slug,
+          item: 'https://spica.edu.pk/blog/'+post.slug,
         }        
       ]}
     />

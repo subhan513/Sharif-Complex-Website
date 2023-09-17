@@ -6,88 +6,36 @@ function generateSiteMap(posts,products) {
   return `<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/images/main-sitemap.xsl"?>
    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-    <loc>https://solnyne.com</loc>
+    <loc>https://spica.edu.pk</loc>
     <lastmod>2023-02-01</lastmod>
    </url> 
    <url>
-    <loc>https://solnyne.com/about</loc>
+    <loc>https://spica.edu.pk/about</loc>
     <lastmod>2023-02-01</lastmod>
    </url> 
-   <url>
-   <loc>https://solnyne.com/installation-services</loc>
-   <lastmod>2023-02-01</lastmod>
-  </url> 
-  <url>
-  <loc>https://solnyne.com/maintenance-services</loc>
-  <lastmod>2023-02-01</lastmod>
- </url> 
- <url>
- <loc>https://solnyne.com/project-consultation</loc>
- <lastmod>2023-02-01</lastmod>
-</url> 
+      
+     
 <url>
- <loc>https://solnyne.com/advisory-services</loc>
- <lastmod>2023-02-01</lastmod>
-</url> 
-<url>
- <loc>https://solnyne.com/system-design</loc>
- <lastmod>2023-02-01</lastmod>
-</url> 
-<url>
- <loc>https://solnyne.com/net-metering</loc>
- <lastmod>2023-02-01</lastmod>
-</url> 
-<url>
- <loc>https://solnyne.com/sale-services</loc>
- <lastmod>2023-02-01</lastmod>
-</url>
-<url>
- <loc>https://solnyne.com/solutions</loc>
- <lastmod>2023-02-01</lastmod>
-</url>
-<url>
- <loc>https://solnyne.com/solutions/on-grid-solar-solutions</loc>
- <lastmod>2023-02-01</lastmod>
-</url>
-<url>
-<loc>https://solnyne.com/solutions/off-grid-solar-solutions</loc>
-<lastmod>2023-02-01</lastmod>
-</url>    
-<url>
-<loc>https://solnyne.com/solutions/hybrid-solar-solutions</loc>
+<loc>https://spica.edu.pk/blog</loc>
 <lastmod>2023-02-01</lastmod>
 </url>       
-<url>
-<loc>https://solnyne.com/projects</loc>
-<lastmod>2023-02-01</lastmod>
-</url>       
-<url>
-<loc>https://solnyne.com/blog</loc>
-<lastmod>2023-02-01</lastmod>
-</url>       
-<url>
-<loc>https://solnyne.com/products</loc>
-<lastmod>2023-02-01</lastmod>
-</url>       
+     
                      
 <url>
-<loc>https://solnyne.com/contact-us</loc>
+<loc>https://spica.edu.pk/contact-us</loc>
+<lastmod>2023-02-01</lastmod>
+</url> 
+
+<url>
+<loc>https://spica.edu.pk/privacy-policy</loc>
 <lastmod>2023-02-01</lastmod>
 </url> 
 <url>
-<loc>https://solnyne.com/solar-calculator</loc>
-<lastmod>2023-02-01</lastmod>
-</url>
-<url>
-<loc>https://solnyne.com/privacy-policy</loc>
+<loc>https://spica.edu.pk/disclaimer</loc>
 <lastmod>2023-02-01</lastmod>
 </url> 
 <url>
-<loc>https://solnyne.com/disclaimer</loc>
-<lastmod>2023-02-01</lastmod>
-</url> 
-<url>
-<loc>https://solnyne.com/terms</loc>
+<loc>https://spica.edu.pk/terms</loc>
 <lastmod>2023-02-01</lastmod>
 </url> 
 
@@ -96,7 +44,7 @@ function generateSiteMap(posts,products) {
        .map(({ slug,lastmod }) => {
          return `
        <url>
-       <loc>${`https://solnyne.com/blog/${slug}`}</loc>
+       <loc>${`https://spica.edu.pk/blog/${slug}`}</loc>
        <lastmod>${`${lastmod}`}</lastmod>
        </url> 
      `;
@@ -107,7 +55,7 @@ function generateSiteMap(posts,products) {
         .map(({ slug,lastmod }) => {
           return `
         <url>
-        <loc>${`https://solnyne.com/products/${slug}`}</loc>
+        <loc>${`https://spica.edu.pk/products/${slug}`}</loc>
         <lastmod>${`${lastmod}`}</lastmod>
         </url> 
       `;
