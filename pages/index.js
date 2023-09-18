@@ -471,7 +471,7 @@ export default function Home() {
             <li
               className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition  flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"
               style={{
-                backgroundImage: "url('./images/gallery/8.webp')",
+                backgroundImage: "url('./images/gallery/9.webp')",
               }}
             >
               <div
@@ -516,60 +516,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/*<section
-        className="bg-no-repeat bg-center bg-cover bg-fixed "
-        style={{
-          backgroundImage: "url('./images/solnyne_bg-0.jpeg')",
-        }}
-      >
-        <div className="bg-cyan-800 w-full h-full bg-opacity-70 py-10 ">
-          <div className="sec-heading">
-            <h2 style={{ color: "white" }}>Our Solutions</h2>
-            <p style={{ color: "white" }}>
-              We offer a
-              complete range of Spica International School for
-              your home or business needs.
-            </p>
-          </div>
-
-          <div className="container mx-auto px-4 ">
-          <div className="grid md:grid-cols-2 xl:grid-cols-4 grid-cols-1 gap-4 text-center">
-             
-             {solution.posts.map((post, index) => {
-                 
-                 return (
-               
-               <div key={post.slug + "_" + index} className="bx-item-bb h-80 bg-cover bg-center bg-no-repeat  relative" style={{
-           backgroundImage: "url("+post.featured_img+")",
-         }}>
-                  <div className="flex flex-col bottom-0 pb-3 pt-1 absolute border-t w-full backdrop-blur-sm bg-white/30">
-                   
-                   <Link href={"solutions/" + post.slug} className="group">
-                   <h2 className="group-hover:text-blue-600">
-                   {post.title}
-                     </h2>
-                     <p className="text-xs"> {post.shortdescription}</p>
-                   </Link>
-                 </div> 
-               </div>
-                 );
-                
-               })}
-               
-               
-             </div>  
-
-            <div className=" flex justify-center items-center mt-10">
-              <Link
-                href="/solutions"
-                className="border rounded-full px-5 text-lg text-white py-2 hover:bg-red-400 hover:border-red-400   hover:text-black transition duration-300 font-medium"
-              >
-                View all Solutions
-              </Link>
-            </div>
-          </div>
-        </div>
-              </section>*/}
+    
       <div
         style={{
           backgroundImage: "url('./images/beams-templates.png')",
@@ -882,7 +829,7 @@ Our aim is to create a supportive and inclusive environment where students from 
               ></Image>
             </div>
             <h2>
-              It's a bird! It's a plane!
+             
               <span className="marksvg">
                 <svg
                   aria-hidden="true"
@@ -894,7 +841,7 @@ Our aim is to create a supportive and inclusive environment where students from 
                 </svg>
                 <span className="relative block md:inline">
                   {" "}
-                  It's your child!{" "}
+                  Rise to success!{" "}
                 </span>
               </span>
             </h2>
@@ -949,61 +896,7 @@ Our aim is to create a supportive and inclusive environment where students from 
           </div>
         </section>
 
-        {/* <div className="grid grid-cols-2 mx-auto items-center md:grid-cols-4 container xl:grid-cols-4 2xl:grid-cols-5  gap-4 mt-5 featured-showrooms pb-10 hidden">
-                  
-                <div className="dealer-item">
-                    <div className="img-cnt">
-                      <img src="./images/solnyne-longi.png" className="w-48 h-auto" />
-                    </div>                 
-                  </div>
-                 
-                  <div className="dealer-item">
-                    <div className="img-cnt">
-                      <img src="./images/solnyne-longi.png" className="w-48 h-auto" />
-                    </div>                 
-                  </div>
-                  <div className="dealer-item">
-                    <div className="img-cnt">
-                      <img src="./images/solnyne-longi.png" className="w-48 h-auto" />
-                    </div>                 
-                  </div>
-                  <div className="dealer-item">
-                    <div className="img-cnt">
-                      <img src="./images/solnyne-longi.png" className="w-48 h-auto" />
-                    </div>                 
-                  </div>
-                  <div className="dealer-item">
-                    <div className="img-cnt">
-                      <img src="./images/solnyne-longi.png" className="w-48 h-auto" />
-                    </div>                 
-                  </div>
-                  <div className="dealer-item">
-                    <div className="img-cnt">
-                      <img src="./images/solnyne-longi.png" className="w-48 h-auto" />
-                    </div>                 
-                  </div>
-                  <div className="dealer-item">
-                    <div className="img-cnt">
-                      <img src="./images/solnyne-longi.png" className="w-48 h-auto" />
-                    </div>                 
-                  </div>
-                  <div className="dealer-item">
-                    <div className="img-cnt">
-                      <img src="./images/solnyne-longi.png" className="w-48 h-auto" />
-                    </div>                 
-                  </div>
-                  <div className="dealer-item">
-                    <div className="img-cnt">
-                      <img src="./images/solnyne-longi.png" className="w-48 h-auto" />
-                    </div>                 
-                  </div>
-                  <div className="dealer-item">
-                    <div className="img-cnt">
-                      <img src="./images/solnyne-longi.png" className="w-48 h-auto" />
-                    </div>                 
-                  </div>
- 
-                </div> */}
+       
       </div>
     </div>
   );
