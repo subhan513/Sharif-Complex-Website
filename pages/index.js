@@ -471,7 +471,7 @@ export default function Home() {
             <li
               className="col-span-1 h-80 hover:-translate-y-2 duration-300 transition  flex flex-col text-center bg-white bg-cover bg-no-repeat rounded-lg shadow divide-y divide-gray-200"
               style={{
-                backgroundImage: "url('./images/gallery/9.webp')",
+                backgroundImage: "url('./images/spica-international-school-gujranwala-scholorship-program.png')",
               }}
             >
               <div
@@ -841,7 +841,7 @@ Our aim is to create a supportive and inclusive environment where students from 
                 </svg>
                 <span className="relative block md:inline">
                   {" "}
-                  Rise to success!{" "}
+                  Rise to Success!{" "}
                 </span>
               </span>
             </h2>
