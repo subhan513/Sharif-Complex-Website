@@ -102,7 +102,7 @@ export default function Footer({ children, home }) {
                   Fee Voucher
                 </Link>
 
-                <Link href="https://school.spica.com.pk/site/login" title="Staff Login">
+                <Link href="https://school.spica.edu.pk/site/login" title="Staff Login">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -118,7 +118,7 @@ export default function Footer({ children, home }) {
                   Staff Login
                 </Link>
 
-                <Link href="https://school.spica.com.pk/site/userlogin" title="Student Login">
+                <Link href="https://school.spica.edu.pk/site/userlogin" title="Student Login">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -134,7 +134,7 @@ export default function Footer({ children, home }) {
                   Student Login
                 </Link>
 
-                <Link href="https://school.spica.com.pk/site/userlogin" title="Parent's Login">
+                <Link href="https://school.spica.edu.pk/site/userlogin" title="Parent's Login">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -150,7 +150,7 @@ export default function Footer({ children, home }) {
                   Parent's Login
                 </Link>
 
-                <Link href="https://school.spica.com.pk/site/login" title="Admin Login">
+                <Link href="https://school.spica.edu.pk/site/login" title="Admin Login">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -232,7 +232,7 @@ export default function Footer({ children, home }) {
                         d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
                       />
                     </svg>
-                    <a href="mailto:info@spica.com.pk"> Spicainternationalschool@gmail.com</a>
+                    <a href="mailto:info@spica.edu.pk"> Spicainternationalschool@gmail.com</a>
                   </p>
                 </div>
               </div>
@@ -267,7 +267,7 @@ export default function Footer({ children, home }) {
 
       <div className="top-social">
         <a
-          href="mailto:info@spica.com.pk"
+          href="mailto:info@spica.edu.pk"
           title="Email"
           className="emailit tooltip group  bg-slate-500"
         >
