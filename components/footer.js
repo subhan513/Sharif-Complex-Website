@@ -86,7 +86,7 @@ export default function Footer({ children, home }) {
                   </svg>
                   Online Admission
                 </Link>
-                <Link href="#" title="Fee Voucher">
+                <Link href="https://school.spica.edu.pk/apk/android_app_4.0.apk" title="Download Android App">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -99,7 +99,7 @@ export default function Footer({ children, home }) {
                       clipRule="evenodd"
                     />
                   </svg>
-                  Fee Voucher
+                  Android App
                 </Link>
 
                 <Link href="https://school.spica.edu.pk/site/login" title="Staff Login">

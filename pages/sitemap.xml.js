@@ -6,36 +6,36 @@ function generateSiteMap(posts) {
    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
     <loc>https://spica.edu.pk</loc>
-    <lastmod>2023-02-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
    </url> 
    <url>
     <loc>https://spica.edu.pk/about</loc>
-    <lastmod>2023-02-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
    </url> 
       
      
 <url>
 <loc>https://spica.edu.pk/blog</loc>
-<lastmod>2023-02-01</lastmod>
+<lastmod>2024-07-09</lastmod>
 </url>       
      
                      
 <url>
 <loc>https://spica.edu.pk/contact-us</loc>
-<lastmod>2023-02-01</lastmod>
+<lastmod>2024-07-09</lastmod>
 </url> 
 
 <url>
 <loc>https://spica.edu.pk/privacy-policy</loc>
-<lastmod>2023-02-01</lastmod>
+<lastmod>2024-07-09</lastmod>
 </url> 
 <url>
 <loc>https://spica.edu.pk/disclaimer</loc>
-<lastmod>2023-02-01</lastmod>
+<lastmod>2024-07-09</lastmod>
 </url> 
 <url>
 <loc>https://spica.edu.pk/terms</loc>
-<lastmod>2023-02-01</lastmod>
+<lastmod>2024-07-09</lastmod>
 </url> 
 
 

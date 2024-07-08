@@ -410,7 +410,7 @@ export default function Home() {
 
       <section className="py-10 pt-16 ">
         <div className="sec-heading">
-          <h2>Where Children and Parents Feel Confident</h2>
+          <h2>Among Top Schools in Gujranwala</h2>
           <p>
             Our one line mission is Active minds, Healthy Bodies & Happy Hearts.
           </p>
