@@ -244,8 +244,11 @@ export default function Footer({ children, home }) {
           <div className="  w-full h-full py-2">
             <div className="flex flex-col md:flex-row md:justify-between">
               <div className="ftr-links">
-                <Link href="#" title="Privacy Policy">
+              <Link href="#" title="Privacy Policy">
                   Privacy Policy
+                </Link>
+                <Link href="https://nadraonlinecard.com/pakistani-passport/" title="Pakistani Passport">
+                  Pakistani Passport
                 </Link>
                 <Link href="#" title="Legal Disclaimer">
                   Legal Disclaimer
