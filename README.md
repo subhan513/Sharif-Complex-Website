@@ -1,2 +1,2 @@
 # Spica International School
-SPICA School App
+SPICA School
