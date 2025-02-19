@@ -218,7 +218,7 @@ export default function Footer({ children, home }) {
                     <a href="tel:+923281215000"> 0328-121-5000</a>
                   </p>
                   <p className="text-base mt-2">
-                    <svg
+                  <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -235,11 +235,20 @@ export default function Footer({ children, home }) {
                     <a href="tel:+92554233324"> 055-4233324</a>
                   </p>
                   <p className="text-base mt-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 256 256" strokeWidth="1.5" stroke="currentColor" width="16" height="16">
-                    <g strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M 13.636 18.872 l 0.159 0.002 c 0.098 0.002 0.196 0.008 0.291 0.014 ..." />
-                   </g>
-                  </svg>
+                  <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                      className="h-4 w-4 text-gray-300 -mt-1 mr-1 inline"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
+                      />
+                    </svg>
 
                     <a href="tel:+92554223338"> 055-4223338</a>
                   </p>
