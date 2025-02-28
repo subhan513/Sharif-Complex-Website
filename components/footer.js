@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import Link from "next/link";
 export default function Footer({ children, home }) {
@@ -12,12 +13,74 @@ export default function Footer({ children, home }) {
         <div className="container mx-auto px-5 z-20 relative">
           <div className="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-4 text-white">
             <div className="md:col-span-2">
-              <h2 className="text-lg sm:text-xl font-semibold py-2">
-                About Spica International
+              <h2 className="text-lg sm:text-xl font-semibold py-2 font-bold text-green-700 font-serif">
+                Get in Touch
               </h2>
               <div className="flex text-sm sm:text-base pr-10">
                 <div><p>
-                At Spica International School, we believe in nurturing young minds through play-based learning experiences. Our experienced teachers create a safe and stimulating environment where children can explore, discover, and learn at their own pace. We focus on developing social, emotional, cognitive, and physical skills to prepare children for success in school and beyond.
+                <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-4 w-4 text-red-600 -mt-1 mr-1 inline font-bold"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                      />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                    Sharif-Educational-Complex || jati Umra <br/>
+                    Lahore, Pakistan.
+                    <br/>
+                    <a
+                      href="https://www.google.com/maps/dir//SPICA+INTERNATIONAL+SCHOOL,+Hafizabad+Road,+near+Rose+Marriage+Garden,+opposite+Flow+Petrol+Pump,+Mian+Mir+Town+Gujranwala/@32.1557497,74.1158726,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x391f2bdab05a7bf5:0x1a7ff34116b9776c!2m2!1d74.1508908!2d32.1557819"
+                      title="Get direction to Spica International"
+                      className="tooltip"
+                      target="_blank"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        className="w-5 h-4 inline text-red-500 -mt-1  font-bold"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M7.5 3.75A1.5 1.5 0 006 5.25v13.5a1.5 1.5 0 001.5 1.5h6a1.5 1.5 0 001.5-1.5V15a.75.75 0 011.5 0v3.75a3 3 0 01-3 3h-6a3 3 0 01-3-3V5.25a3 3 0 013-3h6a3 3 0 013 3V9A.75.75 0 0115 9V5.25a1.5 1.5 0 00-1.5-1.5h-6zm10.72 4.72a.75.75 0 011.06 0l3 3a.75.75 0 010 1.06l-3 3a.75.75 0 11-1.06-1.06l1.72-1.72H9a.75.75 0 010-1.5h10.94l-1.72-1.72a.75.75 0 010-1.06z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </a>
+                    <br/>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                      className="h-4 w-4 text-red-600 -mt-1 mr-1 inline font-bold"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                      />
+                    </svg>
+                    <a
+                      className="hover:underline"
+                      href="mailto:info@solnyne.com"
+                      style={{ color: "white" }}
+                    >
+                    hr@sharif.edu.pk
+                    </a>
              
                 </p>
                 <Link
@@ -25,9 +88,9 @@ export default function Footer({ children, home }) {
                       className=" pr-4  py-1 mt-4 border px-4 rounded-full inline-block  no-underline"
                       title="About Spica"
                     >
-                      Spica International
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
+                      Sharif Complex
+                      <svg src= 'https://www.w3.org/2000/svg'
+                        xmlns="h"
                         fill="none"
                         viewBox="0 0 24 24"
                         strokeWidth={1.5}
@@ -45,6 +108,128 @@ export default function Footer({ children, home }) {
               </div>
             </div>
 
+            <div className="absolute left-96">
+              <h2 className="text-lg sm:text-xl font-semibold py-2 mt-3 uppercase md:mt-0">
+                Important Links
+              </h2>
+              <div className="flex flex-col space-y-3 sm:space-y-2 text-sm sm:text-base">
+                <Link
+                  href="#"
+                  title="Applicant Performa"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="w-5 h-5 inline -mt-1 mr-1"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  Applicant Performa
+                </Link>
+                <Link
+                  href="#"
+                  title="Online Admission"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="w-5 h-5 inline -mt-1 mr-1"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  Online Admission
+                </Link>
+                <Link href="https://school.spica.edu.pk/apk/android_app_4.0.apk" title="Download Android App">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="w-5 h-5 inline -mt-1 mr-1"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  Android App
+                </Link>
+
+                <Link href="https://school.spica.edu.pk/site/login" title="Staff Login">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="w-5 h-5 inline -mt-1 mr-1"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  Staff Login
+                </Link>
+
+                <Link href="https://school.spica.edu.pk/site/userlogin" title="Student Login">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="w-5 h-5 inline -mt-1 mr-1"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  Student Login
+                </Link>
+
+                <Link href="https://school.spica.edu.pk/site/userlogin" title="Parent's Login">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="w-5 h-5 inline -mt-1 mr-1"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  Parent's Login
+                </Link>
+
+                <Link href="https://school.spica.edu.pk/site/login" title="Admin Login">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="w-5 h-5 inline -mt-1 mr-1"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  Admin Login
+                </Link>
+              </div>
+            </div>
             <div>
               <h2 className="text-lg sm:text-xl font-semibold py-2 mt-3 uppercase md:mt-0">
                 Important Links
