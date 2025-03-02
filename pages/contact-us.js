@@ -106,7 +106,7 @@ export default function Contact() {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="generator" content="Getsol Inc." />
         <title>Contact Us | Spica International</title>
-        <meta name="title" content="Contact Us | Spica International" />
+        <meta name="title" content="Contact Us | Sharif educational Complex" />
         <meta name="description" content="" />
         <link rel="icon" type="image/x-icon" href="/favicon.png"></link>
         <meta name="robots" content="index, follow" />
@@ -128,7 +128,7 @@ export default function Contact() {
         <link rel="preconnect" href="//www.google-analytics.com" as="script" />
         <meta name="google" content="notranslate" />
       </Head>
-      <MainHeader pageHeading="CONTACT US" pageImg="child.jpeg" />
+      <MainHeader pageHeading="CONTACT US | Spica International" pageImg="child.jpeg" />
 		
 		
 		<section className="main-sec relative">
@@ -142,7 +142,7 @@ export default function Contact() {
                 height={140}
               ></Image>
                 <center><span className="text-xl font-bold text-center mt-3">
-                Sharif-Educational-Complex || Lahore
+                Sharif-Educational-Complex
               </span></center>
                 <ul className="text-center">
                 <li>
@@ -166,8 +166,9 @@ export default function Contact() {
                         d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                       />
                     </svg>
-                    Sharif-Educational-Complex || jati Umra <br/>
-                    Lahore, Pakistan.
+                    Sharif Complex,jati Umrah <br/>
+                     <br/>
+                    lahore,Pakistan
                     <a
                       href="https://www.google.com/maps/dir//SPICA+INTERNATIONAL+SCHOOL,+Hafizabad+Road,+near+Rose+Marriage+Garden,+opposite+Flow+Petrol+Pump,+Mian+Mir+Town+Gujranwala/@32.1557497,74.1158726,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x391f2bdab05a7bf5:0x1a7ff34116b9776c!2m2!1d74.1508908!2d32.1557819"
                       title="Get direction to Spica International"
@@ -210,7 +211,7 @@ export default function Contact() {
                       style={{ color: "black" }}
                       className="hover:underline"
                     >
-                      +92-300-8521730
+                     0300-8521730
                     </a>
                   </p>
                   <p className="text-sm sm:text-lg mt-2 text-gray-800 ">

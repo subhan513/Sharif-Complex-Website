@@ -13,6 +13,7 @@ export default function Layout({ children }) {
       <Head></Head>
       <Nav />
       <div className="w-full   mx-auto">{children}</div>
+      {/* <Link href="/apply?job=Science Teacher Required" className="hover:underline">Apply</Link> */}
       <Footer/>
     </div>
   );    
