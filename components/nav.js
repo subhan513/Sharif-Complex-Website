@@ -43,14 +43,16 @@ export default function Nav() {
   };
 
   return (
-    <motion.nav 
-  className={`fixed top-0 w-full px-6 sm:px-10 h-20 flex items-center transition-all duration-500 z-50 
-  ${scrolled ? "bg-[#FAF3E0] shadow-lg text-black" : "bg-transparent text-white"}`}
->
+    <motion.nav
+      className={`fixed top-0 w-full px-6 sm:px-10 h-20 flex items-center transition-all duration-500 z-50 
+      ${scrolled ? "bg-[#FAF3E0] shadow-lg text-black" : "bg-transparent text-white"}`}
+    >
       <div className="flex items-center w-full justify-between">
         <Link href="/">
-          <Image  className='mt-4' src="/images/sharifLogo.png" alt="Logo" width={50} height={50} />
+          <Image className="mt-4" src="/images/sharifLogo.png" alt="Logo" width={50} height={50} />
         </Link>
+        
+        {/* Desktop Navigation */}
         <ul className="hidden xl:flex space-x-6 uppercase font-semibold transition-all">
           <li><Link href="/" className="hover:text-red-500 transition">Home</Link></li>
           <li className="relative" onMouseEnter={() => setOpenDropdown("admission")} onMouseLeave={() => setOpenDropdown(null)}>
@@ -68,9 +70,7 @@ export default function Nav() {
             </AnimatePresence>
           </li>
           <li className="relative" onMouseEnter={() => setOpenDropdown("about")} onMouseLeave={() => setOpenDropdown(null)}>
-            <Link href="/about">
-              <span className="hover:text-red-500 cursor-pointer" onClick={() => router.push("/about")}>About</span>
-            </Link>
+            <span className="hover:text-red-500 cursor-pointer">About</span>
             <AnimatePresence>
               {openDropdown === "about" && (
                 <motion.ul variants={dropdownVariants} initial="hidden" animate="visible" exit="exit" className="absolute mt-2 w-48 bg-white text-gray-900 shadow-lg rounded-lg overflow-hidden">
@@ -88,10 +88,64 @@ export default function Nav() {
           <li><Link href="/Feestructure" className="hover:text-red-500 transition">Fee Structure</Link></li>
           <li><Link href="/contact-us" className="hover:text-red-500 transition">Contact Us</Link></li>
         </ul>
-        <button onClick={() => setOpen(!open)} className="xl:hidden">
-          {open ? <XIcon className="w-8 h-8" /> : <MenuIcon className="w-8 h-8" />}
+
+        {/* Mobile Menu Button */}
+        <button onClick={() => setOpen(!open)} className="xl:hidden z-50">
+          {open ? <XIcon className="w-8 h-8 text-black" /> : <MenuIcon className="w-8 h-8 text-white" />}
         </button>
       </div>
+
+      {/* Mobile Navigation */}
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            initial={{ x: "100%" }}
+            animate={{ x: 0 }}
+            exit={{ x: "100%" }}
+            transition={{ duration: 0.3 }}
+            className="fixed top-0 right-0 h-full w-64 bg-white shadow-lg text-black flex flex-col items-start p-6 space-y-4 xl:hidden"
+          >
+            <button onClick={() => setOpen(false)} className="self-end">
+              <XIcon className="w-8 h-8 text-black" />
+            </button>
+            <Link href="/" className="text-lg font-semibold hover:text-red-500" onClick={() => setOpen(false)}>Home</Link>
+            <div className="relative">
+              <button onClick={() => setOpenDropdown(openDropdown === "admission" ? null : "admission")} className="text-lg font-semibold hover:text-red-500">
+                Admission
+              </button>
+              <AnimatePresence>
+                {openDropdown === "admission" && (
+                  <motion.ul variants={dropdownVariants} initial="hidden" animate="visible" exit="exit" className="ml-4 mt-2 space-y-2">
+                    {admissionLinks.map((item, index) => (
+                      <li key={index} className="text-gray-700 hover:text-red-500">
+                        <Link href={item.path} onClick={() => setOpen(false)}>{item.name}</Link>
+                      </li>
+                    ))}
+                  </motion.ul>
+                )}
+              </AnimatePresence>
+            </div>
+            <div className="relative">
+              <button onClick={() => setOpenDropdown(openDropdown === "about" ? null : "about")} className="text-lg font-semibold hover:text-red-500">
+                About
+              </button>
+              <AnimatePresence>
+                {openDropdown === "about" && (
+                  <motion.ul variants={dropdownVariants} initial="hidden" animate="visible" exit="exit" className="ml-4 mt-2 space-y-2">
+                    {aboutLinks.map((item, index) => (
+                      <li key={index} className="text-gray-700 hover:text-red-500">
+                        <Link href={item.path} onClick={() => setOpen(false)}>{item.name}</Link>
+                      </li>
+                    ))}
+                  </motion.ul>
+                )}
+              </AnimatePresence>
+            </div>
+            <Link href="/gallery" className="text-lg font-semibold hover:text-red-500" onClick={() => setOpen(false)}>Gallery</Link>
+            <Link href="/contact-us" className="text-lg font-semibold hover:text-red-500" onClick={() => setOpen(false)}>Contact Us</Link>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </motion.nav>
   );
 }
